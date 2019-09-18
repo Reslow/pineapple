@@ -22,22 +22,13 @@ export default {
     return {
       settings: require('../../data/theme.json'),
       social: [
-        {
-          icon: 'facebook',
-          link: 'https://www.facebook.com/carlssonloke',
-        },
+       
         {
           icon: 'linkedin',
-          link: 'https://linkedin.com/in/lokecarlsson',
+          link: 'https://www.linkedin.com/in/fanny-reslow-39491a153/',
         },
-        {
-          icon: 'twitter',
-          link: 'https://twitter.com/carlssonloke',
-        },
-        {
-          icon: 'github',
-          link: 'https://github.com/LokeCarlsson',
-        },
+       
+        
       ],
     }
   },

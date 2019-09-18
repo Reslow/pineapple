@@ -7,69 +7,33 @@ author: Fanny Reslow
 cover: "/static/SVG/cat.svg"
 ---
 
-## AR Learning tool ##
-Learn with AR is a project conducted with four other students at the interactiondesign program.
-Augmented reality could according to research create a better learning environment 
-for students because it let's students interact with objects presented during a lecture.  
-Learning with AR is a greate technique to visualize object that otherwise is hard to 
-interact with due to it's size or because it's unreachable.  
-<br><br>
-There is spaces in the classroom that could be used more and enhance the quality of the learning and teaching experience. The teaching and learning activity could be more interactive, you could have more interactive activites on distance with augmented reality. 
+![image of workprocess](/static/vac1.svg "image of workprocess")
+![image of workprocess](/static/vac2.svg "image of workprocess")
+![image of workprocess](/static/vac3.svg "image of workprocess")
+![image of workprocess](/static/vac4.svg "image of workprocess")
 
-## The process ##
+This image above has been redesigned after the Project by me,  The interface was created through a method called design studio by me and Three other student and then it was build by two other students. The look is the same as the original, I have created a logotype with a name. 
 
-This design process was user centered and we used two type of workshops to define a problem area
-and a solution, we invited students as participants in the study because they are one of the two important users in this scenario. 
+
+
+
  
-![image of workprocess](../../static/images/ArTimeline2.svg "image of workprocess")
-
-![image of futurework](../../static/images/IMG_0753.jpg "image of futureworkshop")
+![image of workprocess](/static/process/VacProcess "image of workprocess")
 
 
-The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest leactures and they came with suggestions on how augmented reality could support this problem area. The appolication will facilitate teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their intrest of subject. 
-
-## Concept ##
-
-This application creates an access for teachers to add 3D-objects on top of the powerpoint presentation, which can be shown during the presentation on a certain time.  There is a bar with information such as time and settings. There is recording possibilities to replay infomation from leactures. To interact with the application the users will use gestures. As an example, the 3D object can be moved and rotated with help from gestures and on the timeline the users can with their finger play the leactures forward or back.
 
 
-![image of futurework](../../static/images/armodel2.png "image of mockup")
+During 9 weeks me and three other students researched about how vets diagnose cancer in dogs, to design an application which could visualize result from a rapid test. We worked with a company which had a new technique of measuring blood, the new technique makes it possible to catch some types of cancer in an earlier stage. To understand how we could motivate vets to use this new application we wanted to understand how vets accept new products. According to our research, acceptance is build on the users background and experience and teh perceived usefulness and usability of the product.
 
+The data gathering resultet in identification of factors which affect vets acceptance of the application. It is important with specificity in the test, We also found that the image of the company behind the product is important. The interface needs to be simple and only have the function needed for the vets to reach their goal.
 
-et app for rapid test
-slug: Augmented reality project
-description: "faannyyy"
-date: 2019-03-01 24:43:24
-author: Fanny Reslow
-cover: "/static/SVG/cat.svg"
----
+use of application
 
-## AR Learning tool ##
-Learn with AR is a project conducted with four other students at the interactiondesign program.
-Augmented reality could according to research create a better learning environment 
-for students because it let's students interact with objects presented during a lecture.  
-Learning with AR is a greate technique to visualize object that otherwise is hard to 
-interact with due to it's size or because it's unreachable.  
-<br><br>
-There is spaces in the classroom that could be used more and enhance the quality of the learning and teaching experience. The teaching and learning activity could be more interactive, you could have more interactive activites on distance with augmented reality. 
+1.Take a blood sample and drop blod on the rapid test.
 
-## The process ##
+2.Wait 10 minutes and then they point the mobile camera towards
 
-This design process was user centered and we used two type of workshops to define a problem area
-and a solution, we invited students as participants in the study because they are one of the two important users in this scenario. 
- 
-![image of workprocess](../../static/images/ArTimeline2.svg "image of workprocess")
+the rapid test
 
-![image of futurework](../../static/images/IMG_0753.jpg "image of futureworkshop")
-
-
-The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest leactures and they came with suggestions on how augmented reality could support this problem area. The appolication will facilitate teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their intrest of subject. 
-
-## Concept ##
-
-This application creates an access for teachers to add 3D-objects on top of the powerpoint presentation, which can be shown during the presentation on a certain time.  There is a bar with information such as time and settings. There is recording possibilities to replay infomation from leactures. To interact with the application the users will use gestures. As an example, the 3D object can be moved and rotated with help from gestures and on the timeline the users can with their finger play the leactures forward or back.
-
-
-![image of futurework](../../static/images/armodel2.png "image of mockup")
-
+3.The screen will show result that can be transfered to the journal.
 

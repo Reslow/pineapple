@@ -6,32 +6,29 @@ author: Fanny Reslow
 cover: "/static/SVG/drone.svg"
 ---
 
-## AR Learning tool ##
-Learn with AR is a project conducted with four other students at the interactiondesign program.
-Augmented reality could according to research create a better learning environment 
-for students because it let's students interact with objects presented during a lecture.  
-Learning with AR is a greate technique to visualize object that otherwise is hard to 
-interact with due to it's size or because it's unreachable.  
-<br><br>
-There is spaces in the classroom that could be used more and enhance the quality of the learning and teaching experience. The teaching and learning activity could be more interactive, you could have more interactive activites on distance with augmented reality. 
+![image of workprocess](/static/Forestdroneapp.png "image of workprocess")
+This image above has been redesigned after the Project by me,  No larger Changes has been made, movement of Icons and small Changes of Icons has been made. 
+
+
+The project was given by The Swedish forest agency. In this project I worked with four other students for five weeks. During this time, we developed a design of an interface for a mobile application that helps forest workers to plan and overview the forest. 
+
+The Swedish forest agency want to motivate more workers to use drones in their workday.  It is important to develop an interface that forest workers understand. First larger goal was to create an interface that is “foresty”.  In the future the Swedish forest agency had a plan to teach an AI to recognize items from images and later be able to fly over forests and identify objects. 
+
+With the design of the interface We wanted to leave design space that allows further development for functions that will be needed in the future with the AI.  Our main goal was to create a design that the workers can and want to use. To succeed in the project, we worked with user centered design methods and iterated through a conceptual faze and a processing faze. 
+
+We conducted a study where we met a user and a expert on flying drones in the forest industry. We did an interview with observations and think aloud technique.   In the study we learned about the importance of feeling control and there is a need for simplifying the interface and options of micro functionality. 
+
+After the study we wrote down and discussed out thoughts in an affinity diagram.   Then We started creating our first concept. The concept was presented for validation. We did a user test where we presented a paper prototype to a potential user and asked questions of his understanding of the interface.  The test got us a lot of knowledge about perception of interface elements. We redesigned and then started on building an interactive prototype in Axure RP.
 
 ## The process ##
-
 This design process was user centered and we used two type of workshops to define a problem area
 and a solution, we invited students as participants in the study because they are one of the two important users in this scenario. 
  
-![image of workprocess](../../static/images/ArTimeline2.svg "image of workprocess")
+![image of workprocess](/static/process/DroneProcess.svg "image of workprocess")
 
-![image of futurework](../../static/images/IMG_0753.jpg "image of futureworkshop")
-
-
-The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest leactures and they came with suggestions on how augmented reality could support this problem area. The appolication will facilitate teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their intrest of subject. 
-
-## Concept ##
-
-This application creates an access for teachers to add 3D-objects on top of the powerpoint presentation, which can be shown during the presentation on a certain time.  There is a bar with information such as time and settings. There is recording possibilities to replay infomation from leactures. To interact with the application the users will use gestures. As an example, the 3D object can be moved and rotated with help from gestures and on the timeline the users can with their finger play the leactures forward or back.
+## The Concept ##
+My Forest drone app has two main functions, first one is flying and controlling the drone, second is tagging objects for work purposes. We worked with the most critical information needed for flying, such as battery strength, height of drone and direction of the drone. We also added functions like tagging a object while flying for supporting the work tasks. We also added diffrent map layers because it is useful in their practice, The map layers view diffrent information
 
 
-![image of futurework](../../static/images/armodel2.png "image of mockup")
 
 
