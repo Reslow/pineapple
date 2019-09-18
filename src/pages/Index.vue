@@ -1,59 +1,73 @@
+
+  
+
+
 <template>
   <Layout class="Layout">
+  
+  
     <div id="bodyWrap">
     <div id="textwrap">
-    <h1 id="hdFirst">I am a UX & interaction designer</h1>
+    <h1 id="hdFirst"> UX & interaction designer</h1>
     <p id="fronttext">
     My passion is to design useful interfaces for better interactions of users. Whith my knowledge I have tools for shaping and redesign user experience with focus on 
     Interactions between user and interface.   // Fanny 
     </p>
     </div>
     <div id="cardwrap">
-    
+
+      
 <div id="cards">
-  <div class="card">
-  <img src="../../static/SVG/ar.svg" alt="AR icon" style="width:20%">
-  <div class="container">
-    <h4><b>AR Teaching Tool</b></h4>
-    <p> a concept of how AR could create a better learning environment for students</p>
-  </div>
-  </div>
+   
+  <div class="card" v-for="edge in $page.projects.edges" :key="edge.node.id" :post="edge.node">   
 
-  <div class="card">
-   <img src="../../static/SVG/cat.svg" alt="cat icon" style="width:20%">
-  <div class="container">
-    <h4><b>Vet lab Application</b></h4>
-    <p> A design of an application which could visualize result from a rapid test. </p>
-  </div>
-  </div>
-<div class="card">
-   <img src="../../static/SVG/drone.svg" alt="drone icon" style="width:25%">
-  <div class="container">
-    <h4><b>My forest drone application</b></h4>
-    <p> An application for forest industry workers to use drones in their practice. </p>
-  </div> </div>
+    <img :src="edge.node.cover.src" alt="AR icon" style="width:20%">
+      <div class="container">
+        <g-link :to="edge.node.path" class="project-link">
+          <h4><b>{{edge.node.title}}</b></h4>
+        </g-link>
+        <p>{{edge.node.description}}</p>
 
-<div class="card">
-   <img src="../../static/SVG/fidget.svg" alt="Avatar" style="width:20%">
-  <div class="container">
-    <h4><b>Fidget penelope </b></h4>
-    <p>A fidget that could entertain a person silently during a meeting and not to disturb to much.</p>
+    </div>
+  </div>
+     
   </div>
   </div>
-  </div>
-  </div>
-  </div>
+    </div>
+   
+  
+
 
 
   </Layout>
+
 </template>
+
+<page-query>
+query Posts {
+	projects: allProjectPost {
+    edges {
+      node {
+        title
+        description
+        cover
+        path
+      }
+    }
+  },
+}
+</page-query>
 
 <script>
 export default {
   metaInfo: {
     title: 'Portfolio'
-  }
+  },
 }
+
+
+
+
 </script>
 
 <style>
