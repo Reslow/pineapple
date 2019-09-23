@@ -4,8 +4,8 @@
       <div class="container">
         <div class="project-header">
           <h1 class="project-title" v-html="$page.post.title"/>
-          <div>
-            <div v-html="$page.post.content" class=""/>
+          <div class="project-content-container">
+            <div v-html="$page.post.content" class="project-content"/>
           </div>
         </div>
       </div>
@@ -33,4 +33,18 @@ export default {
 </script>
 
 <style scoped>
+
+
+.project{
+  
+    text-align:justify;
+   
+}
+.project-title{
+  margin:0px;
+  padding:0px;
+}
+
+
+
 </style>

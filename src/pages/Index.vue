@@ -10,34 +10,40 @@
     <div id="textwrap">
     <h1 id="hdFirst"> UX & interaction designer</h1>
     <p id="fronttext">
-    My passion is to design useful interfaces for better interactions of users. Whith my knowledge I have tools for shaping and redesign user experience with focus on 
-    Interactions between user and interface.   // Fanny 
+    Is the title I am heading for. My passion and curiosity of human behavior and the future of technology drives me to keep searching and 
+    develop my skills in the areas. I have an education in interaction design. I design interfaces with the aim of creating better interactions and experiences for users. 
+     // Fanny 
     </p>
     </div>
-    <div id="cardwrap">
+
+    
+ <div id="cardwrap">
 
       
 <div id="cards">
-   
-  <div class="card" v-for="edge in $page.projects.edges" :key="edge.node.id" :post="edge.node">   
-
-    <img :src="edge.node.cover.src" alt="AR icon" style="width:20%">
+  <g-link v-for="edge in $page.projects.edges" :key="edge.node.id" :to="edge.node.path" >
+    <div class="card">
       <div class="container">
-        <g-link :to="edge.node.path" class="project-link">
-          <h4><b>{{edge.node.title}}</b></h4>
-        </g-link>
+        <img :src="edge.node.cover.src" alt="AR icon" style="width:20%">
+        <h4><b>{{edge.node.title}}</b></h4>
         <p>{{edge.node.description}}</p>
+      </div>
+    </div>
+  </g-link>
+ </div>
+   
+</div>
 
-    </div>
-  </div>
+ </div>
+
      
-  </div>
-  </div>
-    </div>
+
+  
    
   
 
 
+        
 
   </Layout>
 
@@ -59,21 +65,23 @@ query Posts {
 </page-query>
 
 <script>
+  
+  
 export default {
-  metaInfo: {
-    title: 'Portfolio'
-  },
+metaInfo: {
+  title: 'Portfolio',
 }
+}
+
 
 
 
 
 </script>
 
+</script>
+
 <style>
-
-
-
 
 #cards{
   display: flex;
@@ -86,6 +94,8 @@ export default {
 
 #fronttext{
   text-align: justify;
+  padding-top: 40px;
+  ;
 }
 
 #textwrap{
@@ -126,6 +136,7 @@ export default {
 
 .home-links a {
   margin-right: 3rem;
+
 }
 
 #cardwrap{
@@ -133,11 +144,12 @@ export default {
   flex-direction: column;
 }
 #hdFirst{
-color: rgb(10, 10, 10);
+color:  rgb(0, 0, 0);
 margin-right:20px;
 margin-left: 0px;
 text-align: right;
 font-size: 67px;
 
 }
+
 </style>

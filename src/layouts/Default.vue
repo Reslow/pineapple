@@ -76,4 +76,15 @@ body {
   margin-left: 20px;
   margin-right: 40px;
 }
+
+
+
+a{
+  color:  rgb(0, 0, 0);
+  text-decoration:none;
+}
+
+a.button{
+  color:  rgb(119, 103, 163);
+}
 </style>

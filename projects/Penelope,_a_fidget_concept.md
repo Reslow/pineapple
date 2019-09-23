@@ -1,6 +1,6 @@
 ---
-title: Penelope fidget concept
-description: A concept of a fidget 
+title: Penelope, a fidget concept
+description: A concept of a fidget that could be used during a meeting
 date: 2019-03-01 24:43:26
 author: Fanny Reslow
 cover: "/static/SVG/fidget.svg"
@@ -21,9 +21,7 @@ There is spaces in the classroom that could be used more and enhance the quality
 This design process was user centered and we used two type of workshops to define a problem area
 and a solution, we invited students as participants in the study because they are one of the two important users in this scenario. 
  
-![image of workprocess](/static/process/FidgetProcess.svg "image of workprocess")
-
-
+![image of workprocess](/static/process/processFidget.svg "image of workprocess")
 
 The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest leactures and they came with suggestions on how augmented reality could support this problem area. The appolication will facilitate teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their intrest of subject. 
 
