@@ -1,32 +1,23 @@
 ---
-title: AR learning & Teaching tool 
+title: AR learning & teaching tool 
 description: A concept that could improve a learning environment.
 date: 2019-03-01 24:43:24
 author: Fanny Reslow
 cover: "/static/SVG/ar.svg"
 ---
- 
+ <br><br>
 ![image of AR concept](/static/ArConcept.svg "image of AR Concept")
-
-This application creates an access for teachers to add 3D-objects on top of the powerpoint presentation, which can be shown during the presentation on a certain time.  There is a bar with information such as time and settings. There is recording possibilities to replay infomation from leactures. To interact with the application the users will use gestures. As an example, the 3D object can be moved and rotated with help from gestures and on the timeline the users can with their finger play the leactures forward or back.
-
-## The process ##
-
+ <br><br>
+*The image above has been redesigned after the Project by me, no larger changes has been made.*
+ <br><br>
+This application creates an access for teachers to add 3D-objects on top of the PowerPoint presentation, which can be shown during a presentation on a certain time. There is a bar with information such as time and settings. There is recording possibilities to replay information from lectures. To interact with the application the users will use gestures. As an example, the 3D object can be moved and rotated with help from gestures and on the timeline the users can with their finger play the lectures forward or back.
+ <br><br>
+This project was a group assignment with four other students. The assignment was to improve education with AR technology. We created two concepts. Above shows one concepts that was created together with students as one of our main users.  
+ <br><br>
 ![image of workprocess](/static/process/ProcessAr.svg "image of workprocess")
-
-
-Learn with AR is a project conducted with four other students at the interactiondesign program.
-Augmented reality could according to research create a better learning environment 
-for students because it let's students interact with objects presented during a lecture.  
-Learning with AR is a greate technique to visualize object that otherwise is hard to 
-interact with due to it's size or because it's unreachable.  
-
-There is spaces in the classroom that could be used more and enhance the quality of the learning and teaching experience. The teaching and learning activity could be more interactive, you could have more interactive activites on distance with augmented reality. 
-
-This design process was user centered and we used two type of workshops to define a problem area
-and a solution, we invited students as participants in the study because they are one of the two important users in this scenario. 
-
-The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest leactures and they came with suggestions on how augmented reality could support this problem area. The appolication will facilitate teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their intrest of subject. 
+ <br><br>
+We used two types of workshops for defining problem area and solution. The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest lectures and they came with suggestions on how augmented reality could support this problem area. The application will improve teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their interest of subject.
+ <br><br>
 
 
 

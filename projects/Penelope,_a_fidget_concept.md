@@ -5,30 +5,17 @@ date: 2019-03-01 24:43:26
 author: Fanny Reslow
 cover: "/static/SVG/fidget.svg"
 ---
-
-![image of prototype](/static/penelope.svg "image of fidget prototype")
-
-Learn with AR is a project conducted with four other students at the interactiondesign program.
-Augmented reality could according to research create a better learning environment 
-for students because it let's students interact with objects presented during a lecture.  
-Learning with AR is a greate technique to visualize object that otherwise is hard to 
-interact with due to it's size or because it's unreachable.  
 <br><br>
-There is spaces in the classroom that could be used more and enhance the quality of the learning and teaching experience. The teaching and learning activity could be more interactive, you could have more interactive activites on distance with augmented reality. 
-
-## The process ##
-
-This design process was user centered and we used two type of workshops to define a problem area
-and a solution, we invited students as participants in the study because they are one of the two important users in this scenario. 
- 
+![image of prototype](/static/penelope.svg "image of fidget prototype")
+<br><br>
+*The image above has been redesigned after the project by me.* 
+<br><br>
+A new fidget was designed through brainstorming activities and a lot of sketching. Penelope is a case for a pencil, the case is built up from different modules which can spin and have various materials and colors. 
+These modules create a case like a jewelry for the pencil. The modules wake curiosity and give people something to do when people are still and need to focus like in a classroom. Penelope can change in look due to the different modules and the material is organic and ecofriendly.
+<br><br>
+The project started with three solutions on fidgets that could entertain a person silently during a meeting and not to disturb too much. I started a brainstorming session based on one question, 1. What do you do when you do nothing?
+ <br><br>
 ![image of workprocess](/static/process/processFidget.svg "image of workprocess")
-
-The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest leactures and they came with suggestions on how augmented reality could support this problem area. The appolication will facilitate teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their intrest of subject. 
-
-## Concept ##
-
-This application creates an access for teachers to add 3D-objects on top of the powerpoint presentation, which can be shown during the presentation on a certain time.  There is a bar with information such as time and settings. There is recording possibilities to replay infomation from leactures. To interact with the application the users will use gestures. As an example, the 3D object can be moved and rotated with help from gestures and on the timeline the users can with their finger play the leactures forward or back.
-
-
-
-
+<br><br>
+This product design has been created through different brainstorming techniques, Sketches and defining product material, brand, market, persona and more.  To develop a new fidget, I started with brainstorming and sketching on three types of fidget ideas, Then I chosed the fidget idea that was most promising.  Then I started sketching on look and feel of the fidget on side of searching for information about similar products.  The Penelope fidget became the result as a pen accessory for younger students. 
+<br><br>

@@ -29,7 +29,7 @@
  
  
   .nav{
-    border: 4px solid   rgb(119, 103, 163);
+    border: 4px solid   rgb(0, 0, 0);
   
     margin-left:30px;
     padding:4px;
@@ -39,7 +39,7 @@
     border-radius: 5px;
     display: inline-block;
     display:flex;
-    font-size: 12px;
+    font-size: 16px;
 
   }
   .base{
@@ -49,9 +49,22 @@
   }
 
 .nametext{
-  color:   rgb(119, 103, 163);
+  color: #7767A3;
+  font-size: 16px;
 
   
+}
+
+@media (max-width: 860px){
+  .nametext{ font-size: 14px;}
+  .header{
+    padding-top:10px;
+  }
+  .button {
+    font-size: 16px;
+    color: black;
+  }
+
 }
    
  

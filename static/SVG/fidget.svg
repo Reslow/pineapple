@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.9 35.29"><defs><style>.cls-1,.cls-2{fill:#111;}.cls-1{opacity:0.7;}.cls-2{opacity:0.8;}</style></defs><title>Resurs 3</title><g id="Lager_2" data-name="Lager 2"><g id="Lager_1-2" data-name="Lager 1"><polygon class="cls-1" points="41.78 26.86 6.31 0 19.61 0 46.62 20.47 41.78 26.86"/><path class="cls-1" d="M19.61,33.41H68.18a1.72,1.72,0,0,1,1.72,1.72v.15a0,0,0,0,1,0,0h-52a0,0,0,0,1,0,0v-.17a1.71,1.71,0,0,1,1.71-1.71Z" transform="translate(87.8 68.7) rotate(180)"/><path class="cls-2" d="M40.56,28.49l7.95-10.55a.37.37,0,0,1,.65.1l5.05,13.84L40.87,29.31A.52.52,0,0,1,40.56,28.49Z"/><path class="cls-1" d="M3.41.51l.28.24a.12.12,0,0,0,.15,0L4.09.51"/><rect class="cls-1" x="36.96" y="12.98" width="7.1" height="14.74" transform="translate(60.26 61.17) rotate(-142.5)"/><rect class="cls-1" x="30.14" y="8.02" width="7.1" height="14.74" transform="translate(51.04 48.11) rotate(-142.5)"/><rect class="cls-1" x="23.31" y="3.25" width="7.1" height="14.74" transform="translate(41.71 35.4) rotate(-142.5)"/><polygon class="cls-1" points="12.74 9.19 18.37 13.52 27.34 1.82 24.89 0 19.77 0 12.74 9.19"/><polygon class="cls-1" points="5.91 4.22 11.54 8.54 18.07 0 9.38 0 5.91 4.22"/><polygon class="cls-1" points="0 0 4.72 3.76 7.5 0 3.75 0 0 0"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 69.9 35.3" style="enable-background:new 0 0 69.9 35.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.7;fill:#7767A3;enable-background:new    ;}
+	.st1{opacity:0.8;fill:#7767A3;enable-background:new    ;}
+</style>
+<title>Resurs 3</title>
+<g>
+	<g id="Lager_1-2">
+		<polygon class="st0" points="41.8,26.9 6.3,0 19.6,0 46.6,20.5 		"/>
+		<path class="st0" d="M68.2,35.3H19.6c-0.9,0-1.7-0.8-1.7-1.7c0,0,0,0,0,0v-0.2l0,0h52l0,0v0.2C69.9,34.5,69.1,35.3,68.2,35.3
+			L68.2,35.3z"/>
+		<path class="st1" d="M40.6,28.5l8-10.6c0.1-0.2,0.4-0.2,0.5-0.1c0.1,0,0.1,0.1,0.1,0.2l5,13.8l-13.3-2.6c-0.3-0.1-0.5-0.3-0.4-0.6
+			C40.5,28.6,40.5,28.6,40.6,28.5z"/>
+		<path class="st0" d="M3.4,0.5l0.3,0.2c0,0,0.1,0,0.2,0l0.3-0.2"/>
+		
+			<rect x="33.1" y="16.8" transform="matrix(0.6088 -0.7934 0.7934 0.6088 -0.3072 40.1057)" class="st0" width="14.7" height="7.1"/>
+		
+			<rect x="26.3" y="11.8" transform="matrix(0.6088 -0.7934 0.7934 0.6088 0.9666 32.7423)" class="st0" width="14.7" height="7.1"/>
+		<rect x="19.5" y="7.1" transform="matrix(0.6088 -0.7934 0.7934 0.6088 2.0829 25.4701)" class="st0" width="14.7" height="7.1"/>
+		<polygon class="st0" points="12.7,9.2 18.4,13.5 27.3,1.8 24.9,0 19.8,0 		"/>
+		<polygon class="st0" points="5.9,4.2 11.5,8.5 18.1,0 9.4,0 		"/>
+		<polygon class="st0" points="0,0 4.7,3.8 7.5,0 3.8,0 		"/>
+	</g>
+</g>
+</svg>

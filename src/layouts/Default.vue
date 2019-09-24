@@ -5,6 +5,7 @@
       <slot/>
     </div>
   </div>
+ 
 </template>
 
 <static-query>
@@ -28,9 +29,10 @@ export default {
 <style>
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
   margin:0;
   padding:0;
-  line-height: 1.5;
+
   margin: auto;
 }
 
@@ -85,6 +87,6 @@ a{
 }
 
 a.button{
-  color:  rgb(119, 103, 163);
+  color:  rgb(0, 0, 0);
 }
 </style>

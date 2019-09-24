@@ -33,18 +33,29 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 860px){
+  .project {
+  color: rgb(0, 0, 0);
+   align-content:center;
+   padding: 20px;
+  }
 
+  .project-content{
+    font-size:16pt;
+    margin-left:15px;
+    margin-right: 15px;
+  }
+}
 
 .project{
-  
-    text-align:justify;
+  text-align:justify;
+}
+
+.project-title {
+  margin-bottom:15px;
+    font-size: 54px;
+    
    
+  
 }
-.project-title{
-  margin:0px;
-  padding:0px;
-}
-
-
-
 </style>

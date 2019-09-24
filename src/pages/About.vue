@@ -6,7 +6,7 @@
   
     <h1 class="headline">About</h1> 
       <div class="profileImg">
-      <img src="../../static/profileround.png" alt="AR icon" style="width:15%">
+      <img src="../../static/profileround.png" alt="Profile image" class="ImageProfile" >
 <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin"> Linkedin </a>
       </div>
     <div class="text">
@@ -43,8 +43,8 @@
    
   <h2 class="headline">Education</h2>
   <div class="listGroup">
-   <p class="ItemEducation">It-Media Gymnasiet (upper secandary shool) - digital media technology  2008 - 2011</p>
   <p class="ItemEducation">Linneaus University - Interaction design (Bachelor degree) 2016 - 2019</p>
+   <p class="ItemEducation">It-Media Gymnasiet (upper secandary shool) - digital media technology  2008 - 2011</p>
   </div>
 
 
@@ -60,20 +60,60 @@ export default {
   }
 }
 </script>
-<style>
-.profileImg{
- display: flex;
- justify-content: center;
- align-items: center;
- padding-top:5px;
- padding-bottom: 20px;
- flex-direction:column;
-    
 
+<style>
+@media (max-width: 860px){
+  
+  
+  .text {
+    
+    padding:20px;
+    align-content: center;
+    font-size: 14px;
+    
+  }
+
+  p.listItem{
+    font-size: 14px;
+  }
+   p.ItemEducation{
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .profileImg {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:5px;
+    flex-direction:column;
+  }
+  #tWrap{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
 }
-p{
+
+.ImageProfile{
+    width: 120px;
+    height: 120px;
+
+  }
+
+.profileImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:5px;
+  padding-bottom: 20px;
+  flex-direction:column;
+}
+
+p {
   margin:0px;
-  padding: 0px;
+
 }
 
 #twrap{
@@ -104,7 +144,7 @@ p{
 }
 
 .headline{
-  padding:10px;
+  padding-top: 20px;
   margin: 0px;
 }
 
@@ -119,14 +159,6 @@ p{
     border-radius: 5px;
     font-size: 12px;
     color:   rgb(119, 103, 163);
-  
     font-size: 12px;
-    
 }
-   
-
- 
-
-
-
 </style>

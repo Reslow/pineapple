@@ -22,13 +22,10 @@ export default {
     return {
       settings: require('../../data/theme.json'),
       social: [
-       
         {
           icon: 'linkedin',
           link: 'https://www.linkedin.com/in/fanny-reslow-39491a153/',
         },
-       
-        
       ],
     }
   },
