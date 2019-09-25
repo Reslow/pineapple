@@ -8,7 +8,7 @@
     <div id="textwrap">
     <h1 id="hdFirst"> UX & interaction designer</h1>
     <p id="fronttext">
- My name is Fanny and I am a designer of the interaction between users and products. My passion and curiosity of human behavior and the future of technology drives me to keep develop my skills and knowledge of the areas. I have an education in interaction design. I design with the aim of creating better interactions and experiences for users.  Check out a few of my earlier projects. 
+ My name is Fanny and I am a designer of interaction between users and products. I have an education in interaction design. I design with the aim of creating better interactions and experiences for users. 
 // Fanny
 
     </p>
@@ -18,7 +18,7 @@
  <div id="cardwrap">
 
       
-<div id="cards">
+<div v-if="$page" id="cards">
   <g-link v-for="edge in $page.projects.edges" :key="edge.node.id" :to="edge.node.path" >
     <div class="card">
       <div class="container">
@@ -35,15 +35,6 @@
 </div>
 
  </div>
-
-     
-
-  
-   
-  
-
-
-        
 
   </Layout>
 
@@ -70,7 +61,7 @@ query Posts {
   
 export default {
 metaInfo: {
-  title: 'Portfolio',
+  title: ' Fanny Reslow Portfolio',
 }
 }
 
@@ -84,20 +75,28 @@ metaInfo: {
 
 <style>
 
+.wrap{
+  max-width: 1000px;
+}
+
 #textwrap{
   display: flex;
   flex-direction: column;
   margin: 10px;
+  max-width: 600px;
 
   
 }
 
+
+
 #cards{
-  display: flex;
   flex-wrap: wrap;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 600px;
+ 
+
 }
 
 .cardtext{
@@ -119,21 +118,23 @@ metaInfo: {
   flex-direction: row;
   display: flex;
   justify-content: center;
-  
+ 
 
 }
 .card {
 
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  padding-top:0px;
-  padding-left: 5px;
-  padding-top: 5px;
-  margin-left: 5px;
-  margin-top: 5px;
+  padding-top:8px;
+  padding-left: 8px;
+  padding-top: 8px;
+  margin-left: 8px;
+  margin-top: 8px;
   padding-bottom: 20px;
-  height:250px;
-  width:250px;
+  max-width:250px;
+  min-height: 350px;
+  min-width: 250px;
+  
 }
 
 .card:hover {
@@ -147,6 +148,7 @@ metaInfo: {
 
 .container {
   padding: 10px 16px;
+  
 }
 
 
@@ -155,37 +157,56 @@ metaInfo: {
 
 }
 
-#cardwrap{
-  display: flex;
-  flex-direction: row;
-}
+
+
+
+
 #hdFirst{
 color:  rgb(0, 0, 0);
-
 margin-bottom: 0px;
 text-align: left;
-font-size: 96px;
+font-size: 60pt;
 
 }
-@media (max-width: 860px){
+@media (max-width: 800px){
 #cards{
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
+  align-items: center;
   padding-bottom: 10px;
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center;
+  
+}
+
+#fronttext{
+  text-align: left;
+  padding-top: 8px;
+  margin-right: 20px;
+  margin-top:0px;
+}
+
+#hdFirst{
+color:  rgb(0, 0, 0);
+margin-bottom: 0px;
+text-align: left;
+font-size: 40pt;
+margin-top: 15px;
 
 }
 
-.container{
-    padding: 0px 0px;
-}
 #bodyWrap{
   
   flex-direction: column;
   display: flex;
+
+}
+
+#textwrap{
   justify-content: center;
 }
+
 
 }
 </style>

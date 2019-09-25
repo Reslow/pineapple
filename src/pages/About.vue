@@ -6,11 +6,11 @@
   
     <h1 class="headline">About</h1> 
       <div class="profileImg">
-      <img src="../../static/profileround.png" alt="Profile image" class="ImageProfile" >
+      <img src="../../static/png/profileround.png" alt="Profile image" class="ImageProfile" >
 <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin"> Linkedin </a>
       </div>
     <div class="text">
-    <p>As a UX designer I am always focused on the user, what the user wants and more important the users needs. I am a good listener and I am good at shifting perspectives when thinking of design, this give more depth to the thoughts behind the design. I know how to conduct user research and how to produce products depending on user research. I have a bachelor degree in interaction design (informatics) at Linneaus University. I have been working with the design process from idea to interactive prototypes in various projects during my education</p>
+    <p>As a UX  and interaction designer I am always focused on the user, what the user wants and more important the users needs. I am a good listener and I am good at shifting perspectives when thinking of design, this give more depth to the thoughts behind the design. I know how to conduct user research and how to produce products depending on user research. I have a bachelor degree in interaction design (informatics) at Linneaus University. I have been working with the design process from idea to interactive prototypes in various projects during my education.</p>
  </div>
 
   
@@ -44,7 +44,7 @@
   <h2 class="headline">Education</h2>
   <div class="listGroup">
   <p class="ItemEducation">Linneaus University - Interaction design (Bachelor degree) 2016 - 2019</p>
-   <p class="ItemEducation">It-Media Gymnasiet (upper secandary shool) - digital media technology  2008 - 2011</p>
+   <p class="ItemEducation">It-Media Gymnasiet (upper secondary shool) - digital media technology  2008 - 2011</p>
   </div>
 
 
@@ -56,49 +56,51 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About us'
+    title: 'About'
   }
 }
 </script>
 
 <style>
 @media (max-width: 860px){
-  
+
   
   .text {
     
     padding:20px;
-    align-content: center;
-    font-size: 14px;
+    text-align: justify;
+    font-size: 16pt;
     
   }
 
-  p.listItem{
-    font-size: 14px;
-  }
    p.ItemEducation{
-    font-size: 14px;
+    
     padding-bottom: 5px;
   }
 
+  .wrap{
+    padding:10px;
+  }
+
   .profileImg {
-  
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top:5px;
     flex-direction:column;
   }
-  #tWrap{
-    padding-left: 10px;
-    padding-right: 10px;
+ 
+  
+  .listGroup{
+    width: 50%;
+    padding-bottom: 15px;
   }
   
 }
 
 .ImageProfile{
-    width: 120px;
-    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
 
   }
 
@@ -116,36 +118,33 @@ p {
 
 }
 
-#twrap{
-  display:flex;
-}
+
 
 .list{
   display: flex;
   flex-direction: row;
-  
-  
+  flex-wrap: wrap;  
 }
 
-.listGroup{
-  padding:10px;
-  
-}
+
 .listItem{
   color: rgb(10, 10, 10);
-  font-size: 12px;
+  font-size: 14pt;
   font-weight: bold;
+  padding:5px;
 }
 
 .ItemEducation{
    color: rgb(0, 0, 0);
-  font-size: 12px;
+  font-size: 14pt;
   font-weight: bold;
+  margin: 10px;
 }
 
 .headline{
   padding-top: 20px;
   margin: 0px;
+  font-size: 36pt;
 }
 
 #linkedin{ 
@@ -157,8 +156,7 @@ p {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 12px;
     color:   rgb(119, 103, 163);
-    font-size: 12px;
+    font-size: 14pt;
 }
 </style>

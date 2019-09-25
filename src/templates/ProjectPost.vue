@@ -45,16 +45,29 @@ export default {
     margin-left:15px;
     margin-right: 15px;
   }
+
+}
+.container{
+  padding:10px;
+
 }
 
+  .wrap{
+    padding:0px;
+  }
 .project{
   text-align:justify;
+  padding:0px;
 }
 
 .project-title {
   margin-bottom:15px;
-    font-size: 54px;
-    
+    font-size: 36pt;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+   margin: 0px;
+   text-align: left;
+  
    
   
 }

@@ -29,10 +29,9 @@ export default {
 <style>
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-size: 16px;
+  font-size: 16pt;
   margin:0;
   padding:0;
-
   margin: auto;
 }
 
@@ -40,7 +39,6 @@ body {
 
 .wrap {
   max-width: 800px;
-  display: flex;
   margin: auto;
  
  
@@ -54,7 +52,7 @@ body {
   margin-bottom:0px;
   display: flex;
   flex-direction: column;
-  font-size: 10px;
+  font-size: 14pt;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 #nametext{ 
@@ -70,8 +68,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 100px;
   
-  height: 80px;
+ 
 }
 
 .nav__link {
@@ -79,7 +78,9 @@ body {
   margin-right: 40px;
 }
 
-
+img {
+  max-width: 82vw;
+}
 
 a{
   color:  rgb(0, 0, 0);

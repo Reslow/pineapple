@@ -6,7 +6,7 @@ author: Fanny Reslow
 cover: "/static/SVG/ar.svg"
 ---
  <br><br>
-![image of AR concept](/static/ArConcept.svg "image of AR Concept")
+![image of AR concept](/static/png/ArConcept.png "image of AR Concept")
  <br><br>
 *The image above has been redesigned after the Project by me, no larger changes has been made.*
  <br><br>
@@ -14,7 +14,7 @@ This application creates an access for teachers to add 3D-objects on top of the 
  <br><br>
 This project was a group assignment with four other students. The assignment was to improve education with AR technology. We created two concepts. Above shows one concepts that was created together with students as one of our main users.  
  <br><br>
-![image of workprocess](/static/process/ProcessAr.svg "image of workprocess")
+![image of workprocess](/static/process/ProcessAr.png "image of workprocess")
  <br><br>
 We used two types of workshops for defining problem area and solution. The users from the study expressed that they wanted to change the situation with guest lectures, they wanted more guest lectures and they came with suggestions on how augmented reality could support this problem area. The application will improve teaching and learning experience for both students and teachers. We also think it will enhance the users learning experience and their interest of subject.
  <br><br>

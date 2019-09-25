@@ -31,7 +31,7 @@
   .nav{
     border: 4px solid   rgb(0, 0, 0);
   
-    margin-left:30px;
+    margin-left:10px;
     padding:4px;
     padding-left:8px;
     padding-right: 8px;
@@ -39,7 +39,7 @@
     border-radius: 5px;
     display: inline-block;
     display:flex;
-    font-size: 16px;
+    font-size: 14pt;
 
   }
   .base{
@@ -50,18 +50,16 @@
 
 .nametext{
   color: #7767A3;
-  font-size: 16px;
-
-  
+  font-size: 14pt;
 }
 
 @media (max-width: 860px){
-  .nametext{ font-size: 14px;}
+  .nametext{ font-size: 14pt;}
   .header{
     padding-top:10px;
   }
   .button {
-    font-size: 16px;
+    font-size: 14pt;
     color: black;
   }
 
