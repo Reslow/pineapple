@@ -36,7 +36,7 @@
     <p class="listItem">Joomla(CMS)</p>
     <p class="listItem" >UXPin</p>
     <p class="listItem">Axure RP</p>
-    <p class="listItem">Adobe (Ps,Ai,Id & XD</p>
+    <p class="listItem">Adobe (Ps,Ai,Id & XD)</p>
     <p class="listItem">HTML, CSS & Javascript</p>
          </div>
  </div>
