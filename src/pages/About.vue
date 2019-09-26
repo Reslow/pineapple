@@ -6,7 +6,7 @@
   
     <h1 class="headline">About</h1> 
       <div class="profileImg">
-      <img src="../../static/png/profileround.png" alt="Profile image" class="ImageProfile" >
+      <img src="../../static/png/profilbild.png" alt="Profile image" class="ImageProfile" >
 <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin"> Linkedin </a>
       </div>
     <div class="text">
@@ -117,8 +117,6 @@ p {
   margin:0px;
 
 }
-
-
 
 .list{
   display: flex;
