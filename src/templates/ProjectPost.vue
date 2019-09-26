@@ -44,6 +44,7 @@ export default {
     font-size:14pt;
     margin-left:15px;
     margin-right: 15px;
+    
   }
 
 }

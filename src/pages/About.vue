@@ -6,7 +6,7 @@
   
     <h1 class="headline">About</h1> 
       <div class="profileImg">
-      <img src="../../static/png/profilbild.png" alt="Profile image" class="ImageProfile" >
+      <img src="../../static/png/profil.png" alt="Profile image" class="ImageProfile" >
 <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin"> Linkedin </a>
       </div>
     <div class="text">
@@ -78,16 +78,14 @@ export default {
     padding-bottom: 5px;
   }
 
-  .wrap{
-    padding:10px;
-  }
+  
 
   .profileImg {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:5px;
     flex-direction:column;
+  
   }
  
   
@@ -95,12 +93,22 @@ export default {
     width: 50%;
     padding-bottom: 15px;
   }
+
+  .ImageProfile{
+     align-content: center;
+     max-width:400px;
+     
+  }
   
 }
 
 .ImageProfile{
     min-width: 120px;
     min-height: 120px;
+    max-width: 100%;
+  
+   
+
 
   }
 
@@ -109,7 +117,7 @@ export default {
   justify-content: center;
   align-items: center;
   padding-top:5px;
-  padding-bottom: 20px;
+  margin-bottom: 15px;
   flex-direction:column;
 }
 
