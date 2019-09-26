@@ -41,7 +41,7 @@ export default {
   }
 
   .project-content{
-    font-size:16pt;
+    font-size:14pt;
     margin-left:15px;
     margin-right: 15px;
   }
@@ -55,6 +55,7 @@ export default {
   .wrap{
     padding:0px;
   }
+
 .project{
   text-align:justify;
   padding:0px;
@@ -62,11 +63,11 @@ export default {
 
 .project-title {
   margin-bottom:15px;
-    font-size: 36pt;
-    letter-spacing: 0px;
-    word-spacing: 0px;
-   margin: 0px;
-   text-align: left;
+  font-size: 36pt;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin: 0px;
+  text-align: left;
   
    
   

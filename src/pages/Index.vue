@@ -9,8 +9,6 @@
     <h1 id="hdFirst"> UX & interaction designer</h1>
     <p id="fronttext">
  My name is Fanny and I am a designer of interaction between users and products. I have an education in interaction design. I design with the aim of creating better interactions and experiences for users. 
-// Fanny
-
     </p>
     </div>
 
@@ -60,20 +58,16 @@ query Posts {
   
   
 export default {
-metaInfo: {
-  title: ' Fanny Reslow Portfolio',
+  metaInfo: {
+    title: ' Fanny Reslow Portfolio',
 }
 }
-
-
-
-
 
 </script>
 
-
-
 <style>
+
+
 
 .wrap{
   max-width: 1000px;
@@ -83,32 +77,26 @@ metaInfo: {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  max-width: 600px;
-
-  
+  max-width: 600px;  
 }
-
-
 
 #cards{
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: center;
- 
-
 }
 
 .cardtext{
    color:   rgb(119, 103, 163);
 }
 
-
 #fronttext{
   text-align: left;
   padding-top: 40px;
   margin-right: 20px;
   margin-top:0px;
+  font-size: 18pt;
 
 }
 
@@ -157,17 +145,13 @@ metaInfo: {
 
 }
 
-
-
-
-
 #hdFirst{
 color:  rgb(0, 0, 0);
 margin-bottom: 0px;
 text-align: left;
 font-size: 60pt;
-
 }
+
 @media (max-width: 800px){
 #cards{
   align-items: center;
@@ -177,7 +161,6 @@ font-size: 60pt;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content:center;
-  
 }
 
 #fronttext{
@@ -185,6 +168,7 @@ font-size: 60pt;
   padding-top: 8px;
   margin-right: 20px;
   margin-top:0px;
+  font-size: 16pt;
 }
 
 #hdFirst{
@@ -193,7 +177,6 @@ margin-bottom: 0px;
 text-align: left;
 font-size: 40pt;
 margin-top: 15px;
-
 }
 
 #bodyWrap{

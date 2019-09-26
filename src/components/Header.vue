@@ -39,7 +39,7 @@
     border-radius: 5px;
     display: inline-block;
     display:flex;
-    font-size: 14pt;
+    font-size: 12pt;
 
   }
   .base{
@@ -50,16 +50,16 @@
 
 .nametext{
   color: #7767A3;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 @media (max-width: 860px){
-  .nametext{ font-size: 14pt;}
+  .nametext{ font-size: 12pt;}
   .header{
     padding-top:10px;
   }
   .button {
-    font-size: 14pt;
+    font-size: 12pt;
     color: black;
   }
 

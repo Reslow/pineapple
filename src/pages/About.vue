@@ -10,7 +10,7 @@
 <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin"> Linkedin </a>
       </div>
     <div class="text">
-    <p>As a UX  and interaction designer I am always focused on the user, what the user wants and more important the users needs. I am a good listener and I am good at shifting perspectives when thinking of design, this give more depth to the thoughts behind the design. I know how to conduct user research and how to produce products depending on user research. I have a bachelor degree in interaction design (informatics) at Linneaus University. I have been working with the design process from idea to interactive prototypes in various projects during my education.</p>
+    <p>As a UX and interaction designer I am always focused on the user, what the user wants and more important the users needs. I am a good listener and I am good at shifting perspectives when designing. I have been working with the design process from idea to interactive prototypes in various projects during my education.</p>
  </div>
 
   
@@ -36,7 +36,7 @@
     <p class="listItem">Joomla(CMS)</p>
     <p class="listItem" >UXPin</p>
     <p class="listItem">Axure RP</p>
-    <p class="listItem">Adobe (Ps,Ai,Id & XD)</p>
+    <p class="listItem">Adobe (Ps,Ai,Id & XD)git </p>
     <p class="listItem">HTML, CSS & Javascript</p>
          </div>
  </div>
@@ -69,7 +69,7 @@ export default {
     
     padding:20px;
     text-align: justify;
-    font-size: 16pt;
+    font-size: 14pt;
     
   }
 
@@ -134,6 +134,10 @@ p {
   padding:5px;
 }
 
+.listGroup{
+  padding-bottom: 15px;
+}
+
 .ItemEducation{
    color: rgb(0, 0, 0);
   font-size: 14pt;
@@ -157,6 +161,6 @@ p {
     cursor: pointer;
     border-radius: 5px;
     color:   rgb(119, 103, 163);
-    font-size: 14pt;
+    font-size: 12pt;
 }
 </style>

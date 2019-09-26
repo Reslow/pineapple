@@ -29,7 +29,7 @@ export default {
 <style>
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  font-size: 16pt;
+  font-size: 14pt;
   margin:0;
   padding:0;
   margin: auto;
