@@ -41,7 +41,7 @@ export default {
   }
 
   .project-content{
-    font-size:14pt;
+    font-size:14px;
     margin-left:15px;
     margin-right: 15px;
     
@@ -64,7 +64,7 @@ export default {
 
 .project-title {
   margin-bottom:15px;
-  font-size: 36pt;
+  font-size: 36px;
   letter-spacing: 0px;
   word-spacing: 0px;
   margin: 0px;

@@ -69,7 +69,7 @@ export default {
     
     padding:20px;
     text-align: justify;
-    font-size: 14pt;
+    font-size: 14px;
     
   }
 
@@ -135,7 +135,7 @@ p {
 
 .listItem{
   color: rgb(10, 10, 10);
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: bold;
   padding:5px;
 }
@@ -146,7 +146,7 @@ p {
 
 .ItemEducation{
    color: rgb(0, 0, 0);
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: bold;
   margin: 10px;
 }
@@ -154,7 +154,7 @@ p {
 .headline{
   padding-top: 20px;
   margin: 0px;
-  font-size: 36pt;
+  font-size: 36px;
 }
 
 #linkedin{ 

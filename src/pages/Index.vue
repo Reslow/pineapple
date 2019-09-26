@@ -96,7 +96,7 @@ export default {
   padding-top: 40px;
   margin-right: 20px;
   margin-top:0px;
-  font-size: 18pt;
+  font-size: 18px;
 
 }
 
@@ -120,7 +120,7 @@ export default {
   margin-top: 8px;
   padding-bottom: 20px;
   max-width:250px;
-  min-height: 350px;
+  min-height: 300px;
   min-width: 250px;
   
 }
@@ -149,7 +149,7 @@ export default {
 color:  rgb(0, 0, 0);
 margin-bottom: 0px;
 text-align: left;
-font-size: 60pt;
+font-size: 60px;
 }
 
 @media (max-width: 800px){
@@ -168,7 +168,7 @@ font-size: 60pt;
   padding-top: 8px;
   margin-right: 20px;
   margin-top:0px;
-  font-size: 16pt;
+  font-size: 16px;
 }
 
 #hdFirst{
