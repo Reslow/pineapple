@@ -8,7 +8,7 @@
     <div id="textwrap">
     <h1 id="hdFirst"> UX & interaction designer</h1>
     <p id="fronttext">
- My name is Fanny and I am a designer of interaction between users and products. I have an education in interaction design. I design with the aim of creating better interactions and experiences for users. 
+ My name is Fanny and I am a designer of the interaction between users and products. I have an education in interaction design. I design with the aim of creating better interactions and experiences for users.  
     </p>
     </div>
 
@@ -149,7 +149,7 @@ export default {
 color:  rgb(0, 0, 0);
 margin-bottom: 0px;
 text-align: left;
-font-size: 60px;
+font-size: 80px;
 }
 
 @media (max-width: 800px){
