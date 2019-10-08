@@ -90,6 +90,6 @@ a{
 }
 
 a.button{
-  color:  rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.596);
 }
 </style>

@@ -63,13 +63,13 @@ export default {
 
 <style>
 @media (max-width: 860px){
-
   
   .text {
     
     padding:20px;
     text-align: justify;
     font-size: 14px;
+    max-width: 500px;
     
   }
 
@@ -102,6 +102,9 @@ export default {
   
 }
 
+
+
+
 .ImageProfile{
     min-width: 120px;
     min-height: 120px;
@@ -130,6 +133,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;  
+  padding-left:10px;
 }
 
 
@@ -153,10 +157,11 @@ p {
   margin: 0px;
   font-size: 36px;
   color:#7767a3;
+  padding-left:10px;
 }
 
 #linkedin{ 
-  border: 4px solid    rgb(0, 0, 0);
+border:solid rgba(0, 0, 0, 0.596) 7px;
     margin-left: 10px;
     padding:4px;
     padding-left:8px;
@@ -164,7 +169,8 @@ p {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 5px;
-    color:   rgb(0, 0, 0);
-    font-size: 12pt;
+    color:  rgba(0, 0, 0, 0.596);
+    font-size: 18pt;
+    font-weight: bold;
 }
 </style>

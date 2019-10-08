@@ -52,6 +52,7 @@ export default {
 }
 .container{
   padding:10px;
+  justify-content: center;
 
 }
 
@@ -63,7 +64,12 @@ export default {
 .project{
   text-align:justify;
   padding:0px;
-  max-width:780px;
+  align-content: center;
+  max-width: 800px;
+  
+
+
+
 }
 
 .project-title {

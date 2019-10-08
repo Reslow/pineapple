@@ -40,7 +40,9 @@
 
  </div>
   </Layout>
-
+<div id="credit">
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@ryoji__iwata?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ryoji Iwata"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Ryoji Iwata</span></a>
+</div>
     </div>
     </div>
 
@@ -76,8 +78,11 @@ export default {
 
 <style>
 
+#credit{
+margin-top:200px;
+margin-left:10px;
 
-
+}
 
 
 .wrap{
@@ -165,18 +170,19 @@ min-height:100vh;
 }
 .card {
 
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(216, 216, 216, 0.521);
+  border-radius: 5px;
   transition: 0.3s;
-  padding-top:8px;
+  padding-top:15px;
   padding-left: 8px;
   padding-top: 8px;
   margin-left: 8px;
   margin-top: 8px;
   padding-bottom: 20px;
   max-width:250px;
-  min-height: 250px;
-  min-width: 250px;
-  background-image: linear-gradient(rgb(255, 255, 255),rgb(204, 204, 204));
+  min-height: 220px;
+  min-width: 200px;
+  background-image: linear-gradient(rgb(224, 224, 224),rgb(233, 233, 233));
   
   
  
@@ -189,6 +195,9 @@ min-height:100vh;
 
 .cardtext{
   margin-left: 10px;
+  margin-top:20px;
+  
+  border-bottom: #7767a3 1px solid;
 
 }
 
@@ -212,6 +221,12 @@ font-size: 80px;
 }
 
 @media (max-width: 800px){
+  #credit{
+margin-top:20px;
+display: inline-block;
+margin:auto;
+
+}
 #cards{
   align-items: center;
   padding-bottom: 10px;
@@ -221,6 +236,8 @@ font-size: 80px;
   flex-direction: row;
   justify-content:center;
 }
+
+
 
 
 #bg2{
