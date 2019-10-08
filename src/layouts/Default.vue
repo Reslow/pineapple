@@ -90,6 +90,45 @@ a{
 }
 
 a.button{
-  color: rgba(0, 0, 0, 0.596);
+  color: #505050d3;
+  border: solid #505050a2 5px;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:5px;
+  padding-bottom:3px;
+  border-radius: 5px;
+  margin-left:10px;
+
+  cursor: pointer;
+ display: inline-block;
+   display:flex;
+  font-size: 18px;
+ font-weight: bold;
+  
+
+  border-radius: 5px;
+  transition: 0.3s;
+
+}
+
+
+a.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(146, 146, 146, 0.2);
+}
+
+@media (max-width: 800px){
+  a.button{
+    color: #505050d3;
+  border: solid #505050a2 5px;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom:3px;
+  border-radius: 5px;
+  margin-left:5px;
+  font-size: 18px;
+
+  
+}
 }
 </style>

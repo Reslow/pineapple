@@ -1,10 +1,10 @@
 <template>
   <header class="header">
-    <g-link id="name" to="/">
+    <div id="name" to="/">
       <span class="nametext">Fanny Reslow</span>
       <span class="nametext2">UX &amp; Interaction designer</span>
       <span class="nametext">reslowf@gmail.com</span>
-    </g-link>
+    </div>
    
    
       
@@ -28,27 +28,7 @@
 
 
  
-  .nav{
-  
-  
-border:solid rgba(0, 0, 0, 0.596) 7px;
-    
-  
-    margin-left:10px;
-    
-    padding-left:10px;
-    padding-right: 10px;
-    padding-bottom:4px;
-    cursor: pointer;
-    border-radius: 5px;
-    display: inline-block;
-    display:flex;
-    font-size: 18px;
-    font-weight: bold;
-    
-
-  }
-  
+ 
 
   .base{
     margin-right: 100px;
@@ -86,12 +66,12 @@ border:solid rgba(0, 0, 0, 0.596) 7px;
     margin-left:5px;
   }
   
+  
    
   
 
-}
    
  
-
+}
   
 </style>
