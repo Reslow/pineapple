@@ -19,6 +19,7 @@
     </p>
     </div>
  <div id="cardwrap">
+   <p id="titleP"> Projects</p>
 
       
 <div v-if="$page" id="cards">
@@ -105,6 +106,8 @@ export default {
    color: #7767a3;
    font-size: 18px;
    font-weight:bold;
+   text-align: left;
+   font-family: helvetica;
   
 }
 
@@ -126,7 +129,13 @@ export default {
 }
 
 
-
+#titleP{
+  color:rgba(198, 253, 0, 0.63);
+  font-size: 36px;
+  margin-bottom: 5px;
+  padding-left:10px;
+  font-weight: bold;
+}
 
    
 

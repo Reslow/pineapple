@@ -10,7 +10,7 @@ cover: "/static/SVG/drone2.png"
 <br><br>
 *The image above has been redesigned after the Project by me, no larger changes has been made.*
 <br><br>
-My forest drone App is a concept of a mobile application that helps forest workers to plan and overview the forest. My forest drone app has two main functions, first one is flying and controlling the drone, second is tagging objects for work purposes. We worked with the most critical information needed for flying, such as battery strength, height of drone and direction of the drone. We also added functions like tagging object while flying for supporting the work tasks. We added different map layers because it is useful in their practice, the map layers view different information.
+My forest drone app is a concept of a mobile application that helps forest workers to plan and overview the forest. My forest drone app has two main functions, first one is flying and controlling the drone, second is tagging objects for work purposes. We worked with the most critical information needed for flying, such as battery strength, height of drone and direction of the drone. We also added functions like tagging object while flying for supporting the work tasks. We added different map layers because it is useful in their practice, the map layers view different information.
 <br><br>
 The project was given by The Swedish forest agency. In this project I worked with four other students for five weeks. During this time, we developed a design of an interface for a mobile application that helps forest workers to plan and overview the forest. The Swedish forest agency wanted to motivate more workers to use drones in their workday. It is important to develop an interface that forest workers understand. 
  <br><br>

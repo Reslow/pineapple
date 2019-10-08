@@ -36,7 +36,7 @@
     <p class="listItem">Joomla(CMS)</p>
     <p class="listItem" >UXPin</p>
     <p class="listItem">Axure RP</p>
-    <p class="listItem">Adobe (Ps,Ai,Id & XD)git </p>
+    <p class="listItem">Adobe (Ps,Ai,Id & XD) </p>
     <p class="listItem">HTML, CSS & Javascript</p>
          </div>
  </div>
@@ -152,10 +152,11 @@ p {
  
   margin: 0px;
   font-size: 36px;
+  color:#7767a3;
 }
 
 #linkedin{ 
-  border: 4px solid    rgb(119, 103, 163);
+  border: 4px solid    rgb(0, 0, 0);
     margin-left: 10px;
     padding:4px;
     padding-left:8px;
@@ -163,7 +164,7 @@ p {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 5px;
-    color:   rgb(119, 103, 163);
+    color:   rgb(0, 0, 0);
     font-size: 12pt;
 }
 </style>

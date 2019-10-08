@@ -26,6 +26,10 @@
 
 <style>
 
+#name{
+
+ 
+}
  
   .nav{
     border: 4px solid   rgb(0, 0, 0);
@@ -50,6 +54,7 @@
 .nametext{
   color: rgb(0, 0, 0);
   font-size: 1em;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 860px){

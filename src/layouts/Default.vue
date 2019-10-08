@@ -33,7 +33,8 @@ body {
   margin:0;
   padding:0;
   margin: auto;
-  background-color: rgb(255, 251, 251); 
+
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
 }
 
 

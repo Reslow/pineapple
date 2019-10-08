@@ -33,9 +33,9 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 860px){
+@media (max-width: 760px){
   .project {
-  color: rgb(0, 0, 0);
+  color: rgb(39, 39, 39);
 
    padding: 20px;
   }
@@ -44,6 +44,7 @@ export default {
     font-size:14px;
     margin-left:15px;
     margin-right: 15px;
+    justify-content: center;
  
     
   }
@@ -56,11 +57,13 @@ export default {
 
   .wrap{
     padding:0px;
+    justify-content: center
   }
 
 .project{
   text-align:justify;
   padding:0px;
+  max-width:780px;
 }
 
 .project-title {
@@ -70,6 +73,7 @@ export default {
   word-spacing: 0px;
   margin: 0px;
   text-align: left;
+  color:#7767a3;
   
    
   
