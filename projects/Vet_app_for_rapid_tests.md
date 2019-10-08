@@ -4,7 +4,7 @@ slug: Augmented reality project
 description: A mobile interface that shows result of rapid test that diagnose cancer in dogs
 date: 2019-03-01 24:43:27
 author: Fanny Reslow
-cover: "/static/SVG/cat.svg"
+cover: "/static/SVG/cat2.png"
 ---
 <br><br>
 ![image of Vac application](/static/png/Vac1234.png "image of Vac application")

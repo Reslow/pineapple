@@ -3,16 +3,21 @@
 
 
 <template>
-  <Layout class="Layout">
+    <div id="bg">
+          <div id="bg2">
+  <Layout>
+      
+  
     <div id="bodyWrap">
-    <div id="textwrap">
-    <h1 id="hdFirst"> UX & interaction designer</h1>
-    <p id="fronttext">
- My name is Fanny and I am a designer of the interaction between users and products. I have an education in interaction design. I design with the aim of creating better interactions and experiences for users.  
-    </p>
-    </div>
 
     
+    <div id="textwrap">
+    <h1 id="hdFirst"> UX & interaction designer</h1>
+    
+    <p id="fronttext">
+   I design interfaces with the aim of creating better interactions and experiences for users.  
+    </p>
+    </div>
  <div id="cardwrap">
 
       
@@ -22,7 +27,7 @@
       <div class="container">
         <img :src="edge.node.cover.src" alt="icon" style="width:20%">
         <div class="cardtext">
-        <h4 class="CardTitle">{{edge.node.title}}</h4>
+      
         <p>{{edge.node.description}}</p>
         </div>
       </div>
@@ -33,8 +38,11 @@
 </div>
 
  </div>
-
   </Layout>
+
+    </div>
+    </div>
+
 
 </template>
 
@@ -69,8 +77,12 @@ export default {
 
 
 
+
+
 .wrap{
   max-width: 1000px;
+
+  margin: auto;
 }
 
 #textwrap{
@@ -78,6 +90,7 @@ export default {
   flex-direction: column;
   margin: 10px;
   max-width: 600px;  
+  padding:10px;
 }
 
 #cards{
@@ -88,17 +101,48 @@ export default {
 }
 
 .cardtext{
-   color:   rgb(119, 103, 163);
+  padding-top:10px;
+   color: #7767a3;
+   font-size: 18px;
+   font-weight:bold;
+  
 }
 
+
+
+
 #fronttext{
-  text-align: left;
+  text-align: justify;
   padding-top: 40px;
   margin-right: 20px;
   margin-top:0px;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: bold;
+  color:white;
+  padding-bottom: 5px;
+
+   border-bottom: 5px solid rgba(198, 253, 0, 0.596);
 
 }
+
+
+
+
+   
+
+
+#bg2{
+background-image:
+linear-gradient(to bottom, rgba(252, 250, 250, 0.89), rgba(49, 49, 49, 0.918),rgba(37, 37, 37, 0.952)),
+url(../../static/walking.png);
+background-repeat:no-repeat;
+background-size: cover;
+
+min-height:100vh;
+
+ 
+}
+
 
 
 #bodyWrap{
@@ -106,6 +150,7 @@ export default {
   flex-direction: row;
   display: flex;
   justify-content: center;
+  margin: auto;
  
 
 }
@@ -120,8 +165,12 @@ export default {
   margin-top: 8px;
   padding-bottom: 20px;
   max-width:250px;
-  min-height: 300px;
+  min-height: 250px;
   min-width: 250px;
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(204, 204, 204));
+  
+  
+ 
   
 }
 
@@ -136,7 +185,7 @@ export default {
 
 .container {
   padding: 10px 16px;
-  
+ 
 }
 
 
@@ -146,10 +195,11 @@ export default {
 }
 
 #hdFirst{
-color:  rgb(0, 0, 0);
+color:  rgb(255, 255, 255);
 margin-bottom: 0px;
-text-align: left;
+text-align: right;
 font-size: 80px;
+
 }
 
 @media (max-width: 800px){
@@ -163,16 +213,28 @@ font-size: 80px;
   justify-content:center;
 }
 
+
+#bg2{
+background-image:
+linear-gradient(to bottom, rgba(252, 250, 250, 0.671), rgba(49, 49, 49, 0.918),rgba(37, 37, 37, 0.753)),
+url(../../static/walking.png);
+background-repeat:no-repeat;
+background-size: cover;
+min-height:100vh;
+
+ 
+}
+
 #fronttext{
-  text-align: left;
+  text-align: justify;
   padding-top: 8px;
-  margin-right: 20px;
   margin-top:0px;
   font-size: 16px;
+  color: white;
 }
 
 #hdFirst{
-color:  rgb(0, 0, 0);
+color:  rgb(255, 255, 255);
 margin-bottom: 0px;
 text-align: left;
 font-size: 40pt;

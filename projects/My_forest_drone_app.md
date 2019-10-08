@@ -3,7 +3,7 @@ title: My forest drone application
 description: An interface that motivate workers in the forest industry to use drones
 date: 2019-03-01 24:43:25
 author: Fanny Reslow
-cover: "/static/SVG/drone.svg"
+cover: "/static/SVG/drone2.png"
 ---
 ![image of My forest drone application](/static/png/ForestDroneApp.png "image of My forest drone application")
 

@@ -140,9 +140,6 @@ p {
   padding:5px;
 }
 
-.listGroup{
-  padding-bottom: 15px;
-}
 
 .ItemEducation{
    color: rgb(0, 0, 0);
@@ -152,7 +149,7 @@ p {
 }
 
 .headline{
-  padding-top: 20px;
+ 
   margin: 0px;
   font-size: 36px;
 }

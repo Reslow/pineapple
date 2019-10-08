@@ -3,7 +3,7 @@ title: Penelope, a fidget concept
 description: A concept of a fidget that could be used during a meeting
 date: 2019-03-01 24:43:26
 author: Fanny Reslow
-cover: "/static/SVG/fidget.svg"
+cover: "/static/SVG/pen2.png"
 ---
 <br><br>
 ![image of prototype](/static/png/penelope.png "image of fidget prototype")

@@ -36,7 +36,7 @@ export default {
 @media (max-width: 860px){
   .project {
   color: rgb(0, 0, 0);
-   align-content:center;
+
    padding: 20px;
   }
 
@@ -44,6 +44,7 @@ export default {
     font-size:14px;
     margin-left:15px;
     margin-right: 15px;
+ 
     
   }
 

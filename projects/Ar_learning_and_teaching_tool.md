@@ -3,7 +3,7 @@ title: AR learning & teaching tool
 description: A concept that could improve a learning environment.
 date: 2019-03-01 24:43:24
 author: Fanny Reslow
-cover: "/static/SVG/ar.svg"
+cover: "/static/SVG/ar2.png"
 ---
  <br><br>
 ![image of AR concept](/static/png/ArConcept.png "image of AR Concept")
