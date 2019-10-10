@@ -65,7 +65,7 @@ export default {
   text-align:justify;
   padding:0px;
   align-content: center;
-  max-width: 800px;
+ 
   
 
 
