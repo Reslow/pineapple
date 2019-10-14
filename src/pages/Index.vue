@@ -19,7 +19,7 @@
                   <div class="container">
                     <g-image src="/png/pen.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
-                      <p>A fidget that could be used during a meeting or a presentation</p>
+                      <p class="cardText">A fidget that could be used during a meeting or a presentation</p>
                     </div>
                   </div>
                 </div>
@@ -30,7 +30,7 @@
                   <div class="container">
                     <g-image src="/png/glassesPhoto.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
-                      <p>A concept that could improve a learning environment.</p>
+                      <p class="cardText">A concept that could improve a learning environment.</p>
                     </div>
                   </div>
                 </div>
@@ -41,7 +41,7 @@
                   <div class="container">
                     <g-image src="/png/dronePhoto.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
-                      <p>An interface that motivate workers in the forest industry to use drones</p>
+                      <p class="cardText">An interface that motivate workers in the forest industry to use drones</p>
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@
                     <g-image src="/png/dogPhoto.png" alt="icon" style="width:100%" />
 
                     <div class="cardtext">
-                      <p>An interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
+                      <p class="cardText">An interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
                     </div>
                   </div>
                 </div>
@@ -94,16 +94,15 @@ export default {
   flex-direction: row;
   justify-content: center;
 }
-
-.cardtext {
-  
+.cardText{
   color: #131313d3;
   font-size: 14px;
   text-align: left;
   font-family: helvetica;
   font-weight: bold;
   line-height: 18px;
-  padding-left:5px;
+  padding-left:10px;
+  padding-right: 10px;
   padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -156,7 +155,8 @@ export default {
   box-shadow: 0 3px 5px 0 rgba(136, 136, 136, 0.473);
   border-radius: 5px;
   transition: all 0.3s ease;
-  margin-left: 8px;
+  margin-left: 10px;
+  
   margin-top: 10px;
   padding-bottom: 20px;
   max-width: 250px;
@@ -201,8 +201,8 @@ export default {
   #bg2 {
     background-image: linear-gradient(
         to bottom,
-      rgba(255, 254, 254, 0.692),
-      rgba(22, 22, 22, 0.815),
+      rgba(255, 254, 254, 0.712),
+      rgba(22, 22, 22, 0.877),
       rgba(53, 53, 53, 0.897)
       ),
       url(../../static/walking.png);

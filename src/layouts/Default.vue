@@ -73,8 +73,8 @@ body {
 }
 
 .nav__link {
-  margin-left: 20px;
-  margin-right: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 img {

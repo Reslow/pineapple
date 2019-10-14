@@ -10,7 +10,7 @@
             <p class="presentation">
               Hi,
               <br />Hi,
-              My journey toward interaction design started when I was a child and the love of creativity started to grow. When I started upper secondary school I found my interest for marketing and communication. Semotics (study of signs) and The power of an image got my attantion. After a detour in healthcare I found a way of working with both technology and humans, I found interaction design.
+              My journey toward interaction design started when I was a child and the love of creativity started to grow. When I started upper secondary school I found my interest for marketing and communication. Semotics (study of signs) and the power of an image got my attention. After a detour in healthcare I found a way of working with both technology and humans, I found interaction design.
               <br />
               <br />I recently received my bachelor degree in interaction design (2019), When I am not searching for that first job or working part-time, I spend my time redesigning my portfolio and practising HTML, CSS and JS.
             </p>
