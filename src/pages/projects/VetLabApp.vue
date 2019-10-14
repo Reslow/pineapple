@@ -7,19 +7,19 @@
       <div class="container1">
         <div id="title">
           <h2>Vet app for rapid test</h2>
-          <p> A mobile interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
+          <p>A mobile interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
         </div>
 
         <div class="spalt">
           <h3>The app</h3>
-          <p
-            class="text"
-          >The vet takes a blood sample and drop blood on the rapid test. Then he/she wait 10 minutes and then they point the mobile camera towards the rapid test. Finally, the screen will show result that can be transferred to the journal.
-Today vets take blood sample and send them to a lab and haft to wait for result. With a rapid test and an app for viewing result the procedure would be faster and more efficient.</p>
+          <p class="text">
+            The vet takes a blood sample and drop blood on the rapid test. Then he/she wait 10 minutes and then they point the mobile camera towards the rapid test. Finally, the screen will show result that can be transferred to the journal.
+            Today vets take blood sample and send them to a lab and haft to wait for result. With a rapid test and an app for viewing result the procedure would be faster and more efficient.
+          </p>
           <h3>The project</h3>
           <p
             class="text"
-          >For 9 weeks me and three other students researched about how vets diagnose cancer in dogs, to design an application which could visualize result from a rapid test. We worked with a company which had a new technique of measuring blood, the new technique makes it possible to catch some types of cancer in an earlier stage. </p>
+          >For 9 weeks me and three other students researched about how vets diagnose cancer in dogs, to design an application which could visualize result from a rapid test. We worked with a company which had a new technique of measuring blood, the new technique makes it possible to catch some types of cancer in an earlier stage.</p>
           <h3>The Study</h3>
           <p
             class="text"
@@ -33,8 +33,8 @@ Today vets take blood sample and send them to a lab and haft to wait for result.
 <style scoped>
 #title {
   padding-bottom: 20px;
-  color:  rgba(13, 13,13, 0.89);
-  border-bottom:rgb(87, 87, 87) 0.5px solid;
+  color: rgba(13, 13, 13, 0.89);
+  border-bottom: rgb(87, 87, 87) 0.5px solid;
   margin-bottom: 20px;
 }
 .spalt {
@@ -81,7 +81,7 @@ p {
   max-width: 100%;
 }
 .container2 {
-box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
+  box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
   display: flex;
   flex-direction: row;
 }
@@ -102,48 +102,47 @@ box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
 
 @media (max-width: 860px) {
   .container2 {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
-  min-width: 100%;
-}
-.container1 {
-  padding-left:0px;
-  margin-left:auto;
-  margin-right:auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-bottom: 30px;
-  font-size: 18px;
-  min-width: 100%;
-}
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
+    min-width: 100%;
+  }
+  .container1 {
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    min-width: 100%;
+  }
 
-#title{
-  padding-left:10px;
-}
+  #title {
+    padding-left: 10px;
+  }
 
-h3{
-  padding-left:10px;
-}
+  h3 {
+    padding-left: 10px;
+  }
 
-.content {
-  display: flex;
-  flex-direction: column;
-}
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
 
-.textCon {
-  display: flex;
-  margin: auto;
-  max-width: 50%;
-}
+  .textCon {
+    display: flex;
+    margin: auto;
+    max-width: 50%;
+  }
 
-.text {
- 
-  padding-left:10px;
-  padding-right:10px;
-  max-width: 100%;
-  font-size: 16px;
-  line-height: 28px;
-}
+  .text {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
 </style>

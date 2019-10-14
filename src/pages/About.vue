@@ -4,7 +4,7 @@
       <h1 class="headline">About</h1>
       <div class="profileImg">
         <div class="bildOchText">
-          <img src="../../static/png/profil.png" alt="Profile image" class="ImageProfile" />
+          <g-image src="../../static/png/profil.png" alt="Profile image" class="ImageProfile" />
 
           <div class="text">
             <p class="presentation">
@@ -20,13 +20,13 @@
       </div>
 
       <div class="skills">
-      <div class="skillsT">
-        <h2>Designer</h2>
-        <p class="skillsText">
-          I am a good listener and I love working with people. I encourage new way of thinking.
-          My curiosity keeps me redesigning and developing my design aesthetics and skills.
-        </p>
-      </div>
+        <div class="skillsT">
+          <h2>Designer</h2>
+          <p class="skillsText">
+            I am a good listener and I love working with people. I encourage new way of thinking.
+            My curiosity keeps me redesigning and developing my design aesthetics and skills.
+          </p>
+        </div>
         <div class="skillsT">
           <h2>Interaction design</h2>
           <p class="skillsText">

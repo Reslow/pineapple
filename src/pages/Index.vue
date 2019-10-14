@@ -19,7 +19,9 @@
                   <div class="container">
                     <g-image src="/png/pen.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
-                      <p class="cardText">A fidget that could be used during a meeting or a presentation</p>
+                      <p
+                        class="cardText"
+                      >A fidget that could be used during a meeting or a presentation</p>
                     </div>
                   </div>
                 </div>
@@ -41,7 +43,9 @@
                   <div class="container">
                     <g-image src="/png/dronePhoto.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
-                      <p class="cardText">An interface that motivate workers in the forest industry to use drones</p>
+                      <p
+                        class="cardText"
+                      >An interface that motivate workers in the forest industry to use drones</p>
                     </div>
                   </div>
                 </div>
@@ -53,7 +57,9 @@
                     <g-image src="/png/dogPhoto.png" alt="icon" style="width:100%" />
 
                     <div class="cardtext">
-                      <p class="cardText">An interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
+                      <p
+                        class="cardText"
+                      >An interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
                     </div>
                   </div>
                 </div>
@@ -94,14 +100,14 @@ export default {
   flex-direction: row;
   justify-content: center;
 }
-.cardText{
+.cardText {
   color: #131313d3;
   font-size: 14px;
   text-align: left;
   font-family: helvetica;
   font-weight: bold;
   line-height: 18px;
-  padding-left:10px;
+  padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   margin-left: auto;
@@ -122,7 +128,7 @@ export default {
 }
 
 #titleP {
-  color:rgba(255, 255, 255, 0.89);
+  color: rgba(255, 255, 255, 0.89);
   font-size: 36px;
   margin-bottom: 5px;
   padding-left: 10px;
@@ -156,7 +162,7 @@ export default {
   border-radius: 5px;
   transition: all 0.3s ease;
   margin-left: 10px;
-  
+
   margin-top: 10px;
   padding-bottom: 20px;
   max-width: 250px;
@@ -201,9 +207,9 @@ export default {
   #bg2 {
     background-image: linear-gradient(
         to bottom,
-      rgba(255, 254, 254, 0.712),
-      rgba(22, 22, 22, 0.877),
-      rgba(53, 53, 53, 0.897)
+        rgba(255, 254, 254, 0.712),
+        rgba(22, 22, 22, 0.877),
+        rgba(53, 53, 53, 0.897)
       ),
       url(../../static/walking.png);
     background-repeat: no-repeat;

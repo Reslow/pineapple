@@ -22,18 +22,14 @@
   margin-right: 100px;
   display: inline-block;
   display: flex;
-    
 }
 
-
-
 .nametext {
-    color: #131313d3;
+  color: #131313d3;
   font-size: 14px;
   font-weight: bolder;
   padding-bottom: 5px;
 }
-
 
 @media (max-width: 860px) {
   .nametext {

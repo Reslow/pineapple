@@ -6,7 +6,7 @@
       </div>
       <div class="container1">
         <div id="title">
-          <h2>AR learning & teaching tool </h2>
+          <h2>AR learning & teaching tool</h2>
           <p>A concept that could improve a learning environment.</p>
         </div>
 
@@ -15,7 +15,7 @@
           <p
             class="text"
           >This application creates an access for teachers to add 3D-objects on top of the PowerPoint presentation, which can be shown during a presentation on a certain time. There is a bar with information such as time and settings. There is recording possibilities to replay information from lectures. To interact with the application the users will use gestures. As an example, the 3D object can be moved and rotated with help from gestures and on the timeline the users can with their finger play the lectures forward or back.</p>
-         
+
           <h3>The project</h3>
           <p
             class="text"
@@ -33,8 +33,8 @@
 <style scoped>
 #title {
   padding-bottom: 20px;
-   color:  rgba(13, 13, 13, 0.89);
-  border-bottom:rgb(87, 87, 87) 0.5px solid;
+  color: rgba(13, 13, 13, 0.89);
+  border-bottom: rgb(87, 87, 87) 0.5px solid;
   margin-bottom: 20px;
 }
 .spalt {
@@ -67,7 +67,7 @@ p {
 }
 
 .container1 {
-  background-color:rgba(243, 243, 243, 0.89);
+  background-color: rgba(243, 243, 243, 0.89);
   color: rgba(13, 13, 13, 0.856);
   padding-top: 30px;
   padding-bottom: 30px;
@@ -75,7 +75,7 @@ p {
   padding-right: 20px;
   padding-bottom: 30px;
   font-size: 18px;
-  
+
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -101,51 +101,47 @@ p {
 }
 @media (max-width: 860px) {
   .container2 {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
-  min-width: 100%;
-}
-.container1 {
-  padding-left:0px;
-  margin-left:auto;
-  margin-right:auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-bottom: 30px;
-  font-size: 18px;
-  min-width: 100%;
-}
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
+    min-width: 100%;
+  }
+  .container1 {
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    min-width: 100%;
+  }
 
-#title{
-  padding-left:10px;
+  #title {
+    padding-left: 10px;
+  }
+
+  h3 {
+    padding-left: 10px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textCon {
+    display: flex;
+    margin: auto;
+    max-width: 50%;
+  }
+
+  .text {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
-
-h3{
-  padding-left:10px;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-}
-
-.textCon {
-  display: flex;
-  margin: auto;
-  max-width: 50%;
-}
-
-.text {
- 
-  padding-left:10px;
-  padding-right:10px;
-  max-width: 100%;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-
-}
-
 </style>
