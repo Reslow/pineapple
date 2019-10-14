@@ -33,17 +33,8 @@ body {
   margin:0;
   padding:0;
   margin: auto;
-
-  background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
-}
-
-
-
-.wrap {
-  max-width: 800px;
-  margin: auto;
- 
- 
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243));
+  min-height: 100vh;
 }
 
 #name {
@@ -55,8 +46,11 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
+
+
 #nametext{ 
   padding-top:3px;
   margin-top:0px;
@@ -67,6 +61,9 @@ body {
 }
 
 .header {
+ 
+
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,13 +82,13 @@ img {
 }
 
 a{
-  color:  rgb(0, 0, 0);
+   color: #131313d3;
   text-decoration:none;
 }
 
 a.button{
-  color: #505050d3;
-  border: solid #505050a2 5px;
+  background-image: linear-gradient(#131313d3, #131313);
+  border: solid   #131313d3 2px;
   padding-left:20px;
   padding-right: 20px;
   padding-top:5px;
@@ -104,7 +101,7 @@ a.button{
    display:flex;
   font-size: 18px;
  font-weight: bold;
-  
+  color:white;
 
   border-radius: 5px;
   transition: 0.3s;
@@ -113,13 +110,13 @@ a.button{
 
 
 a.button:hover {
-  box-shadow: 0 8px 16px 0 rgba(146, 146, 146, 0.2);
+   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.473);
 }
 
 @media (max-width: 800px){
   a.button{
-    color: #505050d3;
-  border: solid #505050a2 5px;
+    color: #131313;
+  border: solid #131313 5px;
   padding-left:10px;
   padding-right: 10px;
   padding-top:5px;

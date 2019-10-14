@@ -1,176 +1,198 @@
 <template>
   <Layout>
-    
-   
     <div id="tWrap">
-  
-    <h1 class="headline">About</h1> 
+      <h1 class="headline">About</h1>
       <div class="profileImg">
-      <img src="../../static/png/profil.png" alt="Profile image" class="ImageProfile" >
-<a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin"> Linkedin </a>
-      </div>
-    <div class="text">
-    <p>As a UX and interaction designer I am always focused on the user, what the user wants and more important the users needs. I am a good listener and I am good at shifting perspectives when designing. I have been working with the design process from idea to interactive prototypes in various projects during my education.</p>
- </div>
+        <div class="bildOchText">
+          <img src="../../static/png/profil.png" alt="Profile image" class="ImageProfile" />
 
-  
-  <h2 class="headline">Skills</h2> 
- <div class="list">
-    <div class="listGroup">
-    <p class="listItem"> User centered design</p>
-    <p class="listItem"> User research</p>
-    <p class="listItem" >Prototyping</p>
-    </div>
-      <div class="listGroup">
-    <p class="listItem" >Interface design</p>
-    <p class="listItem" >Design patterns</p>
-      </div>
-       <div class="listGroup">
-    <p class="listItem" >Project management</p>
-    <p class="listItem">Scrum</p>
-       </div>
-        <div class="listGroup">
-    <p class="listItem">Social media</p>
+          <div class="text">
+            <p class="presentation">
+              Hi,
+              <br />Hi,
+              My journey toward interaction design started when I was a child and the love of creativity started to grow. When I started upper secondary school I found my interest for marketing and communication. Semotics (study of signs) and The power of an image got my attantion. After a detour in healthcare I found a way of working with both technology and humans, I found interaction design.
+              <br />
+              <br />I recently received my bachelor degree in interaction design (2019), When I am not searching for that first job or working part-time, I spend my time redesigning my portfolio and practising HTML, CSS and JS.
+            </p>
+          </div>
         </div>
-         <div class="listGroup">
-    <p class="listItem">Joomla(CMS)</p>
-    <p class="listItem" >UXPin</p>
-    <p class="listItem">Axure RP</p>
-    <p class="listItem">Adobe (Ps,Ai,Id & XD) </p>
-    <p class="listItem">HTML, CSS & Javascript</p>
-         </div>
- </div>
-   
-  <h2 class="headline">Education</h2>
-  <div class="listGroup">
-  <p class="ItemEducation">Linneaus University - Interaction design (Bachelor degree) 2016 - 2019</p>
-   <p class="ItemEducation">It-Media Gymnasiet (upper secondary shool) - digital media technology  2008 - 2011</p>
-  </div>
+     
+          <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">Linkedin</a>
+        
+      </div>
+      <div class="skills">
+        <div class="skillsT">
+          <h2>Interaction design</h2>
+          <p class="skillsText">
+            As part of the wide UX field, Interaction design
+            focuses on the communication between user and product.
+            With user centered design approach I collect knowledge about patterns that creates
+            interfaces that makes products useful
+          </p>
+        </div>
 
+        <div class="skillsT">
+          <h2>Tools</h2>
+          <p class="skillsText">
+            Sticky notes, sticky notes and sticky notes is my number one tool, I also have my
+            sketching book. For high-fidelity prototypes I use adobe photoshop,
+            illustrator, indesign XD and Axure RP and UXPIn.
+          </p>
+        </div>
 
- </div>
+        <div class="skillsT">
+          <h2>Designer</h2>
+          <p class="skillsText">
+            I am a good listener and I love working with people. I encourage new way of thinking.
+            My curiosity keeps me redesigning and developing my design aesthetics and skills.
+          </p>
+        </div>
+      </div>
+    </div>
   </Layout>
-
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'About'
+    title: "About"
   }
-}
+};
 </script>
 
-<style>
-@media (max-width: 860px){
-  
+<style scoped>
+@media (max-width: 860px) {
   .text {
-    
-    padding:20px;
+    padding: 20px;
     text-align: justify;
     font-size: 14px;
     max-width: 500px;
-    
   }
-
-   p.ItemEducation{
-    
-    padding-bottom: 5px;
-  }
-
-  
 
   .profileImg {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
-  
-  }
- 
-  
-  .listGroup{
-    width: 50%;
-    padding-bottom: 15px;
+    flex-direction: column;
   }
 
-  .ImageProfile{
-     align-content: center;
-     max-width:400px;
-     
+  .listGroup {
+    width: 50%;
   }
-  
+
+  .ImageProfile {
+    align-content: center;
+  }
 }
 
+.bildOchText {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
 
+#tWrap {
+  background-color: rgba(243, 243, 243, 0.89);
+  min-height: calc(100vh - 100px);
+}
 
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.ImageProfile{
-    min-width: 120px;
-    min-height: 120px;
-    max-width: 100%;
+.skillsText {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 7px;
+  margin-top:15px;
+  margin-bottom:35px;
+}
+
+.skills {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillsT {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
   
-   
+  text-align: left;
+  font-size: 16px;
+  line-height: 28px;
+  border: rgba(13, 13, 13, 0) 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(116, 116, 116, 0.253);
+}
 
+.text {
+  color: rgba(13, 13, 13, 0.829);
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 30%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  justify-content: right;
+}
 
-  }
+.ImageProfile {
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 35%;
+}
 
 .profileImg {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-bottom: 15px;
-  flex-direction:column;
+  flex-direction: column;
 }
 
 p {
-  margin:0px;
-
-}
-
-.list{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;  
-  padding-left:10px;
+  margin-bottom: 25px;
 }
 
 
-.listItem{
-  color: rgb(10, 10, 10);
-  font-size: 14px;
-  font-weight: bold;
-  padding:5px;
-}
 
 
-.ItemEducation{
-   color: rgb(0, 0, 0);
-  font-size: 14px;
-  font-weight: bold;
-  margin: 10px;
-}
-
-.headline{
- 
+.headline {
   margin: 0px;
   font-size: 36px;
-  color:#7767a3;
-  padding-left:10px;
+  color: rgba(22, 22, 22, 0.829);
+  margin-left: 15px;
 }
 
-#linkedin{ 
-border:solid rgba(0, 0, 0, 0.596) 7px;
-    margin-left: 10px;
-    padding:4px;
-    padding-left:8px;
-    padding-right: 8px;
-    margin-top: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    color:  rgba(0, 0, 0, 0.596);
-    font-size: 18pt;
-    font-weight: bold;
+#linkedin {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid rgba(12, 12, 12, 0.829) 3px;
+  padding: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+ 
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgba(24, 23, 23, 0.829);
+  font-weight: bold;
+}
+
+#linkedin:hover {
+  box-shadow: 0 5px 8px 0 rgba(119, 119, 119, 0.473);
 }
 </style>

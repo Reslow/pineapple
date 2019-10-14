@@ -7,18 +7,5 @@
 module.exports = {
   siteName: 'Fanny Reslow',
   plugins: [
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'projects/**/*.md',
-        
-        typeName: 'ProjectPost',
-        resolveAbsolutePaths: true,
-        remark: {
-          externalLinksTarget: '_blank',
-          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-        },
-      },
-    },
   ]
 }

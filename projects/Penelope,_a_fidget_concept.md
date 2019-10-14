@@ -1,6 +1,6 @@
 ---
 title: Penelope, a fidget concept
-description: A concept of a fidget that could be used during a meeting
+description: A concept of a fidget that could be used during a meeting or a presentation
 date: 2019-03-01 24:43:26
 author: Fanny Reslow
 cover: "/static/SVG/pen2.png"
