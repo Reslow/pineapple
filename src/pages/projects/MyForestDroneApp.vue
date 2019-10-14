@@ -7,7 +7,7 @@
       <div class="container1">
         <div id="title">
           <h2>My Forest drone application</h2>
-          <p>a project with four other students during the spring 2018 with The swedish forest agency</p>
+          <p>A project with four other students during the spring 2018 with The swedish forest agency</p>
         </div>
 
         <div class="spalt">
@@ -88,6 +88,7 @@ p {
 .content {
   display: flex;
   flex-direction: row;
+   margin-bottom: 30px;
 }
 .textCon {
   display: flex;

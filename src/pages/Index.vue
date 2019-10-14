@@ -202,6 +202,7 @@ export default {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
   }
 
   #bg2 {

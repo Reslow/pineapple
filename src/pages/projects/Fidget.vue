@@ -7,7 +7,7 @@
       <div class="container1">
         <div id="title">
           <h2>Penelope</h2>
-          <p>a product concept</p>
+          <p>A product concept</p>
         </div>
 
         <div class="spalt">
@@ -89,6 +89,7 @@ p {
 .content {
   display: flex;
   flex-direction: row;
+   margin-bottom: 30px;
 }
 .textCon {
   display: flex;

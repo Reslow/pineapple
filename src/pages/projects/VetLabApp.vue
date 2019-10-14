@@ -89,6 +89,7 @@ p {
 .content {
   display: flex;
   flex-direction: row;
+   margin-bottom: 30px;
 }
 .textCon {
   display: flex;

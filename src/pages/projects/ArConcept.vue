@@ -128,6 +128,7 @@ p {
   .content {
     display: flex;
     flex-direction: column;
+     margin-bottom: 30px;
   }
 
   .textCon {

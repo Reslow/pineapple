@@ -101,6 +101,8 @@ h2 {
   max-width: 30%;
   margin-left: auto;
   margin-right: auto;
+ 
+  margin-bottom: 40px;
 
   text-align: left;
   font-size: 16px;
