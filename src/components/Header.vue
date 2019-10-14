@@ -37,7 +37,7 @@
 
 @media (max-width: 860px) {
   .nametext {
-    font-size: 18px;
+    font-size: 14px;
   }
   .header {
     padding-top: 10px;

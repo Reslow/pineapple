@@ -77,9 +77,6 @@ body {
   margin-right: 10px;
 }
 
-img {
-  max-width: 82vw;
-}
 
 a{
    color: #131313d3;
@@ -115,8 +112,7 @@ a.button:hover {
 
 @media (max-width: 800px){
   a.button{
-    color: #131313;
-  border: solid #131313 5px;
+
   padding-left:10px;
   padding-right: 10px;
   padding-top:5px;

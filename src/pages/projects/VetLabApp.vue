@@ -99,4 +99,51 @@ box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
   text-align: center;
   justify-content: left;
 }
+
+@media (max-width: 860px) {
+  .container2 {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
+  min-width: 100%;
+}
+.container1 {
+  padding-left:0px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  min-width: 100%;
+}
+
+#title{
+  padding-left:10px;
+}
+
+h3{
+  padding-left:10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.textCon {
+  display: flex;
+  margin: auto;
+  max-width: 50%;
+}
+
+.text {
+ 
+  padding-left:10px;
+  padding-right:10px;
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 28px;
+}
+}
 </style>

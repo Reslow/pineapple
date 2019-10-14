@@ -212,7 +212,7 @@ export default {
   }
 
   #fronttext {
-    text-align: justify;
+    text-align: left;
     padding-top: 8px;
     margin-top: 0px;
     font-size: 16px;
