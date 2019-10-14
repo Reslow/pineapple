@@ -17,7 +17,7 @@
               <g-link to="/projects/Fidget">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/penPhoto.png" alt="icon" style="width:100%" />
+                    <g-image src="/png/pen.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p>A fidget that could be used during a meeting or a presentation</p>
                     </div>

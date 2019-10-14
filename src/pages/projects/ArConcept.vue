@@ -2,7 +2,7 @@
   <Layout>
     <div class="content">
       <div class="container2">
-        <g-image src="/png/ArPage.png" alt="icon" style="max-height: calc(100vh - 100px;" />
+        <g-image src="/png/arPage.png" alt="icon" style="max-height: calc(100vh - 100px;" />
       </div>
       <div class="container1">
         <div id="title">
