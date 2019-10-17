@@ -75,6 +75,8 @@ p {
   padding-right: 20px;
   padding-bottom: 30px;
   font-size: 18px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
 
   display: flex;
   flex-direction: column;
@@ -89,7 +91,10 @@ p {
 .content {
   display: flex;
   flex-direction: row;
-}
+
+     
+      position: fixed;
+  }
 .textCon {
   display: flex;
   margin: auto;
@@ -115,6 +120,7 @@ p {
     padding-bottom: 30px;
     font-size: 18px;
     min-width: 100%;
+
   }
 
   #title {
@@ -125,11 +131,6 @@ p {
     padding-left: 10px;
   }
 
-  .content {
-    display: flex;
-    flex-direction: column;
-     margin-bottom: 30px;
-  }
 
   .textCon {
     display: flex;

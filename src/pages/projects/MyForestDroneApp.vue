@@ -68,27 +68,22 @@ p {
 .container1 {
   background-color: rgba(243, 243, 243, 0.89);
   color: rgba(13, 13, 13, 0.856);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 30px;
   font-size: 18px;
-
   display: flex;
   flex-direction: column;
   max-width: 100%;
 }
-.container2 {
-  box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
-  display: flex;
-  flex-direction: row;
-}
 
 .content {
+  position: fixed;
   display: flex;
-  flex-direction: row;
-   margin-bottom: 30px;
+  flex-direction:row; 
+
+  
 }
 .textCon {
   display: flex;

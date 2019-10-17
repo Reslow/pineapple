@@ -17,7 +17,7 @@
               <g-link to="/projects/Fidget">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/pen.png" alt="icon" style="width:100%" />
+                    <g-image src="/png/pen2.jpg" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p
                         class="cardText"
@@ -41,7 +41,7 @@
               <g-link to="/projects/my-forest-drone-app">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/dronePhoto.png" alt="icon" style="width:100%" />
+                    <g-image src="/png/drone2.jpg" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p
                         class="cardText"
@@ -54,7 +54,7 @@
               <g-link to="/projects/Vet-lab-app">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/dogPhoto.png" alt="icon" style="width:100%" />
+                    <g-image src="/png/vet2.jpg" alt="icon" style="width:100%" />
 
                     <div class="cardtext">
                       <p

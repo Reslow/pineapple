@@ -75,6 +75,8 @@ p {
   padding-right: 20px;
   padding-bottom: 30px;
   font-size: 18px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
 
   display: flex;
   flex-direction: column;
@@ -87,9 +89,9 @@ p {
 }
 
 .content {
+   position: fixed;
   display: flex;
-  flex-direction: row;
-   margin-bottom: 30px;
+  position: fixed;
 }
 .textCon {
   display: flex;
@@ -100,6 +102,7 @@ p {
   text-align: center;
   justify-content: left;
 }
+
 
 @media (max-width: 860px) {
   .container2 {

@@ -76,6 +76,9 @@ p {
   padding-bottom: 30px;
   font-size: 18px;
 
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
+
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -87,9 +90,10 @@ p {
 }
 
 .content {
+   position: fixed;
   display: flex;
-  flex-direction: row;
-   margin-bottom: 30px;
+  
+    position: fixed;
 }
 .textCon {
   display: flex;
