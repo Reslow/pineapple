@@ -30,9 +30,9 @@
               <g-link to="/projects/Ar-concept">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/glassesPhoto.png" alt="icon" style="width:100%" />
+                    <g-image src="/png/glasses.jpg" alt="icon" style="width:100%" />
                     <div class="cardtext">
-                      <p class="cardText">A concept that could improve a learning environment.</p>
+                      <p class="cardText">A concept that could improve a learning environment</p>
                     </div>
                   </div>
                 </div>
