@@ -14,7 +14,7 @@
             <p id="titleP">Projects</p>
 
             <div id="cards">
-              <g-link to="/projects/Fidget">
+              <g-link to="/projects/fidget">
                 <div class="card">
                   <div class="container">
                     <g-image src="~/assets/images/pen.jpg" alt="icon" style="width:100%" />
@@ -27,7 +27,7 @@
                 </div>
               </g-link>
 
-              <g-link to="/projects/Ar-concept">
+              <g-link to="/projects/ar-concept">
                 <div class="card">
                   <div class="container">
                     <g-image src="~/assets/images/glasses.jpg" alt="icon" style="width:100%" />
@@ -51,7 +51,7 @@
                 </div>
               </g-link>
 
-              <g-link to="/projects/Vet-lab-app">
+              <g-link to="/projects/vet-lab-app">
                 <div class="card">
                   <div class="container">
                     <g-image src="~/assets/images/vet.jpg" alt="icon" style="width:100%" />
