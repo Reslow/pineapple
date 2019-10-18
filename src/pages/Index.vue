@@ -131,23 +131,31 @@ export default {
   color: rgba(255, 255, 255, 0.89);
   font-size: 36px;
   margin-bottom: 5px;
-  padding-left: 10px;
+  padding-left: 50px;
   font-weight: bold;
 }
 
 #bg2 {
+ 
   background-image: linear-gradient(
       to bottom,
-      rgba(255, 254, 254, 0.692),
-      rgba(22, 22, 22, 0.815),
-      rgba(53, 53, 53, 0.897)
+      rgba(238, 237, 237, 0.80),
+       rgba(99, 98, 98, 0.80),
+         
+      
+           
+     
+      rgba(36, 36, 36, 0.80)
     ),
-    url(../../static/walking.png);
+      url(../../static/cup.png);
+    
   background-repeat: no-repeat;
   background-size: cover;
+   
 
   min-height: 100vh;
 }
+
 
 #bodyWrap {
   flex-direction: row;
@@ -165,8 +173,8 @@ export default {
 
   margin-top: 10px;
   padding-bottom: 20px;
-  max-width: 250px;
-  min-height: 260px;
+  max-width: 220px;
+  min-height: 240px;
   min-width: 200px;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(226, 226, 226));
   overflow: hidden;
@@ -182,10 +190,12 @@ export default {
 }
 
 #hdFirst {
-  color: rgb(255, 255, 255);
+  color: rgb(238, 238, 238);
   margin-bottom: 0px;
   text-align: right;
-  font-size: 80px;
+  font-size: 85px;
+ 
+  
 }
 
 @media (max-width: 800px) {

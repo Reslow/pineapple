@@ -117,7 +117,6 @@ h2 {
   font-size: 18px;
   line-height: 24px;
   max-width: 30%;
-  padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 20px;
   justify-content: right;
@@ -133,7 +132,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
+
   padding-bottom: 10px;
   margin-bottom: 15px;
   flex-direction: column;
