@@ -17,7 +17,7 @@
               <g-link to="/projects/Fidget">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/pen2.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/pen.jpg" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p
                         class="cardText"
@@ -30,7 +30,7 @@
               <g-link to="/projects/Ar-concept">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/glasses.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/glasses.jpg" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p class="cardText">A concept that could improve a learning environment</p>
                     </div>
@@ -41,7 +41,7 @@
               <g-link to="/projects/my-forest-drone-app">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/drone2.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/drone.jpg" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p
                         class="cardText"
@@ -54,7 +54,7 @@
               <g-link to="/projects/Vet-lab-app">
                 <div class="card">
                   <div class="container">
-                    <g-image src="/png/vet2.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/vet.jpg" alt="icon" style="width:100%" />
 
                     <div class="cardtext">
                       <p
@@ -136,26 +136,19 @@ export default {
 }
 
 #bg2 {
- 
   background-image: linear-gradient(
       to bottom,
-      rgba(238, 237, 237, 0.80),
-       rgba(99, 98, 98, 0.80),
-         
-      
-           
-     
-      rgba(36, 36, 36, 0.80)
+      rgba(238, 237, 237, 0.8),
+      rgba(99, 98, 98, 0.8),
+      rgba(36, 36, 36, 0.8)
     ),
-      url(../../static/cup.png);
-    
+    url(../assets/images/cup.png);
+
   background-repeat: no-repeat;
   background-size: cover;
-   
 
   min-height: 100vh;
 }
-
 
 #bodyWrap {
   flex-direction: row;
@@ -194,8 +187,6 @@ export default {
   margin-bottom: 0px;
   text-align: right;
   font-size: 85px;
- 
-  
 }
 
 @media (max-width: 800px) {
