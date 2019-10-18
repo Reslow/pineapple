@@ -4,7 +4,7 @@
       <h1 class="headline">About</h1>
       <div class="profileImg">
         <div class="bildOchText">
-          <g-image src="../../static/png/profil.png" alt="Profile image" class="ImageProfile" />
+          <g-image src="~/assets/images/profil.png" alt="Profile image" class="ImageProfile" />
 
           <div class="text">
             <p class="presentation">

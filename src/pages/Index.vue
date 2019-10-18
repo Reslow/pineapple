@@ -206,19 +206,6 @@ export default {
     margin-bottom: 30px;
   }
 
-  #bg2 {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(255, 254, 254, 0.712),
-        rgba(22, 22, 22, 0.877),
-        rgba(53, 53, 53, 0.897)
-      ),
-      url(../../static/walking.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-  }
-
   #fronttext {
     text-align: left;
     padding-top: 8px;
