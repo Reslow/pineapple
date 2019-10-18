@@ -9,10 +9,10 @@
           <div class="text">
             <p class="presentation">
               Hi,
-              <br />Hi,
+              <br />
               My journey toward interaction design started when I was a child and the love of creativity started to grow. When I started upper secondary school I found my interest for marketing and communication. Semotics (study of signs) and the power of an image got my attention. After a detour in healthcare I found a way of working with both technology and humans, I found interaction design.
               <br />
-              <br />I recently received my bachelor degree in interaction design (2019), When I am not searching for that first job or working part-time, I spend my time redesigning my portfolio and practising HTML, CSS and JS.
+              <br />I recently received my bachelor degree in interaction design (2019), When I am not searching for that first job or working part-time, I spend my time redesigning my portfolio and practicing HTML, CSS and JS.
             </p>
           </div>
         </div>
@@ -30,18 +30,13 @@
         <div class="skillsT">
           <h2>Interaction design</h2>
           <p class="skillsText">
-            As part of the wide UX field, Interaction design
-            focuses on the communication between user and product.
-            With user centered design approach I collect knowledge about patterns that creates
-            interfaces that makes products useful
+           As part of the wide UX field, Interaction design focuses on the communication between user and product. With user centered design approach, I collect knowledge about patterns that creates interfaces that makes products useful
           </p>
         </div>
         <div class="skillsT">
           <h2>Toolbox</h2>
           <p class="skillsText">
-            Sticky notes, sticky notes and sticky notes is my number one tool, I also have my
-            sketching book. For high-fidelity prototypes I use adobe photoshop,
-            illustrator, indesign XD and Axure RP and UXPIn.
+            Sticky notes, sticky notes and sticky notes is my number one tool, I also have my sketching book. For high-fidelity prototypes I use Adobe Photoshop, Illustrator, InDesign, XD and Axure RP and UXPIn.
           </p>
         </div>
       </div>
@@ -76,6 +71,11 @@ export default {
 h2 {
   margin-left: auto;
   margin-right: auto;
+}
+
+h1 {
+  margin-left: 20px;
+  padding-left: 30px;
 }
 
 .skillsText {

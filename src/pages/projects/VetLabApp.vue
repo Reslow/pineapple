@@ -43,7 +43,6 @@
 }
 .text {
   margin: auto;
-  padding-top: 20px;
   padding-right: 10px;
   max-width: 50%;
   font-size: 16px;
@@ -56,9 +55,10 @@ h2 {
 }
 
 h3 {
-  padding: 0px;
-  margin: 0px;
+  padding-left: 15px;
+  margin-top: 0px;
   font-size: 18px;
+  
 }
 p {
   margin: 0px;

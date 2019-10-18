@@ -45,7 +45,7 @@
                     <div class="cardtext">
                       <p
                         class="cardText"
-                      >An interface that motivate workers in the forest industry to use drones</p>
+                      >An interface that motivates workers in the forest industry to use drones</p>
                     </div>
                   </div>
                 </div>

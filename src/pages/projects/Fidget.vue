@@ -23,7 +23,7 @@
           <h3>The Study</h3>
           <p
             class="text"
-          >This product design has been created through different brainstorming techniques, Sketches and defining product material, brand, market, persona and more. To develop a new fidget, I started with brainstorming and sketching on three types of fidget ideas, Then I chosed the fidget idea that was most promising. Then I started sketching on look and feel of the fidget on side of searching for information about similar products. The Penelope fidget became the result as a pen accessory for younger students.</p>
+          >This product design has been created through different brainstorming techniques, Sketches and defining product material, brand, market, persona and more. To develop a new fidget, I started with brainstorming and sketching on three types of fidget ideas, Then I chose the fidget idea that was most promising. Then I started sketching on look and feel of the fidget on side of searching for information about similar products. The Penelope fidget became the result as a pen accessory for younger students.</p>
         </div>
       </div>
     </div>
