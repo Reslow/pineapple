@@ -64,7 +64,7 @@ export default {
 }
 
 #tWrap {
-  background-color: rgba(243, 243, 243, 0.89);
+  
   min-height: calc(100vh - 100px);
 }
 

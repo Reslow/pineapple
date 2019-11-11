@@ -4,20 +4,18 @@
       <Layout>
         <div id="bodyWrap">
           <div id="textwrap">
-            <h1 id="hdFirst">UX & interaction designer</h1>
-
             <p
               id="fronttext"
             >I design interfaces with the aim of creating better interactions and experiences for users.</p>
           </div>
           <div id="cardwrap">
-            <p id="titleP">Projects</p>
 
+            <p id="titleP">UX Projects</p>
             <div id="cards">
               <g-link to="/projects/fidget">
                 <div class="card">
                   <div class="container">
-                    <g-image src="~/assets/images/pen.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/penpattern.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p
                         class="cardText"
@@ -30,7 +28,7 @@
               <g-link to="/projects/ar-concept">
                 <div class="card">
                   <div class="container">
-                    <g-image src="~/assets/images/glasses.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/arpattern.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p class="cardText">A concept that could improve a learning environment</p>
                     </div>
@@ -41,7 +39,7 @@
               <g-link to="/projects/my-forest-drone-app">
                 <div class="card">
                   <div class="container">
-                    <g-image src="~/assets/images/drone.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/dronepattern.png" alt="icon" style="width:100%" />
                     <div class="cardtext">
                       <p
                         class="cardText"
@@ -54,13 +52,55 @@
               <g-link to="/projects/vet-lab-app">
                 <div class="card">
                   <div class="container">
-                    <g-image src="~/assets/images/vet.jpg" alt="icon" style="width:100%" />
+                    <g-image src="~/assets/images/vetpattern.png" alt="icon" style="width:100%" />
 
                     <div class="cardtext">
                       <p
                         class="cardText"
                       >An interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
                     </div>
+                  </div>
+                </div>
+              </g-link>
+            </div>
+          </div>
+
+          <div id="cardwrap">
+            <p id="titleP">UI Design</p>
+
+            <div id="cards">
+              <g-link to="/projects/draw">
+                <div class="card">
+                  <div class="container">
+                    <g-image src="~/assets/images/Drawpattern.png" alt="icon" style="width:100%" />
+                  
+                    
+                  </div>
+                </div>
+              </g-link>
+
+              <g-link to="/projects/city-event">
+                <div class="card">
+                  <div class="container">
+                    <g-image
+                      src="~/assets/images/cityeventpattern.png"
+                      alt="icon"
+                      style="width:100%"
+                    />
+                    
+                  </div>
+                </div>
+              </g-link>
+
+              <g-link to="/projects/for-kitchen">
+                <div class="card">
+                  <div class="container">
+                    <g-image
+                      src="~/assets/images/forkitchenpattern.png"
+                      alt="icon"
+                      style="width:100%"
+                    />
+                    
                   </div>
                 </div>
               </g-link>
@@ -81,17 +121,28 @@ export default {
 </script>
 
 <style>
-#credit {
-  margin-top: 200px;
-  margin-left: 10px;
+.cardwrap{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 #textwrap {
   display: flex;
   flex-direction: column;
   margin: 10px;
   max-width: 600px;
-  padding: 10px;
+}
+
+.container {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  color: rgb(223, 223, 223);
 }
 
 #cards {
@@ -101,48 +152,37 @@ export default {
   justify-content: center;
 }
 .cardText {
-  color: #131313d3;
-  font-size: 14px;
-  text-align: left;
-  font-family: helvetica;
-  font-weight: bold;
-  line-height: 18px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+
+  bottom: 20px;
+  left: 10px;
+  right: 10px;
 }
 
 #fronttext {
-  text-align: justify;
-  padding-top: 40px;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 20px;
   margin-right: 20px;
   margin-top: 0px;
   font-size: 24px;
-  font-weight: bold;
-  color: white;
-  padding-bottom: 5px;
+  color: rgb(82, 80, 80);
+   
 
-  border-bottom: 5px solid rgba(255, 255, 255, 0.89);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.89);
 }
 
 #titleP {
   color: rgba(255, 255, 255, 0.89);
   font-size: 36px;
   margin-bottom: 5px;
-  padding-left: 50px;
+  text-align: center;
+  
   font-weight: bold;
 }
 
 #bg2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(238, 237, 237, 0.8),
-      rgba(99, 98, 98, 0.8),
-      rgba(36, 36, 36, 0.8)
-    ),
-    url(../assets/images/cup.png);
+  background-image: url(../assets/images/cup.png);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +195,8 @@ export default {
   display: flex;
   justify-content: center;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1600px;
+  align-items: center;
 }
 
 .card {
@@ -167,9 +208,9 @@ export default {
   margin-top: 10px;
   padding-bottom: 20px;
   max-width: 220px;
-  min-height: 240px;
+  min-height: 140px;
   min-width: 200px;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(226, 226, 226));
+
   overflow: hidden;
 }
 
@@ -182,13 +223,6 @@ export default {
   margin-right: 3rem;
 }
 
-#hdFirst {
-  color: rgb(238, 238, 238);
-  margin-bottom: 0px;
-  text-align: right;
-  font-size: 85px;
-}
-
 @media (max-width: 800px) {
   #credit {
     margin-top: 20px;
@@ -197,12 +231,13 @@ export default {
   }
   #cards {
     align-items: center;
+    
     padding-bottom: 10px;
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+   
     margin-bottom: 30px;
   }
 
@@ -212,14 +247,6 @@ export default {
     margin-top: 0px;
     font-size: 16px;
     color: white;
-  }
-
-  #hdFirst {
-    color: rgb(255, 255, 255);
-    margin-bottom: 0px;
-    text-align: left;
-    font-size: 40pt;
-    margin-top: 15px;
   }
 
   #bodyWrap {

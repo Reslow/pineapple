@@ -33,7 +33,7 @@ body {
   margin: 0;
   padding: 0;
   margin: auto;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(243, 243, 243));
+  background-color: #ffffff;
   min-height: 100vh;
 }
 
