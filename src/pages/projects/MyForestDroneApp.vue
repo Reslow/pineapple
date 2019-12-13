@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <div class="content">
+      <h1 class="headline">UX Project</h1>
       <div class="container1">
         <div id="title">
           <h2>My Forest drone application</h2>
@@ -48,14 +49,20 @@
 }
 
 
-
+.headline {
+  margin-left: 80px;
+  padding-left: 60px;
+  font-size: 36px;
+ color: rgba(252, 120, 120, 0.726);
+  margin-left: 15px;
+}
 
 .text {
   margin: auto;
   padding-right: 10px;
   padding-bottom: 20px;
   max-width: 50%;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   line-height: 28px;
 }
@@ -73,6 +80,7 @@ h3 {
 }
 .subtext{
 text-align: center;
+font-size: 24px;
 }
 p {
   
@@ -123,8 +131,8 @@ p {
   .container2 {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
-    min-width: 100%;
+   
+    min-width: 100vw;
   }
   .container1 {
     padding-left: 0px;

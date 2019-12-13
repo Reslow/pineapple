@@ -1,13 +1,14 @@
 <template>
   <Layout>
     <div class="content">
+      <h1 class="headline">UX Project</h1>
       <div class="container1">
         <div id="title">
           <h2>AR learning & teaching tool</h2>
           <p class="subtext">A concept that could improve a learning environment.</p>
         </div>
       <div class="container2">
-        <g-image src="~/assets/images/armodel.png" alt="icon" style="max-height: calc(100vh - 100px);" />
+        <g-image src="~/assets/images/armodel.png" alt="icon" />
       </div>
 
         <div class="spalt">
@@ -46,7 +47,7 @@
   padding-right: 10px;
   padding-bottom: 20px;
   max-width: 50%;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   line-height: 28px;
 }
@@ -54,6 +55,14 @@ h2 {
   margin: 0px;
   padding: 5px;
   text-align:center;
+}
+
+.headline {
+  margin-left: 80px;
+  padding-left: 60px;
+  font-size: 36px;
+ color: rgba(252, 120, 120, 0.726);
+  margin-left: 15px;
 }
 
 h3 {
@@ -64,6 +73,7 @@ h3 {
 }
 .subtext{
 text-align: center;
+font-size: 24px;
 }
 p {
   
@@ -96,6 +106,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .content {
@@ -116,8 +128,7 @@ p {
   .container2 {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 50px 1px 3px rgba(168, 168, 168, 0.911);
-    min-width: 100%;
+    max-width: 100vw;
   }
   .container1 {
     padding-left: 0px;

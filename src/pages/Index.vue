@@ -6,7 +6,10 @@
           <div id="textwrap">
             <p
               id="fronttext"
-            >I design interfaces with the aim of creating better interactions and experiences for users.</p>
+            > Hi, I am Fanny. <br><br> I am educated in Interaction design.<br> 
+            I like to solve problems by understanding users.<br><br>
+            I design interfaces with the aim of creating better interactions and experiences for users.<br><br>
+              </p>
           </div>
           <div id="cardwrap">
 
@@ -160,20 +163,21 @@ export default {
 }
 
 #fronttext {
+  width:100%;
   text-align: left;
-  font-weight: bold;
   padding-bottom: 20px;
   margin-right: 20px;
   margin-top: 0px;
   font-size: 24px;
-  color: rgb(82, 80, 80);
+  line-height: 34px;
+  color: rgba(19, 19, 19, 0.795);
    
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.89);
+  
 }
 
 #titleP {
-  color: rgba(255, 255, 255, 0.89);
+  color: rgba(252, 120, 120, 0.726);
   font-size: 36px;
   margin-bottom: 5px;
   text-align: center;
@@ -182,8 +186,7 @@ export default {
 }
 
 #bg2 {
-  background-image: url(../assets/images/cup.png);
-
+ 
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -204,9 +207,7 @@ export default {
   border-radius: 5px;
   transition: all 0.3s ease;
   margin-left: 10px;
-
-  margin-top: 10px;
-  padding-bottom: 20px;
+  margin-top:10px;
   max-width: 220px;
   min-height: 140px;
   min-width: 200px;
@@ -224,11 +225,14 @@ export default {
 }
 
 @media (max-width: 800px) {
-  #credit {
-    margin-top: 20px;
-    display: inline-block;
-    margin: auto;
-  }
+
+  #bg2 {
+ background-image: linear-gradient(rgb(214, 212, 212), rgb(224, 224, 224));
+
+
+  
+}
+ 
   #cards {
     align-items: center;
     

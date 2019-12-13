@@ -4,17 +4,12 @@
       <h1 class="headline">About</h1>
       <div class="profileImg">
         <div class="bildOchText">
-          <g-image src="~/assets/images/profil.png" alt="Profile image" class="ImageProfile" />
 
           <div class="text">
-            <p class="presentation">
-              Hi,
-              <br />
-              My journey toward interaction design started when I was a child and the love of creativity started to grow. When I started upper secondary school I found my interest for marketing and communication. Semotics (study of signs) and the power of an image got my attention. After a detour in healthcare I found a way of working with both technology and humans, I found interaction design.
-              <br />
-              <br />I recently received my bachelor degree in interaction design (2019), When I am not searching for that first job or working part-time, I spend my time redesigning my portfolio and practicing HTML, CSS and JS.
-            </p>
+         
+              
           </div>
+          <g-image src="~/assets/images/profil.png" alt="Profile image" class="ImageProfile" />
         </div>
         <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">Linkedin</a>
       </div>
@@ -55,12 +50,13 @@ export default {
 <style scoped>
 .bildOchText {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 #tWrap {
@@ -73,10 +69,7 @@ h2 {
   margin-right: auto;
 }
 
-h1 {
-  margin-left: 20px;
-  padding-left: 30px;
-}
+
 
 .skillsText {
   margin-left: 15px;
@@ -87,12 +80,13 @@ h1 {
 }
 
 .skills {
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom:50px;
 }
 
 .skillsT {
@@ -105,7 +99,7 @@ h1 {
   margin-bottom: 40px;
 
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   border: rgba(13, 13, 13, 0) 1px solid;
   border-radius: 5px;
@@ -113,19 +107,20 @@ h1 {
 }
 
 .text {
+  
   color: rgba(13, 13, 13, 0.829);
-  font-size: 18px;
-  line-height: 24px;
-  max-width: 30%;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  font-size: 24px;
+  line-height: 44px;
+  max-width: 50%;
+  padding-bottom: 20px;
+  padding-left: 30px;
   justify-content: right;
 }
 
 .ImageProfile {
   min-width: 120px;
   min-height: 120px;
-  max-width: 35%;
+  max-width: 30%;
 }
 
 .profileImg {
@@ -134,7 +129,7 @@ h1 {
   align-items: center;
 
   padding-bottom: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
   flex-direction: column;
 }
 
@@ -143,24 +138,26 @@ p {
 }
 
 .headline {
-  margin: 0px;
+  margin-left: 80px;
+  padding-left: 60px;
   font-size: 36px;
-  color: rgba(22, 22, 22, 0.829);
+ color: rgba(252, 120, 120, 0.726);
   margin-left: 15px;
 }
 
 #linkedin {
   margin-left: auto;
   margin-right: auto;
-  border: solid rgba(12, 12, 12, 0.829) 3px;
+  border: solid rgba(48, 83, 158, 0.829) 3px;
   padding: 7px;
   padding-left: 8px;
   padding-right: 8px;
 
   cursor: pointer;
   border-radius: 5px;
-  color: rgba(24, 23, 23, 0.829);
+  color: rgba(48, 83, 158, 0.829);
   font-weight: bold;
+  font-size: 18px;
 }
 
 #linkedin:hover {

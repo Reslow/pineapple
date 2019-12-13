@@ -76,8 +76,8 @@ a {
 }
 
 a.button {
-  background-image: linear-gradient(#131313d3, #131313);
-  border: solid #131313d3 2px;
+  
+ 
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
@@ -90,14 +90,14 @@ a.button {
   display: flex;
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: rgb(46, 42, 42);
 
   border-radius: 5px;
   transition: 0.3s;
 }
 
 a.button:hover {
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.473);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.199);
 }
 
 @media (max-width: 800px) {
