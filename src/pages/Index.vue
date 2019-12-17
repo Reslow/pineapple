@@ -6,7 +6,7 @@
           <div id="textwrap">
             <p
               id="fronttext"
-            > Hi, I am Fanny. <br><br> I am educated in Interaction design.<br> 
+            > Hi, I am Fanny. <br><br> I am educated in Interaction design.
             I like to solve problems by understanding users.<br><br>
             I design interfaces with the aim of creating better interactions and experiences for users.<br><br>
               </p>
@@ -226,12 +226,7 @@ export default {
 
 @media (max-width: 800px) {
 
-  #bg2 {
- background-image: linear-gradient(rgb(214, 212, 212), rgb(224, 224, 224));
-
-
-  
-}
+ 
  
   #cards {
     align-items: center;
@@ -247,19 +242,22 @@ export default {
 
   #fronttext {
     text-align: left;
+    margin-left:8px;
     padding-top: 8px;
-    margin-top: 0px;
-    font-size: 16px;
-    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
   }
 
   #bodyWrap {
     flex-direction: column;
     display: flex;
+    padding-bottom: 30px;
   }
 
   #textwrap {
     justify-content: center;
   }
+ 
 }
 </style>

@@ -9,10 +9,11 @@
          
               
           </div>
-          <g-image src="~/assets/images/profil.png" alt="Profile image" class="ImageProfile" />
+          <g-image src="~/assets/images/profiliett.png" alt="Profile image" class="ImageProfile" />
         </div>
         <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">Linkedin</a>
       </div>
+    
 
       <div class="skills">
         <div class="skillsT">
@@ -25,17 +26,23 @@
         <div class="skillsT">
           <h2>Interaction design</h2>
           <p class="skillsText">
-           As part of the wide UX field, Interaction design focuses on the communication between user and product. With user centered design approach, I collect knowledge about patterns that creates interfaces that makes products useful
+           As part of the wide UX field, Interaction design focuses on the interaction between user and product. I use user research methods as foundation for interfaces that makes products useful
           </p>
         </div>
         <div class="skillsT">
           <h2>Toolbox</h2>
           <p class="skillsText">
-            Sticky notes, sticky notes and sticky notes is my number one tool, I also have my sketching book. For high-fidelity prototypes I use Adobe Photoshop, Illustrator, InDesign, XD and Axure RP and UXPIn.
+            <ul>
+            <li> Adobe Photoshop, Illustrator, InDesign, XD </li>
+            <li> Axure RP</li>
+            <li> UXPIn.</li>
+            <li>CSS and HTML</li> 
+            </ul>
           </p>
+    
         </div>
       </div>
-    </div>
+      </div>
   </Layout>
 </template>
 
@@ -48,6 +55,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 .bildOchText {
   display: flex;
   flex-direction: column;
@@ -56,7 +65,7 @@ export default {
   margin-left: auto;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 #tWrap {
@@ -96,7 +105,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
  
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
   text-align: left;
   font-size: 18px;
@@ -112,7 +121,7 @@ h2 {
   font-size: 24px;
   line-height: 44px;
   max-width: 50%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 30px;
   justify-content: right;
 }
@@ -120,16 +129,15 @@ h2 {
 .ImageProfile {
   min-width: 120px;
   min-height: 120px;
-  max-width: 30%;
+  max-width: 45%;
+  
 }
 
 .profileImg {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding-bottom: 10px;
-  margin-bottom: 45px;
+  
   flex-direction: column;
 }
 
@@ -143,19 +151,21 @@ p {
   font-size: 36px;
  color: rgba(252, 120, 120, 0.726);
   margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top:0px;
 }
 
 #linkedin {
   margin-left: auto;
   margin-right: auto;
-  border: solid rgba(48, 83, 158, 0.829) 3px;
+  border: solid rgba(48, 61, 88, 0.979) 3px;
   padding: 7px;
   padding-left: 8px;
   padding-right: 8px;
 
   cursor: pointer;
   border-radius: 5px;
-  color: rgba(48, 83, 158, 0.829);
+  color:  rgba(48, 61, 88, 0.979);
   font-weight: bold;
   font-size: 18px;
 }

@@ -3,8 +3,11 @@
     <Header />
     <div class="wrap">
       <slot />
+      
+      
     </div>
-  </div>
+        </div>
+  
 </template>
 
 <static-query>
@@ -36,6 +39,7 @@ body {
   background-color: #ffffff;
   min-height: 100vh;
 }
+
 
 #name {
   padding-top: 0px;
@@ -100,15 +104,5 @@ a.button:hover {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.199);
 }
 
-@media (max-width: 800px) {
-  a.button {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    border-radius: 5px;
-    margin-left: 5px;
-    font-size: 18px;
-  }
-}
+
 </style>
