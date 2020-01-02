@@ -6,14 +6,10 @@
       <span class="nametext">reslowf@gmail.com</span>
     </div>
 
-    <div class="base">
-      <nav class="nav">
-        <g-link class="button" to="/">Home</g-link>
-      </nav>
-      <nav class="nav">
-        <g-link class="button" to="/about">About</g-link>
-      </nav>
-    </div>
+    
+        
+      
+  
   </header>
 </template>
 
@@ -25,7 +21,7 @@
 }
 
 .nametext {
-  color: #131313d3;
+  color:   #1c283398;
   font-size: 14px;
   font-weight: bolder;
   padding-bottom: 5px;

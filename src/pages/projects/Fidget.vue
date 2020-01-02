@@ -1,7 +1,10 @@
 <template>
   <Layout>
     <div class="content">
+    <div id="breadcrums">
+      <h1><g-link class="Back" to="/">back to homepage</g-link></h1>
       <h1 class="headline">UX Project</h1>
+      </div>
       <div class="container1">
         <div id="title">
           <h2>Penelope</h2>
@@ -36,28 +39,60 @@
 .headline {
   margin: 0px;
   font-size: 36px;
- color: rgba(252, 120, 120, 0.726);
+ color: #1c2833;
   margin-left: 15px;
 }
 
+#breadcrums{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  align-items: center;
+}
 #title {
 
-  color: rgba(13, 13, 13, 0.89);
+  color: #1c2833;
   margin-bottom: 20px;
 }
+.spalt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.back{
+  color: #1c2833;
+}
+
+a{ 
+  font-size: 36px;
+  color: #1c2833;
+  text-decoration: none;
+  
+  
+}
+
+a:hover{ 
+  font-size: 36px;
+  color:   #e24405;
+  
+}
+
+
+a:active{ 
+  font-size: 36px;
+  color: #1c2833;
+
+}
+
 .headline {
   margin-left: 80px;
   padding-left: 60px;
   font-size: 36px;
- color: rgba(252, 120, 120, 0.726);
+ color: #1c283398;
   margin-left: 15px;
 }
 
-.spalt {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
-}
 .text {
   margin: auto;
   padding-right: 10px;
@@ -94,16 +129,13 @@ p {
 
 .container1 {
   
-  color: rgba(13, 13, 13, 0.856);
+  color: #1c2833;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
   font-size: 18px;
-  
-  max-height: calc(100vh - 100px);
-
   display: flex;
   flex-direction: column;
   align-content: center;

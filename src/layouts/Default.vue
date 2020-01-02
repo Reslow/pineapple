@@ -1,13 +1,11 @@
 <template>
   <div class="layout">
-    <Header />
     <div class="wrap">
+      <Header />
       <slot />
-      
-      
     </div>
-        </div>
-  
+    <Footer />
+  </div>
 </template>
 
 <static-query>
@@ -20,16 +18,19 @@ query {
 
 <script>
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default {
   components: {
-    Header
+    Header,
+    Footer
   }
 };
 </script>
 
 <style>
 body {
+  min-height: 100vh;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
@@ -37,9 +38,22 @@ body {
   padding: 0;
   margin: auto;
   background-color: #ffffff;
-  min-height: 100vh;
 }
 
+body,
+html {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrap {
+  flex: 1 0 auto;
+}
 
 #name {
   padding-top: 0px;
@@ -69,40 +83,7 @@ body {
   min-height: 100px;
 }
 
-.nav__link {
-  margin-left: 10px;
-  margin-right: 10px;
+.footer {
+  flex-shrink: 0;
 }
-
-a {
-  color: #131313d3;
-  text-decoration: none;
-}
-
-a.button {
-  
- 
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  border-radius: 5px;
-  margin-left: 10px;
-
-  cursor: pointer;
-  display: inline-block;
-  display: flex;
-  font-size: 18px;
-  font-weight: bold;
-  color: rgb(46, 42, 42);
-
-  border-radius: 5px;
-  transition: 0.3s;
-}
-
-a.button:hover {
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.199);
-}
-
-
 </style>

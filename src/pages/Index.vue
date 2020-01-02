@@ -1,118 +1,99 @@
 <template>
-  <div id="bg">
-    <div id="bg2">
-      <Layout>
-        <div id="bodyWrap">
-          <div id="textwrap">
-            <p
-              id="fronttext"
-            > Hi, I am Fanny. <br><br> I am educated in Interaction design.
-            I like to solve problems by understanding users.<br><br>
-            I design interfaces with the aim of creating better interactions and experiences for users.<br><br>
-              </p>
-          </div>
-          <div id="cardwrap">
-
-            <p id="titleP">UX Projects</p>
-            <div id="cards">
-              <g-link to="/projects/fidget">
-                <div class="card">
-                  <div class="container">
-                    <g-image src="~/assets/images/penpattern.png" alt="icon" style="width:100%" />
-                    <div class="cardtext">
-                      <p
-                        class="cardText"
-                      >A fidget that could be used during a meeting or a presentation</p>
-                    </div>
-                  </div>
+  <Layout>
+    <div id="bodyWrap">
+      <div id="textwrap">
+        <p id="fronttext">
+          Hi, I am Fanny.
+          <br />
+          <br />I am educated in Interaction design.
+          I like to solve problems by understanding users.
+          <br />
+          <br />I design interfaces with the aim of creating better interactions and experiences for users.
+          <br />Read more
+          <g-link class="linkA" to="/About">about</g-link> me
+        </p>
+      </div>
+      <div id="cardwrap">
+        <p id="titleP">UX Projects</p>
+        <div id="cards">
+          <g-link to="/projects/fidget">
+            <div class="card">
+              <div class="container">
+                <g-image src="~/assets/images/pen.png" alt="icon" style="width:100%" />
+                <div class="cardtext">
+                  <p>A fidget concept</p>
                 </div>
-              </g-link>
-
-              <g-link to="/projects/ar-concept">
-                <div class="card">
-                  <div class="container">
-                    <g-image src="~/assets/images/arpattern.png" alt="icon" style="width:100%" />
-                    <div class="cardtext">
-                      <p class="cardText">A concept that could improve a learning environment</p>
-                    </div>
-                  </div>
-                </div>
-              </g-link>
-
-              <g-link to="/projects/my-forest-drone-app">
-                <div class="card">
-                  <div class="container">
-                    <g-image src="~/assets/images/dronepattern.png" alt="icon" style="width:100%" />
-                    <div class="cardtext">
-                      <p
-                        class="cardText"
-                      >An interface that motivates workers in the forest industry to use drones</p>
-                    </div>
-                  </div>
-                </div>
-              </g-link>
-
-              <g-link to="/projects/vet-lab-app">
-                <div class="card">
-                  <div class="container">
-                    <g-image src="~/assets/images/vetpattern.png" alt="icon" style="width:100%" />
-
-                    <div class="cardtext">
-                      <p
-                        class="cardText"
-                      >An interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
-                    </div>
-                  </div>
-                </div>
-              </g-link>
+              </div>
             </div>
-          </div>
+          </g-link>
 
-          <div id="cardwrap">
-            <p id="titleP">UI Design</p>
-
-            <div id="cards">
-              <g-link to="/projects/draw">
-                <div class="card">
-                  <div class="container">
-                    <g-image src="~/assets/images/Drawpattern.png" alt="icon" style="width:100%" />
-                  
-                    
-                  </div>
+          <g-link to="/projects/ar-concept">
+            <div class="card">
+              <div class="container">
+                <g-image src="~/assets/images/Ar.png" alt="icon" style="width:100%" />
+                <div class="cardtext">
+                  <p>AR learning tool</p>
                 </div>
-              </g-link>
-
-              <g-link to="/projects/city-event">
-                <div class="card">
-                  <div class="container">
-                    <g-image
-                      src="~/assets/images/cityeventpattern.png"
-                      alt="icon"
-                      style="width:100%"
-                    />
-                    
-                  </div>
-                </div>
-              </g-link>
-
-              <g-link to="/projects/for-kitchen">
-                <div class="card">
-                  <div class="container">
-                    <g-image
-                      src="~/assets/images/forkitchenpattern.png"
-                      alt="icon"
-                      style="width:100%"
-                    />
-                    
-                  </div>
-                </div>
-              </g-link>
+              </div>
             </div>
-          </div>
+          </g-link>
+
+          <g-link to="/projects/my-forest-drone-app">
+            <div class="card">
+              <div class="container">
+                <g-image src="~/assets/images/forest.png" alt="icon" style="width:100%" />
+                <div class="cardtext">
+                  <p>Forest drone app</p>
+                </div>
+              </div>
+            </div>
+          </g-link>
+
+          <g-link to="/projects/vet-lab-app">
+            <div class="card">
+              <div class="container">
+                <g-image src="~/assets/images/dog.png" alt="icon" style="width:100%" />
+
+                <div class="cardtext">
+                  <p>Vet diagnostic app</p>
+                </div>
+              </div>
+            </div>
+          </g-link>
         </div>
-      </Layout>
+      </div>
+
+      <div id="cardwrap">
+        <p id="titleP">UI Design</p>
+
+        <div id="cards">
+          <g-link to="/projects/draw">
+            <div class="card">
+              <div class="container">
+                <g-image src="~/assets/images/Drawpattern.png" alt="icon" style="width:100%" />
+              </div>
+            </div>
+          </g-link>
+
+          <g-link to="/projects/city-event">
+            <div class="card">
+              <div class="container">
+                <g-image src="~/assets/images/cityeventpattern.png" alt="icon" style="width:100%" />
+              </div>
+            </div>
+          </g-link>
+
+          <g-link to="/projects/for-kitchen">
+            <div class="card">
+              <div class="container">
+                <g-image src="~/assets/images/forkitchenpattern.png" alt="icon" style="width:100%" />
+              </div>
+            </div>
+          </g-link>
+        </div>
+      </div>
     </div>
-  </div>
+  </Layout>
 </template>
 
 <script>
@@ -124,8 +105,17 @@ export default {
 </script>
 
 <style>
-.cardwrap{
-  display:flex;
+.linkA {
+  color: #e24405;
+  text-decoration-line: none;
+}
+
+.linkA:hover {
+  color: #1c2833;
+}
+
+.cardwrap {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -137,15 +127,11 @@ export default {
 }
 
 .container {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 24px;
+  text-align: left;
   position: relative;
-  text-align: center;
-  display: flex;
-  align-items: center;
 
-  color: rgb(223, 223, 223);
+  color: #1c2833;
+  margin-top: auto;
 }
 
 #cards {
@@ -154,43 +140,35 @@ export default {
   flex-direction: row;
   justify-content: center;
 }
-.cardText {
+.cardtext {
   position: absolute;
-
-  bottom: 20px;
+  bottom: 5px;
   left: 10px;
-  right: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #fronttext {
-  width:100%;
+  width: 100%;
   text-align: left;
   padding-bottom: 20px;
   margin-right: 20px;
   margin-top: 0px;
   font-size: 24px;
   line-height: 34px;
-  color: rgba(19, 19, 19, 0.795);
-   
-
-  
+  color: #1c2833;
 }
 
 #titleP {
-  color: rgba(252, 120, 120, 0.726);
+  color: #1c283398;
   font-size: 36px;
   margin-bottom: 5px;
   text-align: center;
-  
+
   font-weight: bold;
-}
-
-#bg2 {
- 
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  min-height: 100vh;
 }
 
 #bodyWrap {
@@ -206,13 +184,11 @@ export default {
   box-shadow: 0 3px 5px 0 rgba(136, 136, 136, 0.473);
   border-radius: 5px;
   transition: all 0.3s ease;
-  margin-left: 10px;
-  margin-top:10px;
+  margin-left: 20px;
+  margin-top: 20px;
   max-width: 220px;
-  min-height: 140px;
-  min-width: 200px;
-
-  overflow: hidden;
+  min-height: 160px;
+  min-width: 230px;
 }
 
 .card:hover {
@@ -225,28 +201,25 @@ export default {
 }
 
 @media (max-width: 800px) {
-
- 
- 
   #cards {
     align-items: center;
-    
+
     padding-bottom: 10px;
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-   
+
     margin-bottom: 30px;
   }
 
   #fronttext {
     text-align: left;
-    margin-left:8px;
+    margin-left: 8px;
     padding-top: 8px;
     margin-top: 10px;
     font-size: 24px;
-    color: rgb(0, 0, 0);
+    color: #1c2833;
   }
 
   #bodyWrap {
@@ -258,6 +231,5 @@ export default {
   #textwrap {
     justify-content: center;
   }
- 
 }
 </style>
