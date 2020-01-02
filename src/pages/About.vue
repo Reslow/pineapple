@@ -9,12 +9,12 @@
         <div class="bildOchText">
 
           <div class="text">
-         <p class="colored"> My name is Fanny and I have a bachelor degree in interaction design from Linneaus University. I currently live in Gothenbourg and are looking for new projects. If you are searching for a driven designer with passion for user research and interface design, lets talk! ;) 
+         <p class="colored"> My name is Fanny and I have a bachelor degree in interaction design from Linneaus University. I currently live in Gothenburg and are looking for new projects. If you are searching for a driven designer with passion for user research and interface design, lets talk! ;) 
             </p>
 
               
           </div>
-          <g-image src="~/assets/images/profile_small.png" alt="Profile image" class="ImageProfile" />
+          <g-image src="~/assets/images/profile_small.png" alt="Profile image" class="imageProfile" />
         </div>
         <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">Linkedin</a>
       </div>
@@ -92,7 +92,7 @@ a{
 
 a:hover{ 
   font-size: 36px;
-  color:   #e24405;
+  color:   #4768ff;
   
 }
 
@@ -181,7 +181,7 @@ h2 {
   justify-content: right;
 }
 
-.ImageProfile {
+.imageProfile {
   min-width: 120px;
   min-height: 120px;
   max-width: 30%;
@@ -226,6 +226,16 @@ p {
 }
 
 @media (max-width: 860px) {
+
+  .skills{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .skillsT {
+    max-width: 100%;
+  }
+
   .bildOchText {
     display: flex;
     flex-direction: column;
@@ -235,6 +245,19 @@ p {
     justify-content: center;
   }
 
+  .imageProfile{
+    min-width:100%;
+  }
+
+
+a{ 
+  font-size: 24px;
+}
+
+.headline{
+  font-size:24px;
+  margin-right: 20px;
+}
   
 
   .text {

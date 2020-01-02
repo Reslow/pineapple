@@ -45,11 +45,12 @@ export default {
 }
 
 footer a {
+  text-decoration-line: none;
   color: #1c2833d8;
 }
 
 footer a:hover {
-   color: #e24405;
+  color: #4768ff;
 }
 
 .name {
@@ -63,7 +64,6 @@ footer a:hover {
 }
 
 .nav {
-  color: rgb(252, 252, 252);
   margin-left: 40px;
   display: flex;
   flex-direction: row;
@@ -73,5 +73,35 @@ footer a:hover {
 .link {
   margin-left: 100px;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  #footerContent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+
+  .name {
+    margin-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  .link {
+    margin-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
 }
 </style>

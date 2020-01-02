@@ -106,7 +106,7 @@ export default {
 
 <style>
 .linkA {
-  color: #e24405;
+  color: #4768ff;
   text-decoration-line: none;
 }
 

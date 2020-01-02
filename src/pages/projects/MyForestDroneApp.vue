@@ -17,7 +17,7 @@
           <g-image
             src="~/assets/images/forestapp.png"
             alt="icon"
-            style="min-width: 30%;"
+            class="imagep"
           />
         </div>
         <div class="spalt">
@@ -72,7 +72,7 @@ a{
 
 a:hover{ 
   font-size: 36px;
-  color:   #e24405;
+  color:   #4768ff;
   
 }
 
@@ -136,7 +136,7 @@ p {
   display: flex;
   flex-direction: column;
   align-content: center;
-  max-width: 100%;
+ 
 }
 .container2 {
   
@@ -159,25 +159,43 @@ p {
 }
 
 @media (max-width: 860px) {
+  a{
+  font-size: 24px;
+} 
+
+.headline{
+  font-size:24px;
+  margin-right: 10px;
+}
+
   .container2 {
     display: flex;
     flex-direction: column;
-   
-    min-width: 100vw;
+    max-width: 100%;
+  }
+
+  .imagep{
+    max-width: 100%;
+    margin-left:13px;
+    
   }
   .container1 {
     padding-left: 0px;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-bottom: 30px;
     font-size: 18px;
-    min-width: 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: justify;
+
   }
 
   #title {
     padding-left: 10px;
+    align-items: center;
   }
 
   h3 {

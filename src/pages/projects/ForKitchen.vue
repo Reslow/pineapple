@@ -51,7 +51,7 @@ a{
 
 a:hover{ 
   font-size: 36px;
-  color:   #e24405;
+  color:   #4768ff;
   
 }
 
@@ -80,6 +80,17 @@ a:active{
   display:flex;
   flex-direction: column;
   align-content: center;
+}
+
+@media (max-width: 800px) {
+a{
+  font-size: 24px;
+} 
+
+.headline{
+  font-size:24px;
+  margin-right: 10px;
+}
 }
 
 </style>
