@@ -49,7 +49,7 @@ a{
 
 a:hover{ 
   font-size: 18px;
-  color:   #fe7849;
+  color:   #008080;
   
 }
 

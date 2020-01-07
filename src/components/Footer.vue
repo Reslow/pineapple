@@ -52,7 +52,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #fe7849;
+  color: #008080
 }
 
 

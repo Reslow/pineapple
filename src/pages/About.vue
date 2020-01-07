@@ -65,7 +65,7 @@ export default {
   display: flex;
   flex-direction: row;
   margin-left: 20px;
-  align-items: center;
+  align-items: baseline;
 }
 #title {
 
@@ -91,7 +91,7 @@ a{
 }
 
 a:hover{ 
-  color:   #fe7849;
+  color:    #008080
   
 }
 
@@ -206,8 +206,7 @@ p {
 
 
 #linkedin {
-  margin-left: auto;
-  margin-right: auto;
+  
   margin-top:25px;
   margin-bottom: 25px;
   letter-spacing: 1px;
@@ -217,9 +216,10 @@ p {
   padding-right: 8px;
   cursor: pointer;
   border-radius: 5px;
-  color: #fe7849;;
+  color: #008080;
   background-color:white;
-  border: 2px solid  #fe7849;
+  border: 2px solid #008080;
+  align-items: center;
   
   font-weight: bold;
   font-size: 16px;
@@ -259,6 +259,8 @@ p {
 
 a{ 
   font-size: 18px;
+  min-width:7%
+  
 }
 
 .headline{

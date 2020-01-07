@@ -203,7 +203,7 @@ a {
 }
 
 a:hover {
-  color: #fe7849;
+  color: #008080;
 }
 
 a:active {
