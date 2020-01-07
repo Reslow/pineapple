@@ -3,93 +3,111 @@
     <div id="bodyWrap">
       <div id="textwrap">
         <p id="fronttext">
-          Hi, I am Fanny.
+          Hi, I am Fanny
           <br />
-          <br />I am educated in Interaction design.
-          I like to solve problems by understanding users.
-          <br />
-          <br />I design interfaces with the aim of creating better interactions and experiences for users.
-          <br />Read more
-          <g-link class="linkA" to="/About">about</g-link> me
+          <br />I design interfaces with the aim of creating better experiences for users.
+          <br /> <br>Check out my top three UX projects and UI designs. And/ or read more
+          <g-link class="linkA" to="/About">about</g-link>&nbsp;me
+
         </p>
       </div>
-      <div id="cardwrap">
-        <p id="titleP">UX Projects</p>
-        <div id="cards">
-          <g-link to="/projects/fidget">
-            <div class="card">
-              <div class="container">
-                <g-image src="~/assets/images/pen.png" alt="icon" style="width:100%" />
-                <div class="cardtext">
-                  <p>A fidget concept</p>
+      <div id="projects">
+        <div id="cardwrap">
+          <p id="titleP">UX Projects</p>
+          <div id="cards">
+            <g-link to="/projects/mobile-tool">
+              <div class="card">
+                <div class="container">
+                  <g-image
+                    src="~/assets/images/mojocard.png"
+                    alt="icon"
+                    style="width:100%"
+                    class="imgCard"
+                  />
+                  <div class="cardtext">
+                    <p>Journalist tools</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </g-link>
+            </g-link>
 
-          <g-link to="/projects/ar-concept">
-            <div class="card">
-              <div class="container">
-                <g-image src="~/assets/images/Ar.png" alt="icon" style="width:100%" />
-                <div class="cardtext">
-                  <p>AR learning tool</p>
+            <g-link to="/projects/my-forest-drone-app">
+              <div class="card">
+                <div class="container">
+                  <g-image
+                    src="~/assets/images/forest.png"
+                    alt="icon"
+                    style="width:100%"
+                    class="imgCard"
+                  />
+                  <div class="cardtext">
+                    <p>Forest drone app</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </g-link>
+            </g-link>
 
-          <g-link to="/projects/my-forest-drone-app">
-            <div class="card">
-              <div class="container">
-                <g-image src="~/assets/images/forest.png" alt="icon" style="width:100%" />
-                <div class="cardtext">
-                  <p>Forest drone app</p>
+            <g-link to="/projects/vet-app">
+              <div class="card">
+                <div class="container">
+                  <g-image
+                    src="~/assets/images/dog.png"
+                    alt="icon"
+                    style="width:100%"
+                    class="imgCard"
+                  />
+
+                  <div class="cardtext">
+                    <p>Vet diagnostic app</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </g-link>
-
-          <g-link to="/projects/vet-lab-app">
-            <div class="card">
-              <div class="container">
-                <g-image src="~/assets/images/dog.png" alt="icon" style="width:100%" />
-
-                <div class="cardtext">
-                  <p>Vet diagnostic app</p>
-                </div>
-              </div>
-            </div>
-          </g-link>
+            </g-link>
+          </div>
         </div>
-      </div>
 
-      <div id="cardwrap">
-        <p id="titleP">UI Design</p>
-
-        <div id="cards">
-          <g-link to="/projects/draw">
-            <div class="card">
-              <div class="container">
-                <g-image src="~/assets/images/Drawpattern.png" alt="icon" style="width:100%" />
+        <div id="cardwrap">
+          <p id="titleP">UI Design</p>
+          <div id="cards">
+            <g-link to="/projects/for-kitchen">
+              <div class="card">
+                <div class="container">
+                  <g-image
+                    src="~/assets/images/forkitchenpattern.png"
+                    alt="icon"
+                    style="width:100%"
+                    class="imgCard"
+                  />
+                </div>
               </div>
-            </div>
-          </g-link>
+            </g-link>
 
-          <g-link to="/projects/city-event">
-            <div class="card">
-              <div class="container">
-                <g-image src="~/assets/images/cityeventpattern.png" alt="icon" style="width:100%" />
+            <g-link to="/projects/draw">
+              <div class="card">
+                <div class="container">
+                  <g-image
+                    src="~/assets/images/Drawpattern.png"
+                    alt="icon"
+                    style="width:100%"
+                    class="imgCard"
+                  />
+                </div>
               </div>
-            </div>
-          </g-link>
+            </g-link>
 
-          <g-link to="/projects/for-kitchen">
-            <div class="card">
-              <div class="container">
-                <g-image src="~/assets/images/forkitchenpattern.png" alt="icon" style="width:100%" />
+            <g-link to="/projects/city-event">
+              <div class="card">
+                <div class="container">
+                  <g-image
+                    src="~/assets/images/cityeventpattern.png"
+                    alt="icon"
+                    style="width:100%"
+                    class="imgCard"
+                  />
+                </div>
               </div>
-            </div>
-          </g-link>
+            </g-link>
+          </div>
         </div>
       </div>
     </div>
@@ -106,7 +124,7 @@ export default {
 
 <style>
 .linkA {
-  color: #4768ff;
+  color: #fe7849;
   text-decoration-line: none;
 }
 
@@ -114,22 +132,19 @@ export default {
   color: #1c2833;
 }
 
-.cardwrap {
+#cardwrap {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 #textwrap {
   display: flex;
   flex-direction: column;
-  margin: 10px;
   max-width: 600px;
 }
 
 .container {
   text-align: left;
   position: relative;
-
   color: #1c2833;
   margin-top: auto;
 }
@@ -140,31 +155,44 @@ export default {
   flex-direction: row;
   justify-content: center;
 }
+
+#projects {
+  display: flex;
+  flex-direction: row;
+}
 .cardtext {
   position: absolute;
-  bottom: 5px;
-  left: 10px;
-  font-size: 18px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
   line-height: 24px;
-  color: white;
+  color: rgba(255, 255, 255, 0.966);
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-bottom: 5px;
+  min-width: 100%;
 }
 
 #fronttext {
-  width: 100%;
-  text-align: left;
+  width: 60%;
+  text-align: justify;
   padding-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 50px;
+  padding-right: 100px;
   margin-top: 0px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 34px;
   color: #1c2833;
 }
 
 #titleP {
-  color: #1c283398;
-  font-size: 36px;
+  color: #351655a1;
+  font-size: 24px;
   margin-bottom: 5px;
   text-align: center;
 
@@ -176,13 +204,13 @@ export default {
   display: flex;
   justify-content: center;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1700px;
   align-items: center;
 }
 
 .card {
   box-shadow: 0 3px 5px 0 rgba(136, 136, 136, 0.473);
-  border-radius: 5px;
+
   transition: all 0.3s ease;
   margin-left: 20px;
   margin-top: 20px;
@@ -201,35 +229,85 @@ export default {
 }
 
 @media (max-width: 800px) {
-  #cards {
-    align-items: center;
-
-    padding-bottom: 10px;
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-    margin-bottom: 30px;
+  a {
+    width: 100%;
   }
 
+  #cardwrap {
+    width: 100%;
+  }
+  #projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .imgCard {
+    width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+  }
+
+  #cards {
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+
+    display: flex;
+    margin: 0px;
+  }
+  p {
+    min-width: 0px;
+  }
+
+  .wrap {
+    max-width: 100%;
+  }
   #fronttext {
     text-align: left;
-    margin-left: 8px;
-    padding-top: 8px;
-    margin-top: 10px;
-    font-size: 24px;
+    
+    padding-left: 60px;
+    padding-right: 20px;
+    margin-right: 0px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
     color: #1c2833;
   }
 
   #bodyWrap {
     flex-direction: column;
     display: flex;
-    padding-bottom: 30px;
+
+    max-width: 100%;
   }
 
   #textwrap {
     justify-content: center;
+    max-width: 100%;
+  }
+
+  #titleP {
+    margin-bottom: 40px;
+  }
+
+  .cardtext{
+     position: absolute;
+  bottom: 36px;
+  left: 20px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.966);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
   }
 }
 </style>

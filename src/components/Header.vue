@@ -21,7 +21,7 @@
 }
 
 .nametext {
-  color:   #1c283398;
+   color: #351655a1;
   font-size: 14px;
   font-weight: bolder;
   padding-bottom: 5px;

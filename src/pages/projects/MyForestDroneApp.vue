@@ -1,224 +1,419 @@
 <template>
   <Layout>
-    <div class="content">
-      <div id="breadcrums">
-      <h1><g-link class="Back" to="/">back to homepage</g-link></h1>
+    <div id="breadcrums">
+      <h1>
+        <g-link class="Back" to="/">back to homepage</g-link>
+      </h1>
       <h1 class="headline">UX Project</h1>
-      </div>
-      <div class="container1">
-        <div id="title">
-          <h2>My Forest drone application</h2>
-          <p
-            class="subtext"
-          >A project with four other students during the spring 2018 with The swedish forest agency</p>
+    </div>
+
+    <div class="content">
+      <h1 id="projectTitle">My Forest drone application</h1>
+
+      <div class="project">
+        <div class="leftSide">
+          <div class="projectDescription">
+            <g-image src="~/assets/images/projectIcon.png" alt="icon" class="iconProblem" />
+            <div id="title">
+              <p
+                class="subtext"
+              >A project with four other students during the spring 2018 with The swedish forest agency</p>
+            </div>
+            <p
+              class="text"
+            >The project was given by The Swedish forest agency. In this project I worked with four other students. We developed a design of an interface for a mobile application that helps forest workers to plan and overview the forest. The Swedish forest agency wanted to motivate more workers to use drones in their workday. It is important to develop an interface that forest workers understand.</p>
+          </div>
+
+          <g-image src="~/assets/images/why.png" alt="icon" class="iconWhy" />
+          <Timeline :timelineData="timelineData" />
         </div>
 
-        <div class="container2">
-          <g-image
-            src="~/assets/images/forestapp.png"
-            alt="icon"
-            class="imagep"
-          />
-        </div>
-        <div class="spalt">
-        
-          <p
-            class="text"
-          >My forest drone app is a concept of a mobile application that helps forest workers to plan and overview the forest. The app has two main functions, first one is controlling the drone, second is tagging objects for work purposes. The app has only the most critical information needed for flying, such as battery strength, height of drone and direction of the drone. The application has different map layers because the map layers view different information.</p>
-       
-          <p
-            class="text"
-          >The project was given by The Swedish forest agency. In this project I worked with four other students. We developed a design of an interface for a mobile application that helps forest workers to plan and overview the forest. The Swedish forest agency wanted to motivate more workers to use drones in their workday. It is important to develop an interface that forest workers understand.</p>
-          
-          <p
-            class="text"
-          >We conducted a study where we met a user and an expert on flying drones in the forest industry. We did an interview with observations and think aloud technique. In the study we learned about the importance of feeling control and there is a need for simplifying the interface and options of micro functionality. After the study we wrote down and discussed our thoughts in an affinity diagram. Then we started creating our first concept. The concept was presented towards experts for validation. We did a user test where we presented a paper prototype to a potential user and asked questions of his understanding of the interface. The test got us a lot of knowledge about perception of interface elements. We redesigned and then started on building an interactive prototype in Axure RP.</p>
+        <div class="rightSide">
+          <div class="solution">
+            <g-image src="~/assets/images/solution.png" alt="icon" class="iconSolution" />
+
+            <g-image src="~/assets/images/forestappCard.png" alt="icon" class="imagep" />
+            <div class="textWrap">
+              <p class="subtext">My forest drone application UI</p>
+              <p class="text">
+                My forest drone app is a concept of a mobile application that helps forest workers to plan and overview the forest. With the application the user can control the drone, second is tagging objects for work purposes. The app has only the most critical information needed for flying, such as battery strength, height of drone and direction of the drone. The application has different map layers because the map layers view different information.
+                <br />This image has been redesigned after the course
+              </p>
+            </div>
+          </div>
+
+          <div class="aha">
+            <g-image src="~/assets/images/aha.png" alt="icon" class="iconAha" />
+
+            <div class="ahaText">
+              <p>
+                When flying a drone it is important to feel in control. A lot of workers in the forest today are not use to new technology
+                and needs an application that is easy to use and understand.
+              </p>
+
+              <p>
+                The owner of the project had a plan of gathering image material
+                to train a AI of identifying objects when flying. However there is a fear of feeling watched from users.
+                It is an possibility that users could feel less afraid if they had more control over what is happening. One way of giving more control are to be
+                more transparent with what images have been taken.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </Layout>
 </template>
 
-<style scoped>
+<script>
+import Timeline from "../../components/Timeline";
+export default {
+  components: {
+    Timeline
+  },
+  data() {
+    return {
+      timelineData: [
+        {
+          headline:
+            "Meeting with stakeholder representing Swedish forest Agency "
+        },
+        {
+          headline:
+            "Conducting contextual study with expert of flying drones in forest industry "
+        },
+        {
+          headline: "Affinity diagram"
+        },
+        {
+          headline: "Interface analysis of competitor "
+        },
+        {
+          headline: "Presenting concept for feedback "
+        },
+        {
+          headline: "Paper prototype and formative user test"
+        },
+        {
+          headline: "Redesign and Interactive prototype",
+          subtitle: ""
+        }
+      ]
+    };
+  }
+};
+</script>
 
-#breadcrums{
-  display: flex;
-  flex-direction: row;
-  margin-left: 20px;
+
+<style scoped>
+.aha {
+  margin-left: 200px;
+  margin-right: 100px;
+  max-width: 50%;
+}
+
+.ahaText p {
+  margin-top: 50px;
+}
+
+.ahaText {
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #351655;
   align-items: center;
 }
-#title {
 
-  color: #1c2833;
-  margin-bottom: 20px;
+.iconAha {
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 300px;
+  margin-bottom: 10px;
 }
-.spalt {
+
+#projectTitle {
+  margin-left: 40px;
+  padding-left: 10px;
+}
+
+.iconProblem {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.iconSolution {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.iconWhy {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  margin-right: 15px;
+}
+
+.leftSide {
   display: flex;
   flex-direction: column;
+  max-width: 45%;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  max-width: 55%;
+}
+
+#breadcrums {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+#title {
+  color: #1c2833;
   margin-bottom: 20px;
 }
-
-.back{
-  color: #1c2833;
+.textWrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
-a{ 
-  font-size: 36px;
+.back {
+  color: #1c2833;
+  font-size: 18px;
+}
+
+a {
+  font-size: 18px;
   color: #1c2833;
   text-decoration: none;
-  
-  
 }
 
-a:hover{ 
-  font-size: 36px;
-  color:   #4768ff;
-  
+a:hover {
+  color: #fe7849;
 }
 
-
-a:active{ 
-  font-size: 36px;
+a:active {
+  font-size: 18px;
   color: #1c2833;
-
 }
 
 .headline {
-  margin-left: 80px;
-  padding-left: 60px;
-  font-size: 36px;
- color: #1c283398;
-  margin-left: 15px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #351655a1;
 }
 
 .text {
   margin: auto;
   padding-right: 10px;
-  padding-bottom: 20px;
-  max-width: 50%;
+  margin-top: 30px;
+
+  max-width: 100%;
   font-size: 18px;
   font-style: normal;
   line-height: 28px;
 }
+
 h2 {
-  margin: 0px;
-  padding: 5px;
-  text-align:center;
+  padding-top: 5px;
+  margin-top: 0px;
+  text-align: left;
 }
 
 h3 {
   padding-left: 15px;
   margin-top: 0px;
   font-size: 18px;
-  
 }
-.subtext{
-text-align: center;
-font-size: 24px;
+.subtext {
+  text-align: left;
+  font-size: 24px;
 }
 p {
-  
   margin: 0px;
-  padding-top: 15px;
   font-size: 18px;
-   align-content: center;
-   justify-content: left;
+  text-align: justify;
 }
 
-.container1 {
-  
+.projectDescription {
   color: #1c2833;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
+  max-width: 70%;
+  margin-top: 30px;
+  margin-left: 40px;
   padding-right: 20px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  align-content: center;
- 
 }
-.container2 {
-  
+
+.process {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+.solution {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-right: 50px;
+}
+
+#projectTitle {
+  font-weight: normal;
+  margin-left: 50px;
+  padding-left: 30px;
 }
 
 .content {
-   
   display: flex;
   flex-direction: column;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
 }
 .textCon {
   display: flex;
   margin: auto;
+  max-width: 100%;
+}
+
+.imagep {
   max-width: 50%;
+  margin-top: 20px;
 }
-
 @media (max-width: 860px) {
-  a{
-  font-size: 24px;
-} 
 
-.headline{
-  font-size:24px;
-  margin-right: 10px;
-}
-
-  .container2 {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-  }
-
-  .imagep{
-    max-width: 100%;
-    margin-left:13px;
-    
-  }
-  .container1 {
-    padding-left: 0px;
-    margin-left: 10px;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-bottom: 30px;
-    font-size: 18px;
-    max-width: 100%;
-    align-items: center;
-    text-align: justify;
-
-  }
-
-  #title {
-    padding-left: 10px;
-    align-items: center;
-  }
-
-  h3 {
-    padding-left: 10px;
+  .text{
+    margin-top:20px;
+    margin-left:0px;
+    margin-right: 0px;
   }
 
   .content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   }
 
-  .textCon {
-    display: flex;
-    margin: auto;
-    max-width: 50%;
-  }
-
-  .text {
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 100%;
-    font-size: 16px;
-    line-height: 28px;
-  }
+  .ahaText{
+ 
+ text-align: center;
+ 
+  
 }
+
+.iconAha{
+  margin-top: 50px;
+}
+
+.iconSolution{
+  margin-top: 50px;
+}
+
+  .aha{
+  
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 0px;
+ 
+  max-width: 90%
+}
+
+#projectTitle {
+  margin-left: 40px;
+  margin-bottom: 0px;
+  
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-left:auto;
+  margin-right: auto;
+  
+  
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+
+.textWrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+
+
+.headline {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #351655a1;
+}
+
+
+
+
+.projectDescription {
+ 
+  max-width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-right: 0px;
+ 
+}
+
+
+
+.solution {
+  display: flex;
+  flex-direction: column;
+ 
+  margin:20px;
+}
+
+
+
+.textCon {
+  display: flex;
+  
+  max-width: 100%;
+}
+
+.imagep {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+ }
+
+
 </style>

@@ -16,7 +16,7 @@
           </div>
           <g-image src="~/assets/images/profile_small.png" alt="Profile image" class="imageProfile" />
         </div>
-        <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">Linkedin</a>
+        <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">To my linkedin</a>
       </div>
     
 
@@ -83,7 +83,7 @@ export default {
 }
 
 a{ 
-  font-size: 36px;
+  font-size: 18px;
   color: #1c2833;
   text-decoration: none;
   
@@ -91,24 +91,24 @@ a{
 }
 
 a:hover{ 
-  font-size: 36px;
-  color:   #4768ff;
+  color:   #fe7849;
   
 }
 
 
 a:active{ 
-  font-size: 36px;
+  font-size: 18px;
   color: #1c2833;
 
 }
 
 .headline {
-  margin-left: 80px;
+  margin-left: 30px;
+  margin-bottom: 0px;
   padding-left: 60px;
-  font-size: 36px;
- color: #1c283398;
-  margin-left: 15px;
+  font-size: 18px;
+ color: #351655a1;
+  
 }
 
 
@@ -131,6 +131,8 @@ a:active{
 h2 {
   margin-left: auto;
   margin-right: auto;
+  font-size: 24px;
+  font-weight: lighter;
 }
 
 
@@ -173,7 +175,7 @@ h2 {
 .text {
   
   color: #1c2833;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 44px;
   max-width: 50%;
   padding-bottom: 10px;
@@ -208,21 +210,26 @@ p {
   margin-right: auto;
   margin-top:25px;
   margin-bottom: 25px;
-  border: solid #1c2833 3px;
+  letter-spacing: 1px;
+  
   padding: 7px;
   padding-left: 8px;
   padding-right: 8px;
-
   cursor: pointer;
   border-radius: 5px;
-  color: #1c2833;
+  color: #fe7849;;
+  background-color:white;
+  border: 2px solid  #fe7849;
+  
   font-weight: bold;
   font-size: 16px;
   font-kerning: initial;
 }
 
 #linkedin:hover {
-  box-shadow: 0 5px 8px 0 rgba(119, 119, 119, 0.473);
+  box-shadow: 0 5px 8px 0 rgba(158, 153, 153, 0.473);
+ color: #1c2833;
+  border: 2px solid  #1c2833;
 }
 
 @media (max-width: 860px) {
@@ -251,17 +258,18 @@ p {
 
 
 a{ 
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .headline{
-  font-size:24px;
+  font-size:18px;
   margin-right: 20px;
+  margin-top:0px;
 }
   
 
   .text {
-    max-width: 100%;
+    max-width: 80%;
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 20px;

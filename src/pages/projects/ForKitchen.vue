@@ -42,7 +42,7 @@ export default {
 }
 
 a{ 
-  font-size: 36px;
+  font-size: 18px;
   color: #1c2833;
   text-decoration: none;
   
@@ -50,24 +50,25 @@ a{
 }
 
 a:hover{ 
-  font-size: 36px;
-  color:   #4768ff;
+  font-size: 18px;
+  color:   #fe7849;
   
 }
 
 
 a:active{ 
-  font-size: 36px;
+  font-size: 18px;
   color: #1c2833;
 
 }
 
 .headline {
-  margin-left: 80px;
-  padding-left: 60px;
-  font-size: 36px;
- color: #1c283398;
-  margin-left: 15px;
+  
+ 
+  font-size: 18px;
+ color:  #351655a1;
+  margin-left: 30px;
+  margin-bottom: 0px;
 }
 
 .uiImage{
@@ -83,12 +84,10 @@ a:active{
 }
 
 @media (max-width: 800px) {
-a{
-  font-size: 24px;
-} 
+
 
 .headline{
-  font-size:24px;
+  font-size:18px;
   margin-right: 10px;
 }
 }

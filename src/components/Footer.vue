@@ -8,6 +8,7 @@
       <div class="nav">
         <g-link class="link" to="/">Home</g-link>
         <g-link class="link" to="/about">About</g-link>
+         
       </div>
     </div>
   </footer>
@@ -47,16 +48,19 @@ export default {
 footer a {
   text-decoration-line: none;
   color: #1c2833d8;
+
 }
 
 footer a:hover {
-  color: #4768ff;
+  color: #fe7849;
 }
 
+
 .name {
-  color: #1c283398;
+  color:   #351655a1;
   margin-left: 100px;
   margin-right: 0px;
+  margin-bottom: 8px;
   font-size: 14px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -84,8 +88,10 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 60px;
     justify-content: center;
+    display:flex;
+    flex-direction: column-reverse;
   }
 
   .name {
