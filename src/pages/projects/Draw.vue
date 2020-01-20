@@ -2,7 +2,7 @@
   <Layout>
      <div class="myUi">
        <div id="breadcrums">
-      <h1><g-link class="Back" to="/">back to homepage</g-link></h1>
+      <h1><g-link class="Back" to="/">Back to homepage</g-link></h1>
       <h1 class="headline">UI Design</h1>
       </div>
           <g-image src="~/assets/images/draw.png" alt="Draw image" class="uiImage" />
@@ -19,6 +19,11 @@ export default {
 </script>
 
 <style scoped>
+#firstLine{
+  text-align: left;
+  color: #351655d0;
+  font-size: 24px;
+}
 
 #breadcrums{
   display: flex;
@@ -51,7 +56,7 @@ a{
 
 a:hover{ 
   font-size: 18px;
-  color:  #008080;
+  border-bottom: black solid 1px;
   
 }
 
@@ -66,7 +71,7 @@ a:active{
   
   
   font-size: 18px;
- color:  #351655a1;
+ color:    #351655d0;
   margin-left: 30px;
   margin-bottom: 0px;
 }

@@ -2,7 +2,7 @@
   <Layout>
    <div class="myUi">
      <div id="breadcrums">
-      <h1><g-link class="Back" to="/">back to homepage</g-link></h1>
+      <h1><g-link class="Back" to="/">Back to homepage</g-link></h1>
       <h1 class="headline">UI design</h1>
       </div>
      <g-image src="~/assets/images/cityevent.png" alt="city event image" class="uiImage"/>
@@ -49,7 +49,7 @@ a{
 
 a:hover{ 
   font-size: 18px;
-  color:   #008080;
+  border-bottom: black solid 1px;
   
 }
 
@@ -64,7 +64,7 @@ a:active{
   
   
   font-size: 18px;
- color:  #351655a1;
+ color:   #351655d0;
   margin-left: 30px;
   margin-bottom: 0px;
 }

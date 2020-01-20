@@ -1,19 +1,15 @@
 <template>
   <Layout>
+     <Header/>
     <div id="bodyWrap">
-      <div id="textwrap">
-        <p id="fronttext">
-          Hi, I am Fanny
-          <br />
-          <br />I design interfaces with the aim of creating better experiences for users.
-          <br /> <br>Check out my top three UX projects and UI designs. And/ or read more
-          <g-link class="linkA" to="/About">about</g-link>&nbsp;me
-
-        </p>
-      </div>
+      
       <div id="projects">
         <div id="cardwrap">
           <p id="titleP">UX Projects</p>
+          <p id="titleT">These are my selected top three projects. 
+          I identify these as UX project beacuse they are centered around user research. 
+          </p>
+
           <div id="cards">
             <g-link to="/projects/mobile-tool">
               <div class="card">
@@ -47,6 +43,8 @@
               </div>
             </g-link>
 
+            
+
             <g-link to="/projects/vet-app">
               <div class="card">
                 <div class="container">
@@ -68,6 +66,11 @@
 
         <div id="cardwrap">
           <p id="titleP">UI Design</p>
+          <p id="titleT">User interface are built on elements. To create successfull 
+            interface design I have focused on colors, contrast, information architecture and 
+            user flow.
+          </p>
+
           <div id="cards">
             <g-link to="/projects/for-kitchen">
               <div class="card">
@@ -115,26 +118,49 @@
 </template>
 
 <script>
+  import Header from "../components/Header";
+
 export default {
-  metaInfo: {
-    title: " Fanny Reslow Portfolio"
-  }
+  components: {
+    Header
+  },
+        metaInfo: {
+          title: " Fanny Reslow Portfolio"
+        }
 };
 </script>
 
+
 <style>
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+
+#titleT{
+  color:  #351655d0;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 70%;
+  font-size: 18px;
+}
 .linkA {
-  color: #008080;
+  color:   #351655d0;
   text-decoration-line: none;
 }
 
 .linkA:hover {
-  color: #1c2833;
+  color: #6087ac;
 }
 
 #cardwrap {
   display: flex;
   flex-direction: column;
+  max-width: 600px;
 }
 #textwrap {
   display: flex;
@@ -150,6 +176,7 @@ export default {
 }
 
 #cards {
+  padding-top: 30px;
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
@@ -175,37 +202,28 @@ export default {
 
 p {
   margin-bottom: 5px;
-  min-width: 100%;
+  
 }
 
-#fronttext {
-  width: 60%;
-  text-align: justify;
-  padding-bottom: 20px;
-  margin-right: 50px;
-  padding-right: 100px;
-  margin-top: 0px;
-  font-size: 18px;
-  line-height: 34px;
-  color: #1c2833;
-}
+
 
 #titleP {
-  color: #351655a1;
+    color:   #351655d0;
   font-size: 24px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  padding-top:30px;
   text-align: center;
-
   font-weight: bold;
 }
 
 #bodyWrap {
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   margin: auto;
   max-width: 1700px;
   align-items: center;
+  padding-bottom: 80px;
 }
 
 .card {

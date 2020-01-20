@@ -2,7 +2,7 @@
   <Layout>
     <div id="breadcrums">
       <h1>
-        <g-link class="Back" to="/">back to homepage</g-link>
+        <g-link class="Back" to="/">Back to homepage</g-link>
       </h1>
       <h1 class="headline">UX Project</h1>
     </div>
@@ -145,7 +145,7 @@ export default {
 .iconWhy {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 50px;
+  margin-top: 200px;
   margin-bottom: 10px;
 }
 
@@ -196,7 +196,8 @@ a {
 }
 
 a:hover {
-  color:  #008080;
+  
+    border-bottom: black solid 1px;
 }
 
 a:active {
@@ -208,7 +209,7 @@ a:active {
   margin-left: 30px;
   margin-bottom: 0px;
   font-size: 18px;
-  color: #351655a1;
+  color:   #351655d0;
 }
 
 .text {
@@ -266,6 +267,7 @@ p {
   flex-direction: row;
   align-items: flex-end;
   margin-right: 50px;
+   padding-top:100px;
 }
 
 #projectTitle {

@@ -52,12 +52,12 @@ footer a {
 }
 
 footer a:hover {
-  color: #008080
+  border-bottom:black solid 1px;
 }
 
 
 .name {
-  color:   #351655a1;
+  color:   #351655d0;
   margin-left: 100px;
   margin-right: 0px;
   margin-bottom: 8px;
