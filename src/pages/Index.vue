@@ -162,11 +162,7 @@ export default {
   flex-direction: column;
   max-width: 600px;
 }
-#textwrap {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-}
+
 
 .container {
   text-align: left;
@@ -186,6 +182,7 @@ export default {
 #projects {
   display: flex;
   flex-direction: row;
+  padding-top:550px;
 }
 .cardtext {
   position: absolute;

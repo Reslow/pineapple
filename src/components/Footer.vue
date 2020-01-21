@@ -58,7 +58,7 @@ footer a:hover {
 
 .name {
   color:   #351655d0;
-  margin-left: 100px;
+  margin-left: 15px;
   margin-right: 0px;
   margin-bottom: 8px;
   font-size: 14px;

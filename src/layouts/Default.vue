@@ -75,12 +75,7 @@ html {
   margin-bottom: 0px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100px;
-}
+
 
 .footer {
   flex-shrink: 0;

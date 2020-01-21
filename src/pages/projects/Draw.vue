@@ -19,11 +19,7 @@ export default {
 </script>
 
 <style scoped>
-#firstLine{
-  text-align: left;
-  color: #351655d0;
-  font-size: 24px;
-}
+
 
 #breadcrums{
   display: flex;
