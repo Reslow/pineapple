@@ -19,7 +19,10 @@
         </div>
         <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">LinkedIn</a>
       </div>
-    
+
+      <g-image src="~/assets/images/uxmodel.svg" alt="ux model image" class="imageUxModel" />
+
+        
 
       <div class="skills">
         <div class="skillsT">
@@ -61,6 +64,17 @@ export default {
 </script>
 
 <style scoped>
+.imageUxModel{
+  min-width: 40%;
+  margin-right: auto;
+  margin-left:auto;
+  display: flex;
+  align-items: center;
+  margin-top:100px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  
+}
 
 #firstLine{
   text-align: left;
@@ -72,7 +86,7 @@ export default {
   display: flex;
   flex-direction: row;
   margin-left: 20px;
-  align-items: baseline;
+  align-items: center;
 }
 #title {
 

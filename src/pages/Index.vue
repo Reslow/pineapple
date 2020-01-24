@@ -5,10 +5,12 @@
       
       <div id="projects">
         <div id="cardwrap">
+          <div class="cardHeadline">
           <p id="titleP">UX Projects</p>
           <p id="titleT">These are my selected top three projects. 
-          I identify these as UX project beacuse they are centered around user research. 
+          these projects are focused on user research. 
           </p>
+          </div>
 
           <div id="cards">
             <g-link to="/projects/mobile-tool">
@@ -65,11 +67,12 @@
         </div>
 
         <div id="cardwrap">
+            <div class="cardHeadline">
           <p id="titleP">UI Design</p>
-          <p id="titleT">User interface are built on elements. To create successfull 
-            interface design I have focused on colors, contrast, information architecture and 
-            user flow.
+          <p id="titleT"> I have focused on, contrast, information architecture and 
+            user flow in these UI designs.
           </p>
+            </div>
 
           <div id="cards">
             <g-link to="/projects/for-kitchen">
@@ -133,6 +136,15 @@ export default {
 
 <style>
 
+.cardHeadline{
+  padding-bottom: 10px;
+  padding-left:60px;
+
+   margin-left: auto;
+  margin-right: auto;
+  
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -142,8 +154,7 @@ export default {
 
 #titleT{
   color:  #351655d0;
-  margin-left: auto;
-  margin-right: auto;
+ 
   align-items: center;
   max-width: 70%;
   font-size: 18px;
@@ -161,6 +172,7 @@ export default {
   display: flex;
   flex-direction: column;
   max-width: 600px;
+  align-items: center;
 }
 
 
@@ -206,10 +218,10 @@ p {
 
 #titleP {
     color:   #351655d0;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 20px;
   padding-top:30px;
-  text-align: center;
+
   font-weight: bold;
 }
 

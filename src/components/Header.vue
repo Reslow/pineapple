@@ -1,12 +1,12 @@
 <template>
   <header class="header">
     <div id="textwrap">
-      <p id="headerHeadline">Welcome to my site, I am Fanny</p>
+      <p id="headerHeadline">Welcome to my website, I am Fanny</p>
       <p id="fronttext">
         <br />
         <br />I design interfaces with the aim of creating better experiences for users.
         <br />
-        <br />Check out my site and read more
+        <br />Check out my site and find out more
         <g-link class="linkA" to="/About">about</g-link>&nbsp;me.
       </p>
     </div>
@@ -25,23 +25,23 @@
 
 <style scoped>
 .header {
-  background: #59adeb;
+  background: #2d074d ;
   /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,
-    #640092 0%,
-    #3d0a66 55%,
-    #2d074d 100%
+      #351655 10%,
+    #532481 50%,
+      #351655 100%
   );
   /* FF3.6-15 */
   background: -webkit-linear-gradient(
     -45deg,
-     #640092 0%,
-    #3d0a66 55%,
-     #2d074d 100%
+      #351655  10%,
+      #532481 50%,
+        #351655  100%
   );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  #640092 0%,#3d0a66 55%,  #2d074d 100%);
+  background: linear-gradient(135deg,     #351655 10%,   #532481   50%,  #351655  100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   /* IE6-9 fallback on horizontal gradient */
