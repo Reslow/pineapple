@@ -47,7 +47,7 @@ export default {
 
 footer a {
   text-decoration-line: none;
-  color: #1c2833d8;
+  color: #050505d8;
 
 }
 
@@ -57,7 +57,7 @@ footer a:hover {
 
 
 .name {
-  color:   #351655d0;
+  color:   #000000d0;
   margin-left: 15px;
   margin-right: 0px;
   margin-bottom: 8px;

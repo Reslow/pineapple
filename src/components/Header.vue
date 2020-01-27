@@ -25,23 +25,23 @@
 
 <style scoped>
 .header {
-  background: #2d074d ;
+  background: #fc9a2a ;
   /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,
-      #351655 10%,
-    #532481 50%,
-      #351655 100%
+      #fc9a2a 10%,
+    #f08e1e 50%,
+      #fc9a2a 100%
   );
   /* FF3.6-15 */
   background: -webkit-linear-gradient(
     -45deg,
-      #351655  10%,
-      #532481 50%,
-        #351655  100%
+    #fc9a2a 10%,
+      #f08e1e 50%,
+     #fc9a2a 100%
   );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,     #351655 10%,   #532481   50%,  #351655  100%);
+  background: linear-gradient(135deg,     #fc9a2a 10%,   #f08e1e  50%,   #fc9a2a 100%  100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   /* IE6-9 fallback on horizontal gradient */
@@ -109,7 +109,8 @@ a {
 }
 
 a:hover {
-  border-bottom: rgb(255, 255, 255) solid 1px;
+  border-bottom: rgb(0, 0, 0) solid 1px;
+  color:black;
 }
 
 p {
@@ -120,6 +121,7 @@ p {
   display: flex;
   flex-direction: row;
   font-weight: bold;
+  
 }
 
 .link {
@@ -138,13 +140,16 @@ p {
 }
 
 .linkA {
-  color: #eb1e62;
+  color: #000000d0;
   font-weight: normal;
   text-decoration-line: none;
 }
 
 .linkA:hover {
-  color: #eaf5ff;
+  color: #000000;
+  
+  
+ 
 }
 
 #textwrap {
