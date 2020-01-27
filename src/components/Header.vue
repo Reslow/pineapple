@@ -25,23 +25,23 @@
 
 <style scoped>
 .header {
-  background: #fc9a2a ;
+  background: #7999f0  ;
   /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,
-      #fc9a2a 10%,
-    #f08e1e 50%,
-      #fc9a2a 100%
+    #7999f0 10%,
+    #668efd    50%,
+    #7999f0  100%
   );
   /* FF3.6-15 */
   background: -webkit-linear-gradient(
     -45deg,
-    #fc9a2a 10%,
-      #f08e1e 50%,
-     #fc9a2a 100%
+    #7999f0  10%,
+      #668efd    50%,
+     #7999f0  100%
   );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,     #fc9a2a 10%,   #f08e1e  50%,   #fc9a2a 100%  100%);
+  background: linear-gradient(135deg,    #7999f0  10%,   #668efd   50%,   #7999f0  100%  100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   /* IE6-9 fallback on horizontal gradient */
