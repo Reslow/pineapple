@@ -25,29 +25,13 @@
 
 <style scoped>
 .header {
-  background: #7999f0  ;
-  /* Old browsers */
-  background: -moz-linear-gradient(
-    -45deg,
-    #7999f0 10%,
-    #668efd    50%,
-    #7999f0  100%
-  );
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    -45deg,
-    #7999f0  10%,
-      #668efd    50%,
-     #7999f0  100%
-  );
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,    #7999f0  10%,   #668efd   50%,   #7999f0  100%  100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #ffffff  ;
 
-  /* IE6-9 fallback on horizontal gradient */
+  background: linear-gradient(135deg,    #b2c3f1 10%,   #b2f1e9    50%,   #cef1b2   100%  100%);
+  
   background-size: 350% 350%;
   animation: waveColors 8s ease infinite;
-  /* End Wave Color */
+ 
   position: absolute;
   top: 0;
   left: 0;
@@ -93,7 +77,7 @@
 }
 
 .name {
-  color: #ffffffb2;
+  color: #2c2c2cb2;
   margin-right: 0px;
   margin-bottom: 8px;
   margin-left: 15px;
@@ -105,12 +89,12 @@
 
 a {
   text-decoration-line: none;
-  color: #ffffffd8;
+  color: #000000d8;
 }
 
 a:hover {
   border-bottom: rgb(0, 0, 0) solid 1px;
-  color:black;
+  color:rgb(0, 0, 0);
 }
 
 p {
@@ -135,22 +119,17 @@ p {
   font-weight: bolder;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(234, 250, 245);
+  color: rgb(0, 0, 0);
   font-style: initial;
 }
 
 .linkA {
-  color: #000000d0;
+  color: #ff4949d0;
   font-weight: normal;
   text-decoration-line: none;
 }
 
-.linkA:hover {
-  color: #000000;
-  
-  
- 
-}
+
 
 #textwrap {
   padding-top: 130px;
@@ -169,21 +148,44 @@ p {
   padding-bottom: 20px;
   margin-top: 0px;
   font-size: 24px;
-  font-weight: lighter;
-  font-style: italic;
+  font-weight: normal;
   line-height: 24px;
-  color: #ffffff;
+  color: #000000;
 }
 
 @media (max-width: 860px) {
+
+  #textwrap{
+    padding-top:30px;
+  }
   .nametext {
     font-size: 14px;
   }
   .header {
     padding-top: 10px;
   }
+
+  #headerHeadline {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#fronttext{
+   margin-left: 25px;
+  margin-right: 25px;
+  justify-content: left;
+  padding:0px;
+  font-size:18px
+
+}
   .nav {
-    margin-left: 5px;
+    margin-left: 15px;
+  }
+
+  a.link{
+    margin-left:15px;
   }
 }
 </style>

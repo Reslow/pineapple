@@ -153,7 +153,7 @@ export default {
 }
 
 #titleT{
-  color:  #351655d0;
+  color:  #000000d0;
  
   align-items: center;
   max-width: 70%;
@@ -217,7 +217,7 @@ p {
 
 
 #titleP {
-    color:   #351655d0;
+    color:   #000000d0;
   font-size: 28px;
   margin-bottom: 20px;
   padding-top:30px;

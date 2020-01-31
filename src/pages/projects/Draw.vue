@@ -67,7 +67,7 @@ a:active{
   
   
   font-size: 18px;
- color:    #351655d0;
+ color:#292929d0;
   margin-left: 30px;
   margin-bottom: 0px;
 }

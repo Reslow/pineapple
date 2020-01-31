@@ -175,7 +175,7 @@ export default {
   margin-left: 20px;
 }
 #title {
-  color: #1c2833;
+  color: #000000;
   margin-bottom: 20px;
 }
 .textWrap {
@@ -185,7 +185,7 @@ export default {
 }
 
 .back {
-  color: #1c2833;
+  color: #000000;
   font-size: 18px;
 }
 
@@ -209,7 +209,7 @@ a:active {
   margin-left: 30px;
   margin-bottom: 0px;
   font-size: 18px;
-  color:   #351655d0;
+  color:#292929d0;
 }
 
 .text {

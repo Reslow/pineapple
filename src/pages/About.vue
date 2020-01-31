@@ -78,7 +78,7 @@ export default {
 
 #firstLine{
   text-align: left;
-  color: #351655d0;
+  color: #000000d0;
   font-size: 24px;
 }
 
@@ -90,7 +90,7 @@ export default {
 }
 #title {
 
-  color: #1c2833;
+  color: #000000;
   margin-bottom: 20px;
 }
 .spalt {
@@ -100,12 +100,12 @@ export default {
 }
 
 .back{
-  color: #1c2833;
+  color: #000000;
 }
 
 a{ 
   font-size: 18px;
-   color:#1c2833d8;
+   color:#030303d8;
   text-decoration: none;
   
   
@@ -120,7 +120,7 @@ a:hover{
 
 a:active{ 
   font-size: 18px;
-  color: #1c2833;
+  color: #000000;
 
 }
 
@@ -129,7 +129,7 @@ a:active{
   margin-bottom: 0px;
   padding-left: 60px;
   font-size: 18px;
-   color:#351655d0;
+   color:#292929d0;
   
 }
 
@@ -155,7 +155,7 @@ h2 {
   margin-right: auto;
   font-size: 24px;
   font-weight: bold;
-  color:#351655d0;
+ 
 }
 
 
