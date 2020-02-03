@@ -163,7 +163,7 @@ p {
    margin-left: 25px;
   margin-right: 25px;
   justify-content: left;
-  padding-bottom:50px;
+  padding-bottom:30px;
   padding-left:0px;
   font-size:28px;
   line-height: 36px;
