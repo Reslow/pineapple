@@ -301,6 +301,7 @@ a{
   .text {
     max-width: 80%;
     padding-top: 20px;
+    margin-top:10px;
     padding-bottom: 10px;
     padding-left: 20px;
     justify-content: right;

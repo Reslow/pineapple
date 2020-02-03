@@ -309,6 +309,8 @@ p {
     align-items: center;
   }
 
+
+
   h3 {
     padding-left: 10px;
   }
@@ -347,6 +349,7 @@ p {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  padding:0px;
   }
 
   .ahaText{
@@ -374,7 +377,7 @@ p {
 }
 
 #projectTitle {
-  margin-left: 40px;
+  margin-left: 0px;
   margin-bottom: 0px;
   
 }

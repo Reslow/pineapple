@@ -256,9 +256,7 @@ p {
 }
 
 @media (max-width: 800px) {
-  a {
-    width: 100%;
-  }
+
 
   #cardwrap {
     width: 100%;
@@ -322,6 +320,10 @@ p {
 
   #titleP {
     margin-bottom: 40px;
+  }
+
+  #titleT{
+    max-width: 90%;
   }
 
   .cardtext{

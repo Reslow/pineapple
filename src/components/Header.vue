@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div id="textwrap">
-      <p id="headerHeadline">Welcome to my website, I am Fanny</p>
+     
       <p id="fronttext">
         <br />
         <br />I design interfaces with the aim of creating better experiences for users.
@@ -112,19 +112,10 @@ p {
   cursor: pointer;
 }
 
-#headerHeadline {
 
-  padding-top: 30px;
-  font-size: 36px;
-  font-weight: bolder;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(0, 0, 0);
-  font-style: initial;
-}
 
 .linkA {
-  color: #ff4949d0;
+  color: #ac2effd0;
   font-weight: normal;
   text-decoration-line: none;
 }
@@ -145,10 +136,12 @@ p {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+  margin-top:50px;
   padding-bottom: 20px;
   margin-top: 0px;
-  font-size: 24px;
-  font-weight: normal;
+  font-size: 28px;
+  font-weight: lighter;
   line-height: 24px;
   color: #000000;
 }
@@ -165,19 +158,15 @@ p {
     padding-top: 10px;
   }
 
-  #headerHeadline {
-  font-size: 24px;
-  text-align: left;
-  margin-left: 25px;
-  margin-right: 25px;
-}
 
 #fronttext{
    margin-left: 25px;
   margin-right: 25px;
   justify-content: left;
-  padding:0px;
-  font-size:18px
+  padding-bottom:50px;
+  padding-left:0px;
+  font-size:28px;
+  line-height: 36px;
 
 }
   .nav {
