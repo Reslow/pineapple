@@ -13,7 +13,6 @@
       <div class="project">
         <div class="leftSide">
           <div class="projectDescription">
-            <g-image src="~/assets/images/projectIcon.png" alt="icon" class="iconProblem" />
             <div id="title">
               <p
                 class="subtext"
@@ -24,13 +23,11 @@
             >The project was given by The Swedish forest agency. In this project I worked with four other students. We developed a design of an interface for a mobile application that helps forest workers to plan and overview the forest. The Swedish forest agency wanted to motivate more workers to use drones in their workday. It is important to develop an interface that forest workers understand.</p>
           </div>
 
-          <g-image src="~/assets/images/why.png" alt="icon" class="iconWhy" />
           <Timeline :timelineData="timelineData" />
         </div>
 
         <div class="rightSide">
           <div class="solution">
-            <g-image src="~/assets/images/solution.png" alt="icon" class="iconSolution" />
 
             <g-image src="~/assets/images/forestappCard.png" alt="icon" class="imagep" />
             <div class="textWrap">
@@ -43,7 +40,6 @@
           </div>
 
           <div class="aha">
-            <g-image src="~/assets/images/aha.png" alt="icon" class="iconAha" />
 
             <div class="ahaText">
               <p>
@@ -124,37 +120,13 @@ export default {
   align-items: center;
 }
 
-.iconAha {
-  margin-left: 50px;
-  margin-right: 10px;
-  margin-top: 300px;
-  margin-bottom: 10px;
-}
+
 
 #projectTitle {
   margin-left: 40px;
   padding-left: 10px;
 }
 
-.iconProblem {
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.iconSolution {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.iconWhy {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 200px;
-  margin-bottom: 10px;
-}
 
 .project {
   display: flex;
@@ -365,13 +337,15 @@ p {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  padding-left: 0px;
 }
 
 
 .textWrap {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 0px;
+
 }
 
 
@@ -399,7 +373,7 @@ p {
 
 .solution {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
  
   margin:20px;
 }

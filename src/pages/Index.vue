@@ -179,8 +179,8 @@ export default {
 .container {
   text-align: left;
   position: relative;
-  color: #1c2833;
-  margin-top: auto;
+  color: #eaebec;
+  
 }
 
 #cards {
@@ -236,7 +236,7 @@ p {
 }
 
 .card {
-  box-shadow: 0 3px 5px 0 rgba(136, 136, 136, 0.473);
+  box-shadow: 0 1px 1px 1px rgba(189, 188, 188, 0.473);
 
   transition: all 0.3s ease;
   margin-left: 20px;

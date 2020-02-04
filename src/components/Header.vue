@@ -30,7 +30,7 @@
   background: linear-gradient(135deg,    #b2c3f1 10%,   #b2f1e9    50%,   #cef1b2   100%  100%);
   
   background-size: 350% 350%;
-  animation: waveColors 8s ease infinite;
+  
  
   position: absolute;
   top: 0;
@@ -40,29 +40,6 @@
   margin: 0 auto;
 }
 
-@-webkit-keyframes waveColors {
-  0% {
-    background-position: 0% 7%;
-  }
-  50% {
-    background-position: 100% 94%;
-  }
-  100% {
-    background-position: 0% 7%;
-  }
-}
-
-@keyframes waveColors {
-  0% {
-    background-position: 0% 7%;
-  }
-  50% {
-    background-position: 100% 94%;
-  }
-  100% {
-    background-position: 0% 7%;
-  }
-}
 
 #navContent {
   display: flex;
@@ -115,7 +92,7 @@ p {
 
 
 .linkA {
-  color: #ac2effd0;
+  color: #ff2e85d0;
   font-weight: normal;
   text-decoration-line: none;
 }

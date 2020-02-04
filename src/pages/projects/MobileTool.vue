@@ -13,7 +13,6 @@
       <div class="project">
         <div class="leftSide">
           <div class="projectDescription">
-            <g-image src="~/assets/images/projectIcon.png" alt="icon" class="iconProblem" />
             <div id="title">
               <p class="subtext">A mobile interface that supports journalits activities and goals.</p>
             </div>
@@ -22,13 +21,11 @@
             >This case study was part of my bachelor thesis work in informatics - interaction design (2019). The case study aimed to understand a journalist activities and how the mobile can support the journalist in their workprocess.</p>
           </div>
 
-          <g-image src="~/assets/images/why.png" alt="icon" class="iconWhy" />
           <Timeline :timelineData="timelineData" />
         </div>
 
         <div class="rightSide">
           <div class="solution">
-            <g-image src="~/assets/images/solution.png" alt="icon" class="iconSolution" />
 
             <g-image src="~/assets/images/Mojo.png" alt="icon" class="imagep" />
             <div class="textWrap">
@@ -41,7 +38,6 @@
           </div>
 
           <div class="aha">
-            <g-image src="~/assets/images/aha.png" alt="icon" class="iconAha" />
 
             <div class="ahaText">
               <p>
@@ -107,7 +103,7 @@ export default {
 }
 
 .ahaText p {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .ahaText {
@@ -118,37 +114,14 @@ export default {
   align-items: center;
 }
 
-.iconAha {
-  margin-left: 50px;
-  margin-right: 10px;
-  margin-top: 300px;
-  margin-bottom: 10px;
-}
 
 #projectTitle {
   margin-left: 40px;
   padding-left: 10px;
+
 }
 
-.iconProblem {
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
-.iconSolution {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.iconWhy {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 200px;
-  margin-bottom: 10px;
-}
 
 .project {
   display: flex;
@@ -167,6 +140,7 @@ export default {
   display: flex;
   flex-direction: column;
   max-width: 55%;
+  padding-left:50px;
 }
 
 #breadcrums {
@@ -248,6 +222,7 @@ p {
   margin-top: 30px;
   margin-left: 40px;
   padding-right: 20px;
+  margin-bottom: 100px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -336,8 +311,6 @@ p {
     line-height: 28px;
   }
 
-  @media (max-width: 860px) {
-
   .text{
     margin-top:20px;
     margin-left:0px;
@@ -359,13 +332,7 @@ p {
   
 }
 
-.iconAha{
-  margin-top: 50px;
-}
 
-.iconSolution{
-  margin-top: 50px;
-}
 
   .aha{
   
@@ -401,6 +368,7 @@ p {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  padding-left:0px;
 }
 
 
@@ -435,7 +403,7 @@ p {
 
 .solution {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
  
   margin:20px;
 }
@@ -456,5 +424,5 @@ p {
  }
 
 
-}
+
 </style>
