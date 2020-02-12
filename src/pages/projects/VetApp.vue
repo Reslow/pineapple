@@ -8,10 +8,10 @@
     </div>
 
     <div class="content">
-      <h1 id="projectTitle">Vet app for rapid test</h1>
 
       <div class="project">
-        <div class="leftSide">
+      <h1 id="projectTitle">Vet app for rapid test</h1>
+        <div class="hiSide">
           <div class="projectDescription">
             
             <div id="title">
@@ -27,7 +27,7 @@
           <Timeline :timelineData="timelineData" />
         </div>
 
-        <div class="rightSide">
+        <div class="loSide">
           <div class="solution">
 
             <g-image src="~/assets/images/vacMouckup.png" alt="icon" class="imagep" />
@@ -116,31 +116,29 @@ export default {
 
 
 
-#projectTitle {
-  margin-left: 40px;
-  padding-left: 10px;
-}
 
 
 
 .project {
   display: flex;
-  flex-direction: row;
-  margin-left: 45px;
-  margin-right: 15px;
+  flex-direction: column;
+  max-width: 50%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.leftSide {
+.hiSide {
   display: flex;
   flex-direction: column;
-  max-width: 45%;
+  
 }
 
-.rightSide {
+.loSide {
   display: flex;
   flex-direction: column;
-  max-width: 55%;
   padding-left:30px;
+margin-bottom: 400px;
 }
 
 #breadcrums {
@@ -166,13 +164,14 @@ export default {
 
 a {
   font-size: 18px;
-  color: #1c2833;
+   color:#c70053d0;
+   font-weight: normal;
   text-decoration: none;
 }
 
 a:hover {
   
-    border-bottom: black solid 1px;
+   color: #1c2833;
 }
 
 a:active {
@@ -184,19 +183,26 @@ a:active {
   margin-left: 30px;
   margin-bottom: 0px;
   font-size: 18px;
+  font-weight: normal;
   color:#292929d0;
 }
 
+#projectTitle {
+  font-size: 100px;
+  font-weight: lighter;
+  padding-left: 10px;
+}
 .text {
   margin: auto;
   padding-right: 10px;
   margin-top: 30px;
 
-  max-width: 100%;
+  
   font-size: 18px;
   font-style: normal;
   line-height: 28px;
 }
+
 
 h2 {
   padding-top: 5px;
@@ -221,7 +227,7 @@ p {
 
 .projectDescription {
   color: #1c2833;
-  max-width: 70%;
+  max-width: 1000%;
   margin-top: 30px;
   margin-left: 40px;
   margin-bottom: 50px;
@@ -241,17 +247,13 @@ p {
 
 .solution {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-end;
   margin-right: 50px;
    padding-top:100px;
    margin-bottom: 50px;
 }
 
-#projectTitle {
-  font-weight: normal;
-  padding-left:30px;
-}
 
 .content {
   display: flex;
@@ -266,8 +268,11 @@ p {
 }
 
 .imagep {
-  max-width: 50%;
+  max-width: 100%;
   margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
 }
 @media (max-width: 860px) {
 

@@ -39,10 +39,11 @@ export default {
 #footerContent {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
   font-size: 14px;
+  align-items: center;
+  align-self: center;
 }
 
 footer a {
@@ -55,12 +56,10 @@ footer a:hover {
   border-bottom:black solid 1px;
 }
 
-
 .name {
-  color:   #000000d0;
+  color:   #2c2c2cb2;
   margin-left: 15px;
   margin-right: 0px;
-  margin-bottom: 8px;
   font-size: 14px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -68,7 +67,7 @@ footer a:hover {
 }
 
 .nav {
-  margin-left: 40px;
+  margin-left: 25px;
   display: flex;
   flex-direction: row;
   font-weight: bold;

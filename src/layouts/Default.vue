@@ -4,7 +4,7 @@
      
       <slot />
     </div>
-    <Footer />
+
   </div>
 </template>
 
@@ -17,12 +17,12 @@ query {
 </static-query>
 
 <script>
-import Footer from "../components/Footer";
+
 
 export default {
   components: {
   
-    Footer
+  
   }
 };
 </script>
@@ -33,9 +33,9 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
-  margin: 0;
-  padding: 0;
-  margin: auto;
+  margin: 0PX;
+  padding: 0PX;
+ 
   background-color: #ffffff;
 }
 
@@ -77,7 +77,5 @@ html {
 
 
 
-.footer {
-  flex-shrink: 0;
-}
+
 </style>

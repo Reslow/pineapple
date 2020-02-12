@@ -5,7 +5,7 @@
       <h1><g-link class="Back" to="/">Back to homepage</g-link></h1>
       <h1 class="headline">UI design</h1>
       </div>
-     <g-image src="~/assets/images/cityevent.png" alt="city event image" class="uiImage"/>
+     <g-image src="~/assets/images/cEvent.png" alt="city event image" class="uiImage"/>
    </div>
   </Layout>
 </template>
@@ -41,7 +41,8 @@ export default {
 
 a{ 
   font-size: 18px;
-  color: #1c2833;
+   color:#c70053d0;
+   font-weight: normal;
   text-decoration: none;
   
   
@@ -49,7 +50,8 @@ a{
 
 a:hover{ 
   font-size: 18px;
-  border-bottom: black solid 1px;
+  
+   color: #1c2833;
   
 }
 
@@ -67,6 +69,7 @@ a:active{
  color:#292929d0;
   margin-left: 30px;
   margin-bottom: 0px;
+  font-weight: normal;
 }
 
 .uiImage{
@@ -79,6 +82,7 @@ a:active{
   display:flex;
   align-content: center;
    flex-direction: column;
+   padding-bottom:200px;
 }
 
 @media (max-width: 800px) {

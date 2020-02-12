@@ -6,19 +6,12 @@
         <br />
         <br />I design interfaces with the aim of creating better experiences for users.
         <br />
-        <br />Check out my site and find out more
-        <g-link class="linkA" to="/About">about</g-link>&nbsp;me.
+       
       </p>
-    </div>
-    <div id="navContent">
-      <div class="name">
-        <p>reslowf@gmail.com</p>
-      </div>
-
-      <div class="nav">
-        <g-link class="link" to="/">Home</g-link>
-        <g-link class="link" to="/about">About</g-link>
-      </div>
+    
+    
+      
+      
     </div>
   </header>
 </template>
@@ -44,19 +37,20 @@
 #navContent {
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin-left: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
   font-size: 14px;
   position: absolute;
   bottom: 0px;
+  align-items: center;
+  align-self: center;
 }
 
 .name {
   color: #2c2c2cb2;
   margin-right: 0px;
-  margin-bottom: 8px;
+ 
   margin-left: 15px;
   font-size: 14px;
   font-weight: bold;
@@ -97,6 +91,11 @@ p {
   text-decoration-line: none;
 }
 
+.linkA:hover{
+  color: #34079c;
+  text-decoration-line: none;
+  border:none;
+}
 
 
 #textwrap {
@@ -118,9 +117,9 @@ p {
   padding-bottom: 20px;
   margin-top: 0px;
   font-size: 28px;
-  font-weight: lighter;
-  line-height: 24px;
-  color: #000000;
+  font-weight: normal;
+  line-height: 33px;
+  color: #34079c;
 }
 
 @media (max-width: 860px) {
