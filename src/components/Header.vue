@@ -20,7 +20,7 @@
 .header {
   background: #ffffff  ;
 
-  background: linear-gradient(135deg,    #b2c3f1 10%,   #b2f1e9    50%,   #cef1b2   100%  100%);
+  background: linear-gradient(135deg,    #34079c 10%,   #3a1888   50%,   #2b087c   100%  100%);
   
   background-size: 350% 350%;
   
@@ -119,7 +119,7 @@ p {
   font-size: 28px;
   font-weight: normal;
   line-height: 33px;
-  color: #34079c;
+  color: #ffffff;
 }
 
 @media (max-width: 860px) {
