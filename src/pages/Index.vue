@@ -143,7 +143,7 @@
       </div>
       <div id="about">
         <div class="aboutElements">
-        <g-image src="~/assets/images/profilebg.png" alt="Profile image" class="imageProfile" />
+        <g-image src="~/assets/images/profile.png" alt="Profile image" class="imageProfile" />
         <p class="email">reslowf@gmail.com</p>
         <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">LinkedIn</a>
         </div>
@@ -255,7 +255,7 @@ align-self: center;
   margin-top: 200px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  background-color:rgb(240, 240, 240);
+
 }
 
 .cardHeadline {
