@@ -72,7 +72,7 @@
 
           <div class="UiHeadline">
             <p class="cH">TravelSite</p>
-            <p class="cS">Figma</p>
+           
           </div>
           <div id="cards">
             <g-link to="/projects/travel-one">
@@ -90,7 +90,7 @@
 
               <div class="UiHeadline">
             <p class="cH">TravelSite 2</p>
-            <p class="cS">Figma</p>
+            
           </div>
           <div id="cards">
             <g-link to="/projects/travel-two">
@@ -108,7 +108,7 @@
 
             <div class="UiHeadline">
               <p class="cH">TeamGreen</p>
-              <p class="cS">Adobe xd</p>
+            
             </div>
             <g-link to="/projects/green-page">
               <div class="card">
@@ -124,7 +124,7 @@
             </g-link>
             <div class="UiHeadline">
               <p class="cH">CityEvent</p>
-              <p class="cS">Adobe xd</p>
+             
             </div>
             <g-link to="/projects/city-event">
               <div class="card">
@@ -283,10 +283,8 @@ a {
   margin-bottom: 10px;
 }
 
-.cS {
-  font-size: 25px;
-  max-width: 50%;
-}
+
+
 .cY {
   font-size: 18px;
 }
