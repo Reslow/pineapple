@@ -1,8 +1,6 @@
 <template>
   <div class="timelineContent">
-    <div class="title">
-      <p>Design process</p>
-    </div>
+   
     <div class="timeWall">
       <div class="timelineText" v-for="(item, index) in timelineData" v-bind:key="index">
         <div class="colorWall"></div>
@@ -22,10 +20,11 @@ export default {
 
 <style>
 .title {
-  margin-left: 50px;
+
   margin-bottom: 30px;
   color: #1c2833;
-
+ margin-left: auto;
+  margin-right: auto;
   font-size: 24px;
 }
 
@@ -34,7 +33,7 @@ export default {
   flex-direction: column;
 }
 .timelineText {
-  margin-left: 50px;
+
   padding-left: 0px;
   margin-bottom: 10px;
   display: flex;
@@ -42,6 +41,7 @@ export default {
   border-radius: 5px;
   height: 80%;
   background-image: linear-gradient(to right, #ccd8fa, #c3d2fc);
+  
 }
 .timelineHeadline {
   margin: 5px;
@@ -53,25 +53,19 @@ export default {
   margin-top: auto;
   margin-bottom: auto;
   font-weight: normal;
+
 }
 
-.timelineSubtitle {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 5px;
-  color: #1c2833;
-  font-size: 18px;
-  font-weight: lighter;
-}
 
 .timelineContent {
   display: flex;
   flex-direction: column;
+  margin-left:auto;
+  
 }
 
 .timeWall {
   border-radius: 5px;
-  width: 100%;
 }
 
 .colorWall {
@@ -80,7 +74,7 @@ export default {
   background-color: #351655;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  margin-right: 50px;
+
 }
 
 @media (max-width: 860px) {

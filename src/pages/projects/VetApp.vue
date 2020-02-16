@@ -8,32 +8,34 @@
     </div>
 
     <div class="content">
-
       <div class="project">
-      <h1 id="projectTitle">Vet app for rapid test</h1>
+        <h1 id="projectTitle">Vet app for rapid test</h1>
+
         <div class="hiSide">
           <div class="projectDescription">
-            
-            <div id="title">
-              <p
-                class="subtext"
-              >A mobile interface that visualizes the results of rapid test in dogs cancer diagnosis</p>
+            <div class="text">
+              <p class="title">
+                A mobile interface that visualizes the results of rapid test
+                in dogs cancer diagnosis
+              </p>
             </div>
             <p
               class="text"
             >For 9 weeks me and three other students researched about how vets diagnose cancer in dogs, to design an application which could visualize result from a rapid test. We worked with a company which had a new technique of measuring blood, the new technique makes it possible to catch some types of cancer in an earlier stage.</p>
           </div>
 
-          <Timeline :timelineData="timelineData" />
+          <div id="timelineCon">
+            <p class="subtext">Designprocess</p>
+            <Timeline :timelineData="timelineData" />
+          </div>
         </div>
 
         <div class="loSide">
           <div class="solution">
-
             <g-image src="~/assets/images/vacMouckup.png" alt="icon" class="imagep" />
-            <div class="textWrap">
+            <div class="text">
               <p class="subtext">Vet app UI</p>
-              <p class="text">
+              <p>
                 The vet takes a blood sample and drop blood on the rapid test. Then he/she wait 10 minutes and then they point the mobile camera towards the rapid test. Finally, the screen will show result that can be transferred to the journal.
                 Today vets take blood sample and send them to a lab and haft to wait for result. With a rapid test and an app for viewing result the procedure would be faster and more efficient.
               </p>
@@ -41,17 +43,16 @@
           </div>
 
           <div class="aha">
-
-            <div class="ahaText">
+            <div class="text">
+              <p class="subtext">Findings</p>
               <p>
                 According to our research, acceptance is built on the user background and experience and the perceived usefulness and usability of the product.
                 The interface needs to be simple and only have the function needed for the vets to reach their goal.
-               
-                 
               </p>
 
               <p>
-              It is important with specificity in the test, we also found that the image of the company behind the product is important.
+                <br />
+                <br />It is important with specificity in the test, we also found that the image of the company behind the product is important.
               </p>
             </div>
           </div>
@@ -96,33 +97,18 @@ export default {
 
 
 <style scoped>
-.aha {
-  margin-left: 200px;
-  margin-right: 100px;
-  max-width: 50%
+#timelineCon {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  width: 100%;
 }
-
-.ahaText p {
-  margin-top: 100px;
-}
-
-.ahaText {
-  font-size: 18px;
-  font-weight: lighter;
-  font-style: italic;
-  color: #351655;
-  align-items: center;
-}
-
-
-
-
-
 
 .project {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  align-content: initial;
+  max-width: 45%;
   align-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -131,14 +117,13 @@ export default {
 .hiSide {
   display: flex;
   flex-direction: column;
-  
 }
 
 .loSide {
   display: flex;
   flex-direction: column;
-  padding-left:30px;
-margin-bottom: 400px;
+
+  margin-bottom: 400px;
 }
 
 #breadcrums {
@@ -148,13 +133,16 @@ margin-bottom: 400px;
   margin-left: 20px;
 }
 #title {
+  max-width: 100%;
   color: #000000;
-  margin-bottom: 20px;
+
+  margin-right: auto;
+
+  align-self: auto;
 }
 .textWrap {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
 }
 
 .back {
@@ -164,14 +152,13 @@ margin-bottom: 400px;
 
 a {
   font-size: 18px;
-   color:#c70053d0;
-   font-weight: normal;
+  color: #c70053d0;
+  font-weight: normal;
   text-decoration: none;
 }
 
 a:hover {
-  
-   color: #1c2833;
+  color: #1c2833;
 }
 
 a:active {
@@ -183,77 +170,63 @@ a:active {
   margin-left: 30px;
   margin-bottom: 0px;
   font-size: 18px;
+  color: #292929d0;
   font-weight: normal;
-  color:#292929d0;
 }
 
 #projectTitle {
   font-size: 100px;
   font-weight: lighter;
-  padding-left: 10px;
+  max-width: 65%;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .text {
-  margin: auto;
-  padding-right: 10px;
-  margin-top: 30px;
-
-  
+  margin-top: 20px;
   font-size: 18px;
   font-style: normal;
   line-height: 28px;
+
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 65%;
 }
 
-
-h2 {
-  padding-top: 5px;
-  margin-top: 0px;
-  text-align: left;
-}
-
-h3 {
-  padding-left: 15px;
-  margin-top: 0px;
-  font-size: 18px;
-}
 .subtext {
-  text-align: left;
   font-size: 24px;
-}
-p {
-  margin: 0px;
-  font-size: 18px;
-  text-align: justify;
+  align-self: inherit;
 }
 
 .projectDescription {
   color: #1c2833;
-  max-width: 1000%;
+
   margin-top: 30px;
-  margin-left: 40px;
   margin-bottom: 50px;
-  padding-right: 20px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .process {
-  padding-left: 40px;
-  padding-right: 40px;
   font-weight: bold;
   margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .solution {
+  margin-left: auto;
+  margin-right: auto;
+
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  margin-right: 50px;
-   padding-top:100px;
-   margin-bottom: 50px;
-}
 
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
 
 .content {
   display: flex;
@@ -264,129 +237,15 @@ p {
 .textCon {
   display: flex;
   margin: auto;
-  max-width: 100%;
 }
 
 .imagep {
-  max-width: 100%;
+  max-width: 65%;
   margin-top: 20px;
-  margin-right: auto;
-  margin-left: auto;
+
   margin-bottom: 30px;
-}
-@media (max-width: 860px) {
 
-  
-
-  .text{
-    margin-top:20px;
-    margin-left:0px;
-    margin-right: 0px;
-  }
-
-  .content {
-  display: flex;
-  flex-direction: column;
+  margin-right: auto;
   margin-left: auto;
-  margin-right: auto;
-  padding:0px;
-  }
-
-  .ahaText{
- 
- text-align: center;
- 
-  
 }
-
-
-  .aha{
-  
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 0px;
- 
-  max-width: 90%
-}
-
-#projectTitle {
-  margin-left: 0px;
-  margin-bottom: 0px;
-  
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  margin-left:auto;
-  margin-right: auto;
-  
-  
-}
-
-.leftSide {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
-
-.rightSide {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0px;
-  max-width: 100%;
-}
-
-
-.textWrap {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
-
-
-.headline {
-  margin-left: 30px;
-  margin-bottom: 0px;
-  font-size: 18px;
-  color: #351655a1;
-}
-
-
-
-
-.projectDescription {
- 
-  max-width: 100%;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-right: 0px;
- 
-}
-
-
-
-.solution {
-  display: flex;
-  flex-direction: column-reverse;
- 
-  margin:20px;
-}
-
-
-
-.textCon {
-  display: flex;
-  
-  max-width: 100%;
-}
-
-.imagep {
-  max-width: 100%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
- }
-
 </style>
