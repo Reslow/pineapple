@@ -20,7 +20,7 @@
 .header {
   background: #ffffff  ;
 
-  background: linear-gradient(135deg,    #331585 10%,   #3d1d88   50%,   #2b087c   100%  100%);
+  background: linear-gradient(135deg,    #464449 10%,   #464549   50%,   #3a393b   100%  100%);
   
   background-size: 350% 350%;
   
