@@ -146,10 +146,10 @@
         <h2 id="FirstLine">Hello</h2>
         <p class="aboutText">
           My name is Fanny and I have a bachelor degree in interaction design from Linneaus University. I currently live in Gothenburg and I am looking for new projects. If you are searching for a driven designer with passion for user research and interface design, lets talk! ;) <br><br>
-          I have practice interaction design through various projects. From defining problems and user needs in context to validate prototype with users.
+          I have practiced interaction design through various projects. From defining problems and user needs in context to validate prototype with users.
          <br><br>
           When I have time left, I focus on exploring my design easthetic, new design trends and updating this website. I try to explore new tools, such as Figma.
-          I am used to work with Illustrator and adobe XD. I know my way around the adobe suit, UXPin and Axure RP for more interactive prototypes.
+          I am used to work with Illustrator and adobe XD. I know my way around the adobe suit, UXPin and Axure RP for interactive prototypes.
         </p>
         </div>
         <div class="aboutElements">
