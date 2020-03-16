@@ -18,7 +18,7 @@
                 <div class="container">
                   <g-image src="~/assets/images/mojobw.png" alt="icon" class="imgCard" />
                   <div class="description">
-                    <p class="cH">Journalist Tool</p>
+                    <p class="cH">Journalist's mobile Tool</p>
                     <p
                       class="cS"
                     >This case study aimed to understand a journalist activities and how the mobile can support the journalist in his/her workprocess.</p>
@@ -382,7 +382,7 @@ margin-bottom:100px;
 #projects {
   display: flex;
   flex-direction: column;
-  padding-top: 400px;
+  padding-top: 100px;
 }
 .cardtext {
   position: absolute;
