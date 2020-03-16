@@ -143,7 +143,11 @@
       </div>
       <div id="about">
         <div class ="aboutTextContainer">
-        <h2 id="FirstLine">Hello</h2>
+        <div class="aboutElements">
+        <g-image src="~/assets/images/profile.png" alt="Profile image" class="imageProfile" />
+        <p class="email">reslowf@gmail.com</p>
+        <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">LinkedIn</a>
+        </div>
         <p class="aboutText">
           My name is Fanny and I have a bachelor degree in interaction design from Linneaus University. I currently live in Gothenburg and I am looking for new projects. If you are searching for a driven designer with passion for user research and interface design, lets talk! ;) <br><br>
           I have practiced interaction design through various projects. From defining problems and user needs in context to validate prototype with users.
@@ -151,11 +155,6 @@
           When I have time left, I focus on exploring my design easthetic, new design trends and updating this website. I try to explore new tools, such as Figma.
           I am used to work with Illustrator and adobe XD. I know my way around the adobe suit, UXPin and Axure RP for interactive prototypes.
         </p>
-        </div>
-        <div class="aboutElements">
-        <g-image src="~/assets/images/profile.png" alt="Profile image" class="imageProfile" />
-        <p class="email">reslowf@gmail.com</p>
-        <a href="https://linkedin.com/in/fanny-reslow-39491a153/" id="linkedin">LinkedIn</a>
         </div>
       </div>
 
@@ -195,7 +194,7 @@ align-self: center;
   flex-direction: column;
   align-items: center;
   padding-top:100px;
-  padding-bottom: 300px;
+  padding-bottom: 0px;
 }
 .email {
   padding-top: 20px;
@@ -240,13 +239,14 @@ align-self: center;
 .imageProfile {
   min-width: 120px;
   min-height: 120px;
-  max-width: 40%;
+  max-width: 60%;
 }
 
 .aboutText {
   font-size: 18px;
   line-height: 34px;
-  padding-bottom: 0px;
+  padding-top:10px;
+  padding-bottom: 300px;
   margin-bottom: 0px;
   justify-content: right;
   max-width: 45%;

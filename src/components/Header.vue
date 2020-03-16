@@ -3,9 +3,9 @@
     <div id="textwrap">
      
       <p id="fronttext">
-        <br />
+        
         <br />I design interfaces with the aim of creating better experiences for users.
-        <br />
+        
        
       </p>
     
