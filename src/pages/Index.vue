@@ -359,7 +359,7 @@ margin-bottom:100px;
   display: flex;
   flex-direction: row;
   background-color: rgb(245, 245, 245);
-  padding:5px;
+  
   
 }
 
