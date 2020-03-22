@@ -1,27 +1,19 @@
 <template>
   <header class="header">
     <div id="textwrap">
-     
       <p id="headText">
-        
-        Hi! I am Fanny,  I design interfaces with the aim of creating <br> great experiences for users.
-        
-       
+        Hi! I am Fanny, I design interfaces with the aim of creating
+        <br />
+great experiences for users.
       </p>
-    
-    
-      
-      
     </div>
   </header>
 </template>
 
 <style scoped>
 .header {
-  
+  background-color: #ff2e85d0;
 
-  background-color:  #ff2e85d0;;
-  
   position: absolute;
   top: 0;
   left: 0;
@@ -29,7 +21,6 @@
   text-align: center;
   margin: 0 auto;
 }
-
 
 #navContent {
   display: flex;
@@ -44,11 +35,7 @@
   align-self: center;
 }
 
-
-
 #textwrap {
- 
- 
   display: flex;
   flex-direction: column;
 
@@ -61,13 +48,11 @@
   margin-bottom: 0px;
   margin-top: 0px;
   font-size: 16px;
-  line-height: 25px;;
+  line-height: 25px;
   font-weight: normal;
   color: #ffffff;
 }
 
 @media (max-width: 860px) {
-
-
 }
 </style>
