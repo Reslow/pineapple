@@ -2,9 +2,9 @@
   <header class="header">
     <div id="textwrap">
      
-      <p id="fronttext">
+      <p id="headText">
         
-        <br />I design interfaces with the aim of creating better experiences for users.
+        Hi! I am Fanny,  I design interfaces with the aim of creating <br> great experiences for users.
         
        
       </p>
@@ -51,53 +51,23 @@
  
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+
   align-items: baseline;
 }
 
-#fronttext {
+#headText {
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 40px;
   margin-bottom: 0px;
-  padding-bottom: 10px;
   margin-top: 0px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 25px;;
   font-weight: normal;
-
   color: #ffffff;
 }
 
 @media (max-width: 860px) {
 
-  #textwrap{
-    padding-top:30px;
-  }
-  .nametext {
-    font-size: 14px;
-  }
-  .header {
-    padding-top: 10px;
-  }
 
-
-#fronttext{
-   margin-left: 25px;
-  margin-right: 25px;
-  justify-content: left;
-  padding-bottom:30px;
-  padding-left:0px;
-  font-size:28px;
-  line-height: 36px;
-
-}
-  .nav {
-    margin-left: 15px;
-  }
-
-  a.link{
-    margin-left:15px;
-  }
 }
 </style>

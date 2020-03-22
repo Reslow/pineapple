@@ -338,8 +338,8 @@ a {
 }
 
 .imgUiCard{
- width:40%;
-  height:100%;
+width:40%;
+height:100%;
 align-self: center;
 margin-left:auto;
 margin-right: auto;
