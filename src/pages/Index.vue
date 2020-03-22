@@ -8,29 +8,27 @@
             <p id="titleP">UX Projects</p>
             <p id="titleT">
               These are my selected top three projects.
-              These case studies are based on user research methods.
+              They are based on user research methods.
             </p>
           </div>
 
-          <div id="cards">
-            <g-link to="/projects/mobile-tool">
-              <div class="card">
-                <div class="container">
+          
+            <div class="container">
+                  <div class="containerContent">
                   <g-image src="~/assets/images/mojobw.png" alt="icon" class="imgCard" />
                   <div class="description">
                     <p class="cH">Journalist's mobile Tool</p>
                     <p
-                      class="cS"
+                    class="cS"
                     >This case study aimed to understand a journalist activities and how the mobile can support the journalist in his/her workprocess.</p>
                     <p class="cY">2019</p>
-                  </div>
+            <g-link to="/projects/mobile-tool" class="buttonView">View project </g-link>
                 </div>
+                  </div>
               </div>
-            </g-link>
 
-            <g-link to="/projects/my-forest-drone-app">
-              <div class="card">
-                <div class="container">
+            <div class="container">
+              <div class="containerContent">
                   <g-image src="~/assets/images/dronebw.png" alt="icon" class="imgCard" />
                   <div class="description">
                     <p class="cH">Forest drone app</p>
@@ -38,12 +36,12 @@
                       class="cS"
                     >A design of a mobile interface that helps forest workers to plan and overview the forest with a drone.</p>
                     <p class="cY">2019</p>
+            <g-link to="/projects/my-forest-drone-app" class="buttonView">View project  </g-link>
                   </div>
-
                   <div class="cardtext"></div>
                 </div>
               </div>
-            </g-link>
+           
 
             <g-link to="/projects/vet-app">
               <div class="card">
@@ -158,7 +156,7 @@
         </div>
       </div>
 
-      </div>
+    
     </div>
   </Layout>
 </template>
@@ -184,11 +182,9 @@ export default {
  flex-direction: column;
 margin-left:auto;
 margin-right: auto;
-
 align-self: center;
-
-
 }
+
 .aboutElements{
   display: flex;
   flex-direction: column;
@@ -196,19 +192,16 @@ align-self: center;
   padding-top:100px;
   padding-bottom: 0px;
 }
+
 .email {
   padding-top: 20px;
   font-size: 18px;
   font-weight: lighter;
-
-
 }
 
 #linkedin {
   margin-top: 0px;
-
   letter-spacing: 1px;
-
   padding: 7px;
   padding-left: 8px;
   padding-right: 8px;
@@ -222,9 +215,6 @@ align-self: center;
 
 #linkedin:hover {
   color: #1c2833;
- 
-
-  
 }
 
 #FirstLine {
@@ -232,8 +222,6 @@ align-self: center;
   color: #34079c;
   font-size: 44px;
   font-weight: lighter;
-
-  
 }
 
 .imageProfile {
@@ -252,20 +240,31 @@ align-self: center;
   max-width: 45%;
   margin-left:auto;
   margin-right: auto;
-  
+}  
  
-}
-
 #about {
- 
   margin-top: 200px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
 
+.buttonView{
+ background-color: rgb(55, 136, 110);
+ color:white;
+ padding-left:60px;
+ padding-right:60px;
+ padding-top:20px;
+ padding-bottom: 20px;
+ font-size: 24px;
+ align-self: flex-end;
+ box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+transition:  0.3s ease-in-out;
+}
+.buttonView:hover{
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
 }
 
 .cardHeadline {
-  max-width: 50%;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
@@ -283,19 +282,26 @@ a {
   flex-direction: column;
   align-items: center;
 }
+
 .cH {
   font-weight: lighter;
-  font-size: 100px;
+  font-size: 60px;
   margin-bottom: 10px;
+  margin-top: 0px;
+  
 }
 
 
 .cS {
   font-size: 18px;
+  margin-bottom: 5px;
+  
 }
 
 .cY {
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 70px;
+  font-weight: bold;
 }
 
 .header {
@@ -304,6 +310,7 @@ a {
   align-items: center;
   min-height: 100px;
 }
+
 #titleP {
   color: #34079c;
   font-size: 36px;
@@ -316,12 +323,12 @@ a {
 
 #titleT {
   color: #34079c;
-
-  font-size: 30px;
+  font-size: 24px;
   font-weight: lighter;
-  text-align: center;
-  margin: 0px;
+  text-align: left;
+  margin-bottom: 40px;
 }
+
 .linkA {
   color: #351655d0;
   text-decoration-line: none;
@@ -334,7 +341,7 @@ a {
 #cardwrap {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+ 
 }
 
 .imgUiCard{
@@ -345,39 +352,44 @@ margin-left:auto;
 margin-right: auto;
 margin-top:100px;
 margin-bottom:100px;
- 
+}
 
+.imgCard{
+  margin-right:100px;
+  margin-left:200px;
+
+ 
 }
 
 .container {
-  width:100%;
-  margin-left:auto;
-  margin-right: auto;
-  height: 500px; 
+  width: 100vw;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 500px;
+  background-color: rgb(48, 122, 99);
+}
+
+.containerContent{
   display: flex;
   flex-direction: row;
-  background-color: rgb(245, 245, 245);
+  padding-top:150px;
+   padding-bottom:150px;
+ 
   
-  
+
+
 }
 
 .description {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-left: 45px;
-  color: #ff2e85d0;
+  margin-bottom:0px;;
+  color: #ffffffd0;
+  max-width: 40%;
 }
 
-#cards {
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: column;
 
-  margin-top: 50px;
-  max-width: 100%;
-}
 
 #projects {
   display: flex;
@@ -385,7 +397,6 @@ margin-bottom:100px;
   padding-top: 100px;
 }
 .cardtext {
-  position: absolute;
 
   left: 50px;
   font-size: 20px;
@@ -398,99 +409,7 @@ margin-bottom:100px;
 }
 
 
-
-.card {
-  max-width: 95%;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08);
-  margin-right: auto;
-  margin-left: auto;
-
-}
-
-.card:hover {
-  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.322);
- 
-}
-
-
-
-.home-links a {
-  margin-right: 3rem;
-}
-
 @media (max-width: 800px) {
-  #cardwrap {
-    width: 100%;
-  }
-  #projects {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .card {
-    width: 100%;
-    margin: 0px;
-    margin-bottom: 15px;
-    margin-right: 0px;
-  }
-
-  #cards {
-    width: 100%;
-    align-items: center;
-    padding-bottom: 10px;
-
-    display: flex;
-    margin: 0px;
-  }
-
-  .wrap {
-    max-width: 100%;
-  }
-  #fronttext {
-    text-align: left;
-
-    padding-left: 60px;
-    padding-right: 20px;
-    margin-right: 0px;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    color: #1c2833;
-  }
-
-  #bodyWrap {
-    flex-direction: column;
-    display: flex;
-
-    max-width: 100%;
-  }
-
-  #textwrap {
-    justify-content: center;
-    max-width: 100%;
-  }
-
-  #titleP {
-    margin-bottom: 40px;
-  }
-
-  #titleT {
-    max-width: 90%;
-  }
-
-  .cardtext {
-    position: absolute;
-    bottom: 36px;
-    left: 20px;
-    font-size: 28px;
-    letter-spacing: 1px;
-    line-height: 24px;
-    color: rgba(255, 255, 255, 0.966);
-    font-weight: bold;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 0px;
-  }
+  
 }
 </style>
