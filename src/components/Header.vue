@@ -35,7 +35,7 @@ great experiences for users.
   padding-bottom:10px;
   font-size: 16px;
   font-weight: bolder;
-  color:  #fc1374d0;
+  color:  #db0c51d0;
 }
 
 @media (max-width: 860px) {
