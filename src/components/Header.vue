@@ -34,8 +34,8 @@ great experiences for users.
   padding-top:10px;
   padding-bottom:10px;
   font-size: 16px;
-  font-weight: bolder;
-  color:  #db0c51d0;
+  font-weight: normal;
+  color:  #000000d0;
 }
 
 @media (max-width: 860px) {
