@@ -40,7 +40,7 @@ export default {
   flex-direction: row;
   border-radius: 5px;
   height: 80%;
-  background-image: linear-gradient(to right, #ccd8fa, #c3d2fc);
+  background-image: linear-gradient(to right, #f0eeee, #f1f1f1);
   
 }
 .timelineHeadline {
@@ -71,7 +71,7 @@ export default {
 .colorWall {
   min-width: 2%;
   height: 100px;
-  background-color: #351655;
+  background-color:#252525;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 

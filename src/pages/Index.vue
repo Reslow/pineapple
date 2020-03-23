@@ -278,7 +278,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:50px;
+  
 }
 .linkA {
   color: #351655d0;

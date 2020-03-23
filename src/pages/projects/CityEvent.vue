@@ -25,6 +25,7 @@ export default {
   flex-direction: row;
   margin-left: 20px;
   align-items: center;
+  
 }
 #title {
 
@@ -88,10 +89,7 @@ a:active{
 @media (max-width: 800px) {
 
 
-.headline{
-  font-size:18px;
-  margin-right: 10px;
-}
+
 }
 
 </style>
