@@ -36,7 +36,7 @@ body {
   margin: 0PX;
   padding: 0PX;
  
-  background-color: #ffffff;
+  background-color:rgb(252, 252, 252);
 }
 
 body,
@@ -54,26 +54,7 @@ html {
   flex: 1 0 auto;
 }
 
-#name {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
 
-#nametext {
-  padding-top: 3px;
-  margin-top: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
 
 
 

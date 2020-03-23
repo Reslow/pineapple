@@ -4,7 +4,7 @@
     <div id="bodyWrap">
       <div id="projects">
         <div id="contentwrap">
-          <div class="cardHeadline">
+          <div class="headline">
             <p id="titleP">UX Projects</p>
             <p id="titleT">
               These are my selected top three projects.
@@ -12,7 +12,7 @@
             </p>
           </div>
 
-          <div class="container">
+          <div class="container1">
             <div class="containerContent">
               <g-image src="~/assets/images/mojobw.png" alt="icon" class="imgCard" />
               <div class="description">
@@ -21,12 +21,12 @@
                   class="cS"
                 >This case study aimed to understand a journalist activities and how the mobile can support the journalist in his/her workprocess.</p>
                 <p class="cY">2019</p>
-                <g-link to="/projects/mobile-tool" class="buttonView">View project</g-link>
+                <g-link to="/projects/mobile-tool" class="buttonView1">View project</g-link>
               </div>
             </div>
           </div>
 
-          <div class="container">
+          <div class="container2">
             <div class="containerContent">
               <g-image src="~/assets/images/dronebw.png" alt="icon" class="imgCard" />
               <div class="description">
@@ -35,12 +35,12 @@
                   class="cS"
                 >A design of a mobile interface that helps forest workers to plan and overview the forest with a drone.</p>
                 <p class="cY">2019</p>
-                <g-link to="/projects/my-forest-drone-app" class="buttonView">View project</g-link>
+                <g-link to="/projects/my-forest-drone-app" class="buttonView2">View project</g-link>
               </div>
             </div>
           </div>
 
-        <div class="container">
+        <div class="container3">
           <div class="containerContent">
             <g-image src="~/assets/images/dogbw.png" alt="icon" class="imgCard" />
             <div class="description">
@@ -49,14 +49,14 @@
                 class="cS"
               >We aimed to design an application which could visualize result from a rapid test.</p>
               <p class="cY">2019</p>
-              <g-link to="/projects/vet-app" class="buttonView">View project</g-link>
+              <g-link to="/projects/vet-app" class="buttonView3">View project</g-link>
             </div>
           </div>
         </div>
         </div>
       </div>
 
-      <div class="UiHeadline">
+      <div class="headline">
         <p id="titleP">UI Design</p>
         <p id="titleT">Here are a few UIs :)</p>
       </div>
@@ -90,8 +90,6 @@
         <p class="aboutText">
           My name is Fanny and I have a bachelor degree in interaction design from Linneaus University. I currently live in Gothenburg and I am looking for new projects. If you are searching for a driven designer with passion for user research and interface design, lets talk! ;)
           <br />
-          <br />I have practiced interaction design through various projects. From defining problems and user needs in context to validate prototype with users.
-          <br />
           <br />When I have time left, I focus on exploring my design easthetic, new design trends and updating this website. I try to explore new tools, such as Figma.
           I am used to work with Illustrator and adobe XD. I know my way around the adobe suit, UXPin and Axure RP for interactive prototypes.
         </p>
@@ -122,6 +120,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   align-self: center;
+ 
 }
 
 .aboutElements {
@@ -135,12 +134,11 @@ export default {
 .email {
   padding-top: 20px;
   font-size: 18px;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 
 #linkedin {
   margin-top: 0px;
-  letter-spacing: 1px;
   padding: 7px;
   padding-left: 8px;
   padding-right: 8px;
@@ -148,20 +146,14 @@ export default {
   align-items: center;
   font-weight: normal;
   font-size: 18px;
-  font-kerning: initial;
   color: #c70053d0;
+
 }
 
 #linkedin:hover {
   color: #1c2833;
 }
 
-#FirstLine {
-  text-align: center;
-  color: #34079c;
-  font-size: 44px;
-  font-weight: lighter;
-}
 
 .imageProfile {
   min-width: 120px;
@@ -175,7 +167,6 @@ export default {
   padding-top: 10px;
   padding-bottom: 300px;
   margin-bottom: 0px;
-  justify-content: right;
   max-width: 45%;
   margin-left: auto;
   margin-right: auto;
@@ -185,11 +176,12 @@ export default {
   margin-top: 200px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  background-color: rgb(255, 255, 255);
 }
 
-.buttonView {
-  background-color: rgb(55, 136, 110);
-  color: white;
+.buttonView1{
+  background-color: rgb(89, 78, 150);
+  color: #f0f0f0d0;
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 20px;
@@ -199,7 +191,34 @@ export default {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
   transition: 0.3s ease-in-out;
 }
-.buttonView:hover {
+
+.buttonView2{
+   background-color:rgb(52, 129, 95);
+  color: #f0f0f0d0;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  align-self: flex-end;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}
+
+.buttonView3{
+  background-color: rgb(167, 96, 61);
+  color: #f0f0f0d0;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  align-self: flex-end;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}
+
+.buttonView1:hover, .buttonView2:hover, .buttonView3:hover {
   box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -215,16 +234,9 @@ a {
   text-decoration-line: none;
 }
 
-.UiHeadline {
-  align-self: center;
-  color: #34079c;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .cH {
-  font-weight: lighter;
+  
   font-size: 60px;
   margin-bottom: 10px;
   margin-top: 0px;
@@ -241,31 +253,33 @@ a {
   font-weight: bold;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100px;
-}
 
 #titleP {
-  color: #34079c;
-  font-size: 36px;
-  margin-bottom: 20px;
+  color: #202020;
+  font-family:sans-serif;
+  font-size: 60px;
+  margin-bottom: 10px;
   padding-top: 30px;
   text-align: center;
-  font-weight: lighter;
   margin-right: 0px;
+  font-weight: bolder;
 }
 
 #titleT {
-  color: #34079c;
+  color: #444444;
   font-size: 24px;
-  font-weight: lighter;
   text-align: left;
-  margin-bottom: 40px;
+
+  
 }
 
+.headline {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:50px;
+}
 .linkA {
   color: #351655d0;
   text-decoration-line: none;
@@ -316,11 +330,20 @@ margin-right:250px;
 
 
 
-.container {
- 
+.container1 {
   margin-top: 20px;
-  margin-bottom: 500px;
-  background-color: rgb(48, 122, 99);
+  margin-bottom: 150px;
+  background-color: rgb(74, 65, 128);
+}
+.container2 {
+  margin-top: 20px;
+  margin-bottom: 150px;
+  background-color:rgb(46, 117, 85);
+}
+.container3 {
+  margin-top: 20px;
+  margin-bottom: 150px;
+  background-color: rgb(148, 84, 52);
 }
 
 .containerContent {
@@ -336,7 +359,7 @@ margin-right:250px;
   justify-content: center;
   padding-left: 45px;
   margin-bottom: 0px;
-  color: #ffffffd0;
+  color: #f0f0f0d0;
   max-width: 40%;
 }
 
