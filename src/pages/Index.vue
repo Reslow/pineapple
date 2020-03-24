@@ -5,7 +5,7 @@
       <div id="projects">
         <div id="contentwrap">
           <div class="headline">
-            <p id="titleP">UX Projects</p>
+            <p id="titleP">Case Studies</p>
             <p id="titleT">
               These are my selected top three projects.
               They are based on user research methods.
