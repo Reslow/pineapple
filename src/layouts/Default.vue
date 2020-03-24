@@ -54,6 +54,14 @@ html {
   flex: 1 0 auto;
 }
 
+@media (max-width: 800px) {
+
+  #app{
+    display:flex;
+    height:100%;
+    width:100%;
+  }
+}
 
 
 

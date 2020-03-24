@@ -3,7 +3,7 @@
     <div id="textwrap">
       <p id="headText">
         Hi! I am Fanny, I design interfaces with the aim of creating
-        <br />
+        
 great experiences for users.
       </p>
     </div>
@@ -38,6 +38,10 @@ great experiences for users.
   color:  #000000d0;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 800px) {
+
+  #headText{
+    margin-left: 15px;
+  }
 }
 </style>

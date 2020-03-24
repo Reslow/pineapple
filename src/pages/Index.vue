@@ -370,5 +370,87 @@ margin-right:250px;
 }
 
 @media (max-width: 800px) {
+
+  #headText{
+    margin-left: 0px;
+  }
+  
+#projects {
+  padding-top: 20px;
+ 
+}
+
+#titleT{
+  margin-left:auto;
+  margin-right: auto;
+  width:90%;
+  text-align: center;
+}
+
+.containerContent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top:10px;
+  padding-bottom: 60px;;
+}
+
+.imgCard{
+width: 100%;
+padding:0px;
+margin:0px;
+}
+
+.imgUiCard{
+  margin-bottom: 10px;;
+}
+
+.description{
+  padding:0px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
+}
+
+.buttonView1, .buttonView2, .buttonView3{
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.container1, .container2, .container3{
+  margin-bottom: 100px;
+}
+
+#cardwrap{
+  display: flex;
+  flex-direction: column;
+  margin-left:0px;
+  margin-right: 0px;
+}
+
+#about{
+  margin-top: 100px;
+  max-width: 100%;
+}
+.aboutElements{
+  margin:0px;
+  padding:0px;
+}
+.aboutTextContainer{
+  max-width: 100%;
+}
+
+.aboutText{
+  max-width: 90%;
+}
+.imageProfile{
+
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+
 }
 </style>
