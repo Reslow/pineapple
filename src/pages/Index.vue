@@ -180,7 +180,7 @@ export default {
 }
 
 .buttonView1{
-  background-color: rgb(89, 78, 150);
+  background-color: rgb(104, 90, 185);
   color: #f0f0f0d0;
   padding-left: 60px;
   padding-right: 60px;
@@ -255,7 +255,7 @@ a {
 
 
 #titleP {
-  color: #202020;
+  color: #3b3b3b;
   font-family:sans-serif;
   font-size: 60px;
   margin-bottom: 10px;
@@ -266,7 +266,7 @@ a {
 }
 
 #titleT {
-  color: #444444;
+  color: #3b3b3b;
   font-size: 24px;
   text-align: left;
 
@@ -333,7 +333,7 @@ margin-right:250px;
 .container1 {
   margin-top: 20px;
   margin-bottom: 150px;
-  background-color: rgb(74, 65, 128);
+  background-color: rgb(93, 82, 161);
 }
 .container2 {
   margin-top: 20px;
