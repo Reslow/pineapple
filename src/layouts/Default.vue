@@ -36,7 +36,7 @@ body {
   margin: 0PX;
   padding: 0PX;
  
-  background-color:rgb(252, 252, 252);
+  background-color:#ffffff;
 }
 
 body,

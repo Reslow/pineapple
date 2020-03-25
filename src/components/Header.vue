@@ -12,6 +12,9 @@ great experiences for users.
 
 <style scoped>
 
+.header{  
+height: 500px;
+}
 
 #textwrap {
   display: flex;
@@ -20,15 +23,15 @@ great experiences for users.
 }
 
 #headText {
+  width: 50%;
   text-align: left;
   margin-left: 40px;
   margin-bottom: 0px;
-  margin-top: 5pxpx;
-  padding-top:10px;
-  padding-bottom:10px;
-  font-size: 16px;
-  font-weight:normal;
-  color:  #252525;
+  padding-left:20px;
+  padding-right:20px;
+  font-size: 44px;
+  font-weight:bold;
+  color:  #505050;
 }
 
 @media (max-width: 800px) {

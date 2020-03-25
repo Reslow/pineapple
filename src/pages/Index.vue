@@ -333,14 +333,20 @@ margin-right:250px;
 .container1 {
   margin-top: 20px;
   margin-bottom: 150px;
+    margin-left: 50px;
+      margin-right: 50px;
   background-color: rgb(115, 107, 165);
 }
 .container2 {
+  margin-left: 50px;
+      margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 150px;
   background-color:rgb(82, 151, 120);
 }
 .container3 {
+  margin-left: 50px;
+      margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 150px;
   background-color: rgb(167, 102, 70);
@@ -366,7 +372,6 @@ margin-right:250px;
 #projects {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
 }
 
 @media (max-width: 800px) {
