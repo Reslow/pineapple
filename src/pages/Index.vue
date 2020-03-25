@@ -180,7 +180,7 @@ export default {
 }
 
 .buttonView1{
-  background-color: rgb(104, 90, 185);
+  background-color:rgb(126, 118, 180);
   color: #f0f0f0d0;
   padding-left: 60px;
   padding-right: 60px;
@@ -193,7 +193,7 @@ export default {
 }
 
 .buttonView2{
-   background-color:rgb(52, 129, 95);
+   background-color:rgba(96, 168, 136, 0.829);
   color: #f0f0f0d0;
   padding-left: 60px;
   padding-right: 60px;
@@ -206,7 +206,7 @@ export default {
 }
 
 .buttonView3{
-  background-color: rgb(167, 96, 61);
+  background-color: rgb(182, 114, 80);
   color: #f0f0f0d0;
   padding-left: 60px;
   padding-right: 60px;
@@ -257,7 +257,7 @@ a {
 #titleP {
   color: #3b3b3b;
   font-family:sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 10px;
   padding-top: 30px;
   text-align: center;
@@ -267,7 +267,7 @@ a {
 
 #titleT {
   color: #3b3b3b;
-  font-size: 24px;
+  font-size: 18px;
   text-align: left;
 
   
@@ -333,17 +333,17 @@ margin-right:250px;
 .container1 {
   margin-top: 20px;
   margin-bottom: 150px;
-  background-color: rgb(93, 82, 161);
+  background-color: rgb(115, 107, 165);
 }
 .container2 {
   margin-top: 20px;
   margin-bottom: 150px;
-  background-color:rgb(46, 117, 85);
+  background-color:rgb(82, 151, 120);
 }
 .container3 {
   margin-top: 20px;
   margin-bottom: 150px;
-  background-color: rgb(148, 84, 52);
+  background-color: rgb(167, 102, 70);
 }
 
 .containerContent {

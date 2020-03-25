@@ -11,13 +11,6 @@ great experiences for users.
 </template>
 
 <style scoped>
-.header {
-  background-color: 
-  #ffffffd0;
-  width: 100%;
-  text-align: center;
-  
-}
 
 
 #textwrap {
@@ -34,8 +27,8 @@ great experiences for users.
   padding-top:10px;
   padding-bottom:10px;
   font-size: 16px;
-  font-weight: normal;
-  color:  #000000d0;
+  font-weight:normal;
+  color:  #252525;
 }
 
 @media (max-width: 800px) {
