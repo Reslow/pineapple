@@ -3,13 +3,10 @@
     <Header />
     <div id="bodyWrap">
       <div id="projects">
-        <div id="contentwrap">
+        <div id="projectwrap">
           <div class="headline">
-            <p id="titleP">Case Studies</p>
-            <p id="titleT">
-              These are my selected top three projects.
-              They are based on user research methods.
-            </p>
+            <p id="titleP">Top 3 Case Studies</p>
+            
           </div>
 
           <div class="container1">
@@ -40,48 +37,50 @@
             </div>
           </div>
 
-        <div class="container3">
-          <div class="containerContent">
-            <g-image src="~/assets/images/dogbw.png" alt="icon" class="imgCard" />
-            <div class="description">
-              <p class="cH">Vet diagnostic app</p>
-              <p
-                class="cS"
-              >We aimed to design an application which could visualize result from a rapid test.</p>
-              <p class="cY">2019</p>
-              <g-link to="/projects/vet-app" class="buttonView3">View project</g-link>
+          <div class="container3">
+            <div class="containerContent">
+              <g-image src="~/assets/images/dogbw.png" alt="icon" class="imgCard" />
+              <div class="description">
+                <p class="cH">Vet diagnostic app</p>
+                <p
+                  class="cS"
+                >We aimed to design an application which could visualize result from a rapid test.</p>
+                <p class="cY">2019</p>
+                <g-link to="/projects/vet-app" class="buttonView3">View project</g-link>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+
+      <div id="uiwrap">  
+        <div class="headline">
+          <p id="titleP">A few UI Designs</p>
+        
         </div>
-      </div>
 
-      <div class="headline">
-        <p id="titleP">UI Design</p>
-        <p id="titleT">Here are a few UIs :)</p>
-      </div>
+        <div id="cardwrap">
+          <g-link to="/projects/travel-one" class ="card"> 
+            <g-image src="~/assets/images/travelonea.png" alt="icon" class="imgUiCard" />
+          </g-link>
 
-      <div id="cardwrap">
-        <g-link to="/projects/travel-one" class ="card"> 
-          <g-image src="~/assets/images/travelonea.png" alt="icon" class="imgUiCard" />
-        </g-link>
+          <g-link to="/projects/travel-two" class ="card">
+            <g-image src="~/assets/images/traveltwoa.png" alt="icon" class="imgUiCard" />
+          </g-link>
 
-        <g-link to="/projects/travel-two" class ="card">
-          <g-image src="~/assets/images/traveltwoa.png" alt="icon" class="imgUiCard" />
-        </g-link>
+          <g-link to="/projects/green-page" class ="card">
+            <g-image src="~/assets/images/greenfront.png" alt="icon" class="imgUiCard" />
+          </g-link>
 
-        <g-link to="/projects/green-page" class ="card">
-          <g-image src="~/assets/images/greenfront.png" alt="icon" class="imgUiCard" />
-        </g-link>
-
-        <g-link to="/projects/city-event" class ="card">
-          <g-image src="~/assets/images/FirstPageBeforeLogin.png" alt="icon" class="imgUiCard" />
-        </g-link>
+          <g-link to="/projects/city-event" class ="card">
+            <g-image src="~/assets/images/FirstPageBeforeLogin.png" alt="icon" class="imgUiCard" />
+          </g-link>
+        </div>
       </div>
     </div>
 
     <div id="about">
-      <div class="aboutTextContainer">
+      <div class="aboutContainer">
         <div class="aboutElements">
           <g-image src="~/assets/images/profile.png" alt="Profile image" class="imageProfile" />
           <p class="email">reslowf@gmail.com</p>
@@ -113,21 +112,20 @@ export default {
 
 
 <style>
-.aboutTextContainer {
-  max-width: 60%;
+.aboutContainer {
+  max-width: 90%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   align-self: center;
- 
 }
 
 .aboutElements {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
   padding-bottom: 0px;
 }
 
@@ -158,24 +156,26 @@ export default {
 .imageProfile {
   min-width: 120px;
   min-height: 120px;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .aboutText {
   font-size: 18px;
   line-height: 34px;
   padding-top: 10px;
-  padding-bottom: 300px;
   margin-bottom: 0px;
-  max-width: 45%;
+  padding-right:100px;
+  max-width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #about {
-  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 400px;
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 500px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -260,24 +260,21 @@ a {
   font-size: 40px;
   margin-bottom: 10px;
   padding-top: 30px;
-  text-align: center;
-  margin-right: 0px;
+  text-align: left;
   font-weight: bolder;
 }
 
 #titleT {
   color: #3b3b3b;
   font-size: 18px;
-  text-align: left;
-
-  
+  max-width: 40%;
 }
 
 .headline {
-  align-self: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  margin-bottom: 30px;
   
 }
 .linkA {
@@ -289,20 +286,13 @@ a {
   color: #6087ac;
 }
 
-#contentwrap {
-  display: flex;
-  flex-direction: column;
-  
-}
-
 #cardwrap {
 display:grid;  
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 column-gap: 15px;
 row-gap:15px;
-margin-left:250px;
-margin-right:250px;
+
 }
 
 
@@ -323,30 +313,23 @@ margin-right:250px;
 
 
 .imgCard {
-  margin-right: 100px;
-  margin-left: 200px;
+  margin-right: 150px;
+  margin-left: 150px;
 
 }
-
 
 
 .container1 {
   margin-top: 20px;
   margin-bottom: 150px;
-    margin-left: 50px;
-      margin-right: 50px;
   background-color: rgb(115, 107, 165);
 }
 .container2 {
-  margin-left: 50px;
-      margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 150px;
   background-color:rgb(82, 151, 120);
 }
 .container3 {
-  margin-left: 50px;
-      margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 150px;
   background-color: rgb(167, 102, 70);
@@ -356,7 +339,8 @@ margin-right:250px;
   display: flex;
   flex-direction: row;
   padding-top: 150px;
-  padding-bottom: 150px;
+   padding-bottom: 150px;
+
 }
 
 .description {
@@ -369,6 +353,18 @@ margin-right:250px;
   max-width: 40%;
 }
 
+
+#projectwrap {
+  display: flex;
+  flex-direction: column;
+  margin-left:50px;
+margin-right: 50px;  
+}
+#uiwrap{
+margin-top:300px;  
+margin-left:250px;
+margin-right:250px;  
+}
 #projects {
   display: flex;
   flex-direction: column;

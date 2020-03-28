@@ -3,9 +3,9 @@
     <div id="textwrap">
       <p id="headText">
         Hi! I am Fanny, I design interfaces with the aim of creating
-        
-great experiences for users.
+        great experiences for users.
       </p>
+      <div id="box"></div>
     </div>
   </header>
 </template>
@@ -20,18 +20,27 @@ height: 500px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
+
+}
+
+#box{
+  height: 300px;
+  width: 300px;
+  margin:50px;
+  border-radius: 60%;;
+  
 }
 
 #headText {
   width: 50%;
   text-align: left;
-  margin-left: 40px;
-  margin-bottom: 0px;
-  padding-left:20px;
-  padding-right:20px;
+  padding-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
   font-size: 44px;
   font-weight:bold;
-  color:  #505050;
+  color: #3b3b3b;
 }
 
 @media (max-width: 800px) {
