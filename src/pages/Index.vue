@@ -372,12 +372,86 @@ margin-right:250px;
 
 @media (max-width: 800px) {
 
-  #headText{
-    margin-left: 0px;
-  }
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+
+.aboutElements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#linkedin {
+  margin-top: 0px;
+  padding: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: normal;
+  font-size: 18px;
+  color: #c70053d0;
+
+}
+
+#linkedin:hover {
+  color: #1c2833;
+}
+
+
+.imageProfile {
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 90%;
+}
+
+.aboutText {
+  font-size: 18px;
+  line-height: 34px;
+  padding-top: 10px;
+  padding-right: 0px;;
+  margin-bottom: 0px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 400px;
+  padding-bottom: 0px;
+  margin-bottom: 500px;
+  background-color: rgb(255, 255, 255);
+}
+  #uiwrap{
+margin-top:30px;  
+margin-left:0px;
+margin-right:0px;  
+}
+
+ #projectwrap{
+   margin-right:auto;
+   margin-left:auto;
+ } 
   
 #projects {
-  padding-top: 20px;
+  padding-top: 0px;
  
 }
 
@@ -386,6 +460,10 @@ margin-right:250px;
   margin-right: auto;
   width:90%;
   text-align: center;
+}
+
+#titleP{
+  padding-left:20px;
 }
 
 .containerContent{
@@ -430,27 +508,6 @@ margin:0px;
   margin-right: 0px;
 }
 
-#about{
-  margin-top: 100px;
-  max-width: 100%;
-}
-.aboutElements{
-  margin:0px;
-  padding:0px;
-}
-.aboutTextContainer{
-  max-width: 100%;
-}
-
-.aboutText{
-  max-width: 90%;
-}
-.imageProfile{
-
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 100%;
-}
 
 
 }

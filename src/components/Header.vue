@@ -23,13 +23,6 @@ height: 500px;
 
 }
 
-#box{
-  height: 300px;
-  width: 300px;
-  margin:50px;
-  border-radius: 60%;;
-  
-}
 
 #headText {
   width: 50%;
@@ -46,7 +39,17 @@ height: 500px;
 @media (max-width: 800px) {
 
   #headText{
-    margin-left: 15px;
+  
+    width: 90%;
+     font-size: 30px;
+      padding-left: 0px;
+      margin-top: 100px;
+       margin-left: auto;
+  margin-right: auto;
   }
+  
+.header{  
+height: 300px;
+}
 }
 </style>
